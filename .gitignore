@@ -3,7 +3,7 @@ node_modules/
 .wwebjs_cache/
 __pycache__/
 *.pyc
-.env
+
 chrome/
 logs/
 data/news_log.csv
