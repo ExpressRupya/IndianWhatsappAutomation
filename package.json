@@ -1,0 +1,19 @@
+{
+  "name": "datacenter-news-whatsapp",
+  "version": "1.0.0",
+  "description": "WhatsApp bridge for datacenter news automation",
+  "main": "send_to_community.js",
+  "scripts": {
+    "setup": "node setup_whatsapp.js",
+    "start": "node send_to_community.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

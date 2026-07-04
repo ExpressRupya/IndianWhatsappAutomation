@@ -1,0 +1,9 @@
+query_name,query
+Land Purchase,"""data centre"" OR ""data center"" OR ""data centre park"" India (land OR acre OR acres OR ""land acquisition"" OR ""land purchase"" OR acquired) India"
+New Projects,"""data centre"" OR ""data center"" India (""new"" OR announces OR announced OR groundbreaking OR inaugurated OR ""to build"" OR ""planned"" OR launch) India"
+Indian DC Operators,"CtrlS OR Nxtra Data OR Web Werks OR Rackbank OR Yotta OR Sify (""data centre"" OR land OR expansion) India"
+Global DC Operators,"Equinix OR NTT OR ""Bridge Data Centres"" OR ""STT GDC"" (""data centre"" OR land OR campus) India"
+Hyperscaler Projects,"Microsoft OR AWS OR ""Google Cloud"" OR ""Oracle Cloud"" (""data centre"" OR ""cloud region"" OR land OR investment) India"
+Telecom Infra,"""Tata Communications"" OR Reliance OR Airtel OR Jio (""data centre"" OR land OR project) India"
+New Strategic,"AdaniConneX OR ""Princeton Digital Group"" OR CapitaLand (""data centre"" OR campus OR land) India"
+Land Power Infra,"""data centre"" OR ""data center"" India (land OR campus OR substation OR power OR renewable OR ""green energy"" OR ""data centre park"")"
