@@ -5,6 +5,7 @@ logger = logging.getLogger(__name__)
 LAND_KEYWORDS = [
     "land", "land acquisition", "land purchase", "bought land",
     "acquires land", "land parcel", "acre", "acres",
+    "land deal", "land parcel", "land site", "plot",
 ]
 
 PROJECT_KEYWORDS = [
@@ -14,14 +15,18 @@ PROJECT_KEYWORDS = [
     "inaugurated", "inaugurates", "launch", "launching",
     "new project", "greenfield", "brownfield", "new campus",
     "new facility", "expansion", "hyperscale campus",
+    "opens", "opened", "set up", "sets up", "establish",
+    "investment", "investing", "to invest", "commits",
+    "data centre park", "data center park", "data centre campus",
 ]
 
 HIGH_VALUE_KEYWORDS = [
-    "investment", "funding", "capex", "hyperscale",
+    "funding", "capex", "hyperscale",
     "cloud region", "campus", "substation", "power",
     "renewable", "mw", "capacity", "maharashtra", "mumbai",
     "navi mumbai", "chennai", "hyderabad", "bangalore",
     "bengaluru", "pune", "noida", "policy", "incentive",
+    "investment",
 ]
 
 NEGATIVE_KEYWORDS = [

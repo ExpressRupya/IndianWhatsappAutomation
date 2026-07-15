@@ -8,10 +8,11 @@ logger = logging.getLogger(__name__)
 BASE_URL = "https://serpapi.com/search"
 
 
-def fetch_news(query: str, retries: int = 3) -> list[dict]:
+def fetch_news(query: str, retries: int = 3, when: str = "1d") -> list[dict]:
+    q = f"{query} when:{when}" if when else query
     params = {
         "engine": "google_news",
-        "q": query,
+        "q": q,
         "gl": "in",
         "hl": "en",
         "api_key": SERPAPI_KEY,

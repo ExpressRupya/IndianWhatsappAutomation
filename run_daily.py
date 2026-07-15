@@ -23,7 +23,8 @@ if __name__ == "__main__":
     logger.info("Starting Indian Data Centre News Automation")
     try:
         digest = run()
-        print("\n" + digest + "\n")
+        safe_print = digest.encode(sys.stdout.encoding, errors="replace").decode(sys.stdout.encoding)
+        print("\n" + safe_print + "\n")
         logger.info("Automation completed successfully")
     except Exception as e:
         logger.exception(f"Automation failed: {e}")

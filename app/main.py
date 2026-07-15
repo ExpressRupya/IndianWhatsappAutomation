@@ -1,12 +1,13 @@
 import logging
 import os
-from datetime import datetime, timedelta, timezone
+import re
+from datetime import datetime, date
 from .config import MIN_SCORE
 from .serpapi_client import fetch_news
 from .company_matcher import load_companies, match_company
 from .news_scorer import score_article
 from .dedupe import filter_duplicates
-from .storage import save_articles
+from .storage import save_articles, load_unsent_today, mark_as_sent
 from .digest_builder import build_digest
 from .whatsapp_sender import send_whatsapp
 
@@ -20,17 +21,39 @@ def load_queries():
     return df.to_dict("records")
 
 
-def _within_24h(article: dict) -> bool:
+# SerpApi's Google News engine usually does NOT populate a clean "iso_date"
+# field — the only reliable date is the human string in "date", formatted
+# like "07/14/2026, 05:30 PM, +0000 UTC". That isn't valid ISO 8601, so
+# datetime.fromisoformat() alone silently fails on almost every article.
+_SERPAPI_DATE_RE = re.compile(r"^(\d{2}/\d{2}/\d{4}, \d{1,2}:\d{2} [AP]M, [+-]\d{4})")
+
+
+def _parse_article_date(raw: str) -> datetime | None:
+    if not raw:
+        return None
+    try:
+        return datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except (ValueError, TypeError):
+        pass
+    match = _SERPAPI_DATE_RE.match(raw)
+    if match:
+        try:
+            return datetime.strptime(match.group(1), "%m/%d/%Y, %I:%M %p, %z")
+        except ValueError:
+            return None
+    return None
+
+
+def _published_today(article: dict) -> bool:
     raw = article.get("iso_date") or article.get("date", "")
     if not raw:
         return True
-    try:
-        pub = datetime.fromisoformat(raw.replace("Z", "+00:00"))
-        if pub.tzinfo is None:
-            pub = pub.replace(tzinfo=timezone.utc)
-        return datetime.now(timezone.utc) - pub <= timedelta(hours=24)
-    except (ValueError, TypeError):
+    pub = _parse_article_date(raw)
+    if pub is None:
+        # Couldn't parse it — don't silently drop a possibly-relevant
+        # article just because of an unfamiliar date format.
         return True
+    return pub.date() == date.today()
 
 
 def run():
@@ -56,8 +79,8 @@ def run():
         all_articles.extend(results)
 
     before_filter = len(all_articles)
-    all_articles = [a for a in all_articles if _within_24h(a)]
-    logger.info(f"24h filter: {before_filter} -> {len(all_articles)} articles within last 24h")
+    all_articles = [a for a in all_articles if _published_today(a)]
+    logger.info(f"Today filter: {before_filter} -> {len(all_articles)} articles published today")
 
     before = len(all_articles)
     new_articles = filter_duplicates(all_articles)
@@ -65,6 +88,9 @@ def run():
 
     above_min = [a for a in new_articles if a.get("score", 0) >= MIN_SCORE]
     scored_articles = [a for a in above_min if a.get("category") in ("land", "project")]
+    if not scored_articles and above_min:
+        scored_articles = above_min
+        logger.info(f"No land/project articles — falling back to all {len(scored_articles)} scored articles")
     logger.info(f"Above score threshold ({MIN_SCORE}): {len(above_min)}/{len(new_articles)}")
     logger.info(f"Land/Project only: {len(scored_articles)}/{len(above_min)}")
 
@@ -73,9 +99,23 @@ def run():
     else:
         logger.info("No articles above score threshold to save")
 
-    digest = build_digest(scored_articles)
+    unsent = load_unsent_today()
+    digest = build_digest(unsent)
     logger.info("Digest built")
 
-    send_whatsapp(digest, os.getenv("WHATSAPP_COMMUNITY_NAME", ""))
+    community_name = os.getenv("WHATSAPP_COMMUNITY_NAME", "")
+
+    if unsent:
+        sent_ok = send_whatsapp(digest, community_name)
+        if sent_ok:
+            mark_as_sent(unsent)
+        else:
+            logger.warning(
+                f"WhatsApp send failed — leaving {len(unsent)} article(s) unmarked "
+                "so they are retried on the next run instead of being lost"
+            )
+    else:
+        logger.info("No unsent articles from today — sending 'no news' alert")
+        send_whatsapp(digest, community_name)
 
     return digest
