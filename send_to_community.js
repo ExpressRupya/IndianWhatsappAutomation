@@ -59,27 +59,72 @@ process.stdin.on("end", async () => {
       if (qrTimedOut) return;
 
       try {
-        const sent = await client.sendMessage(chatId, message);
+        const sentResult = await client.pupPage.evaluate(async (cid, msgText) => {
+          const WidFactory = window.require("WAWebWidFactory");
+          const ChatColl = window.require("WAWebCollections").Chat;
+          const MsgKey = window.require("WAWebMsgKey");
+          const UserPrefs = window.require("WAWebUserPrefsMeUser");
+          const Ephemeral = window.require("WAWebGetEphemeralFieldsMsgActionsUtils");
+          const SendAction = window.require("WAWebSendMsgChatAction");
+          const MsgColl = window.require("WAWebCollections").Msg;
 
-        // sendMessage may return undefined if getMessageModel fails
-        // inside the library, but the message was still sent by
-        // WhatsApp Web. Treat any non-thrown call as success.
-        if (sent && sent.fromMe && sent.id && sent.id._serialized) {
-          resultJson({
-            status: "sent",
-            chat_id: chatId,
-            message_id: sent.id._serialized,
-            ack: typeof sent.ack === "number" ? sent.ack : 1,
-          });
+          const wid = WidFactory.createWid(cid);
+          const chat = ChatColl.get(wid);
+          if (!chat) return { status: "not_found", error: "Chat not found for " + cid };
+
+          const newId = await MsgKey.newId();
+          const lidUser = UserPrefs.getMaybeMeLidUser();
+          const meUser = UserPrefs.getMaybeMePnUser();
+          let from = chat.id.isLid() ? lidUser : meUser;
+          let participant;
+
+          if (typeof chat.id?.isGroup === "function" && chat.id.isGroup()) {
+            from = chat.groupMetadata && chat.groupMetadata.isLidAddressingMode ? lidUser : meUser;
+            participant = WidFactory.asUserWidOrThrow(from);
+          }
+
+          const newMsgKey = new MsgKey({ from, to: chat.id, id: newId, participant, selfDir: "out" });
+          const eph = Ephemeral.getEphemeralFields(chat);
+
+          const msg = {
+            id: newMsgKey,
+            ack: 0,
+            body: msgText,
+            from: from,
+            to: chat.id,
+            local: true,
+            self: "out",
+            t: parseInt(Date.now() / 1000),
+            isNewMsg: true,
+            type: "chat",
+            ...eph,
+          };
+
+          const [msgPromise, resultPromise] = SendAction.addAndSendMsgToChat(chat, msg);
+          await msgPromise;
+          const sendResult = await resultPromise;
+
+          // Try to get the sent message ID from the collection
+          let msgId = null;
+          try {
+            const sentMsg = MsgColl.get(newMsgKey._serialized);
+            if (sentMsg && sentMsg.id) msgId = sentMsg.id._serialized;
+          } catch (_) {}
+
+          return {
+            status: sendResult && sendResult.messageSendResult === "OK" ? "sent" : "error",
+            messageSendResult: sendResult ? sendResult.messageSendResult : "UNKNOWN",
+            chat_id: cid,
+            message_id: msgId,
+            ack: msgId ? 1 : -1,
+            t: sendResult ? sendResult.t : null,
+          };
+        }, chatId, message);
+
+        if (sentResult.status === "sent") {
+          resultJson(sentResult);
         } else {
-          // Message went through but library post-processing failed.
-          // Report success without message_id.
-          resultJson({
-            status: "sent",
-            chat_id: chatId,
-            message_id: null,
-            ack: -1,
-          });
+          resultJson(sentResult);
         }
       } catch (err) {
         resultJson({ status: "error", error: err.message || String(err), chat_id: chatId });

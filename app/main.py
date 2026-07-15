@@ -101,7 +101,14 @@ def run():
 
     unsent = load_unsent_today()
     all_today = unsent + scored_articles
-    digest = build_digest(all_today)
+    seen_links = set()
+    all_today_deduped = []
+    for a in all_today:
+        link = a.get("link", "")
+        if link and link not in seen_links:
+            seen_links.add(link)
+            all_today_deduped.append(a)
+    digest = build_digest(all_today_deduped)
     logger.info("Digest built")
 
     community_name = os.getenv("WHATSAPP_COMMUNITY_NAME", "")
