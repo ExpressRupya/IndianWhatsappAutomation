@@ -37,7 +37,12 @@ def filter_duplicates(articles: list[dict]) -> list[dict]:
     else:
         seen_titles = []
     filtered = []
+    run_links = set()
+    run_titles = []
     for art in articles:
-        if not is_duplicate(art["title"], art["link"], seen_titles, seen_links):
+        if not is_duplicate(art["title"], art["link"], seen_titles, seen_links) \
+           and art["link"] not in run_links:
+            run_links.add(art["link"])
+            run_titles.append(art["title"])
             filtered.append(art)
     return filtered

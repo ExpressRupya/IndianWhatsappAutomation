@@ -100,22 +100,14 @@ def run():
         logger.info("No articles above score threshold to save")
 
     unsent = load_unsent_today()
-    digest = build_digest(unsent)
+    all_today = unsent + scored_articles
+    digest = build_digest(all_today)
     logger.info("Digest built")
 
     community_name = os.getenv("WHATSAPP_COMMUNITY_NAME", "")
 
-    if unsent:
-        sent_ok = send_whatsapp(digest, community_name)
-        if sent_ok:
-            mark_as_sent(unsent)
-        else:
-            logger.warning(
-                f"WhatsApp send failed — leaving {len(unsent)} article(s) unmarked "
-                "so they are retried on the next run instead of being lost"
-            )
-    else:
-        logger.info("No unsent articles from today — sending 'no news' alert")
-        send_whatsapp(digest, community_name)
+    sent_ok = send_whatsapp(digest, community_name)
+    if sent_ok and unsent:
+        mark_as_sent(unsent)
 
     return digest
