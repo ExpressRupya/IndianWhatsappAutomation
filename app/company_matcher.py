@@ -23,7 +23,7 @@ def load_companies() -> list[dict]:
     return companies
 
 
-def match_company(text: str, companies: list[dict]) -> str | None:
+def match_company(text: str, companies: list[dict]) -> tuple:
     text_lower = text.lower()
     for co in companies:
         if co["status"].lower() != "active":
@@ -31,7 +31,7 @@ def match_company(text: str, companies: list[dict]) -> str | None:
         for alias in co["aliases"]:
             alias_lower = alias.lower()
             if alias_lower in text_lower:
-                return co["name"]
+                return (co["name"], co.get("priority", "Medium"))
             if fuzz.partial_ratio(alias_lower, text_lower) >= 85:
-                return co["name"]
-    return None
+                return (co["name"], co.get("priority", "Medium"))
+    return (None, None)

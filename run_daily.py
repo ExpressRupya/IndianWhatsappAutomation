@@ -15,6 +15,7 @@ logging.basicConfig(
         logging.FileHandler(LOG_FILE, encoding="utf-8"),
         logging.StreamHandler(sys.stdout),
     ],
+    force=True,
 )
 logger = logging.getLogger(__name__)
 
@@ -22,9 +23,17 @@ if __name__ == "__main__":
     logger.info("=" * 60)
     logger.info("Starting Indian Data Centre News Automation")
     try:
-        digest = run()
-        safe_print = digest.encode(sys.stdout.encoding, errors="replace").decode(sys.stdout.encoding)
-        print("\n" + safe_print + "\n")
+        articles = run()
+        if articles:
+            land_count = sum(1 for a in articles if a.get("category") == "land")
+            project_count = sum(1 for a in articles if a.get("category") == "project")
+            out = f"\nSent {len(articles)} articles ({land_count} land, {project_count} project)\n"
+            for a in articles:
+                title = a['title'][:80].encode(sys.stdout.encoding, errors="replace").decode(sys.stdout.encoding)
+                out += f"  - {a.get('company_matched', 'Industry News')}: {title}\n"
+            print(out)
+        else:
+            print("\nNo relevant data centre news found today.")
         logger.info("Automation completed successfully")
     except Exception as e:
         logger.exception(f"Automation failed: {e}")

@@ -2,14 +2,16 @@ import logging
 import os
 import re
 from datetime import datetime, date
-from .config import MIN_SCORE
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from .config import MIN_SCORE, MAX_ARTICLES, MAX_SEND_MESSAGES
 from .serpapi_client import fetch_news
 from .company_matcher import load_companies, match_company
 from .news_scorer import score_article
 from .dedupe import filter_duplicates
 from .storage import save_articles, load_unsent_today, mark_as_sent
-from .digest_builder import build_digest
-from .whatsapp_sender import send_whatsapp
+from .digest_builder import build_digest, build_article_summary
+from .whatsapp_sender import send_whatsapp, send_whatsapp_multi
+from .image_gen import generate_article_card, cleanup_temp_images
 
 logger = logging.getLogger(__name__)
 
@@ -44,16 +46,20 @@ def _parse_article_date(raw: str) -> datetime | None:
     return None
 
 
-def _published_today(article: dict) -> bool:
+def _published_within_24h(article: dict) -> bool:
     raw = article.get("iso_date") or article.get("date", "")
     if not raw:
         return True
     pub = _parse_article_date(raw)
     if pub is None:
-        # Couldn't parse it — don't silently drop a possibly-relevant
-        # article just because of an unfamiliar date format.
         return True
-    return pub.date() == date.today()
+    from datetime import timezone, timedelta
+    if pub.tzinfo is None:
+        now = datetime.now()
+    else:
+        now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=24)
+    return pub >= cutoff
 
 
 def run():
@@ -70,17 +76,18 @@ def run():
         logger.info(f"  Got {len(results)} results")
         for art in results:
             text = f"{art['title']} {art['snippet']}"
-            co = match_company(text, companies)
-            scoring = score_article(art["title"], art["snippet"], co)
-            art["company_matched"] = co or "Industry News"
+            co_name, co_priority = match_company(text, companies)
+            scoring = score_article(art["title"], art["snippet"], co_name, co_priority)
+            art["company_matched"] = co_name or "Industry News"
+            art["company_priority"] = co_priority or ""
             art["score"] = scoring["score"]
             art["matched_keywords"] = scoring["matched_keywords"]
             art["category"] = scoring["category"]
         all_articles.extend(results)
 
     before_filter = len(all_articles)
-    all_articles = [a for a in all_articles if _published_today(a)]
-    logger.info(f"Today filter: {before_filter} -> {len(all_articles)} articles published today")
+    all_articles = [a for a in all_articles if _published_within_24h(a)]
+    logger.info(f"24h filter: {before_filter} -> {len(all_articles)} articles within last 24h")
 
     before = len(all_articles)
     new_articles = filter_duplicates(all_articles)
@@ -95,6 +102,11 @@ def run():
     logger.info(f"Land/Project only: {len(scored_articles)}/{len(above_min)}")
 
     if scored_articles:
+        scored_articles.sort(key=lambda x: x.get("score", 0), reverse=True)
+        before = len(scored_articles)
+        scored_articles = scored_articles[:MAX_ARTICLES]
+        if len(scored_articles) < before:
+            logger.info(f"Top-{MAX_ARTICLES} selection: {before} -> {len(scored_articles)} articles")
         save_articles(scored_articles)
     else:
         logger.info("No articles above score threshold to save")
@@ -108,13 +120,48 @@ def run():
         if link and link not in seen_links:
             seen_links.add(link)
             all_today_deduped.append(a)
-    digest = build_digest(all_today_deduped)
-    logger.info("Digest built")
 
     community_name = os.getenv("WHATSAPP_COMMUNITY_NAME", "")
 
-    sent_ok = send_whatsapp(digest, community_name)
-    if sent_ok and unsent:
-        mark_as_sent(unsent)
+    if all_today_deduped:
+        send_limit = MAX_SEND_MESSAGES if MAX_SEND_MESSAGES > 0 else len(all_today_deduped)
+        to_send = all_today_deduped[:send_limit]
+        logger.info(f"Building individual article cards for {len(to_send)}/{len(all_today_deduped)} articles")
 
-    return digest
+        messages = [None] * len(to_send)
+
+        def build_item(i, article):
+            kw = article.get("matched_keywords", [])
+            if kw:
+                logger.info(f"Article {i} [{article.get('category', '?')}] {article.get('company_matched', '?')}: keywords={kw}")
+            summary = build_article_summary(article)
+            image_path = generate_article_card(article, i)
+            return i, {"text": summary, "image_path": image_path}
+
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            futures = [executor.submit(build_item, i, a) for i, a in enumerate(to_send)]
+            for future in as_completed(futures):
+                i, msg = future.result()
+                messages[i] = msg
+
+        messages = [m for m in messages if m]
+
+        logger.info(f"Sending {len(messages)} individual article messages")
+        results = send_whatsapp_multi(messages, community_name)
+
+        sent_count = sum(1 for r in results if r)
+        logger.info(f"Sent {sent_count}/{len(results)} article messages successfully")
+
+        if any(results):
+            digest = build_digest(to_send)
+            logger.info("Sending summary digest message")
+            send_whatsapp(digest, community_name)
+            if unsent:
+                mark_as_sent(unsent)
+
+        cleanup_temp_images()
+    else:
+        digest = build_digest(all_today_deduped)
+        logger.info("No articles to send individually, built empty digest")
+
+    return all_today_deduped

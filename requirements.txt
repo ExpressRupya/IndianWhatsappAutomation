@@ -4,3 +4,5 @@ python-dotenv
 rapidfuzz
 gspread
 google-auth
+Pillow
+beautifulsoup4

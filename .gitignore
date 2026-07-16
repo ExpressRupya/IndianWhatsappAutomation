@@ -6,5 +6,6 @@ __pycache__/
 
 chrome/
 logs/
+temp_images/
 data/news_log.csv
 data/news_log.json

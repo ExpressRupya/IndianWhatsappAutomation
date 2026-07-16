@@ -8,6 +8,8 @@ load_dotenv(BASE_DIR / ".env")
 SERPAPI_KEY = os.getenv("SERPAPI_KEY", "")
 MIN_SCORE = int(os.getenv("MIN_SCORE", "20"))
 MAX_DIGEST_ITEMS = int(os.getenv("MAX_DIGEST_ITEMS", "10"))
+MAX_ARTICLES = int(os.getenv("MAX_ARTICLES", "15"))
+MAX_SEND_MESSAGES = int(os.getenv("MAX_SEND_MESSAGES", "0"))
 STORAGE_MODE = os.getenv("STORAGE_MODE", "csv")
 
 DATA_DIR = BASE_DIR / "data"

@@ -1,4 +1,4 @@
-const { Client, LocalAuth } = require("whatsapp-web.js");
+const { Client, LocalAuth, MessageMedia } = require("whatsapp-web.js");
 const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
@@ -25,9 +25,12 @@ process.stdin.on("data", (chunk) => (input += chunk));
 process.stdin.on("end", async () => {
   const payload = JSON.parse(input);
   const chatId = payload.chat_id || "";
-  const message = payload.message || "";
+  let messages = payload.messages || [];
+  if (!messages.length && payload.message) {
+    messages = [{ text: payload.message, image_path: "" }];
+  }
 
-  if (!message) { resultJson({ status: "error", error: "Empty message" }); return; }
+  if (!messages.length) { resultJson({ status: "error", error: "Empty messages array" }); return; }
   if (!chatId) { resultJson({ status: "error", error: "No chat_id provided" }); return; }
 
   const puppeteerOpts = {
@@ -54,80 +57,120 @@ process.stdin.on("end", async () => {
       setTimeout(() => { resultJson({ status: "error", error: "QR_TIMEOUT" }); }, 30000);
     });
 
+    let results = [];
+
     client.on("ready", async () => {
       clearTimeout(initTimeout);
       if (qrTimedOut) return;
 
+      results = [];
+
       try {
-        const sentResult = await client.pupPage.evaluate(async (cid, msgText) => {
-          const WidFactory = window.require("WAWebWidFactory");
-          const ChatColl = window.require("WAWebCollections").Chat;
-          const MsgKey = window.require("WAWebMsgKey");
-          const UserPrefs = window.require("WAWebUserPrefsMeUser");
-          const Ephemeral = window.require("WAWebGetEphemeralFieldsMsgActionsUtils");
-          const SendAction = window.require("WAWebSendMsgChatAction");
-          const MsgColl = window.require("WAWebCollections").Msg;
+        for (let i = 0; i < messages.length; i++) {
+          const msg = messages[i];
+          const msgText = msg.text || "";
+          const imagePath = msg.image_path || "";
 
-          const wid = WidFactory.createWid(cid);
-          const chat = ChatColl.get(wid);
-          if (!chat) return { status: "not_found", error: "Chat not found for " + cid };
-
-          const newId = await MsgKey.newId();
-          const lidUser = UserPrefs.getMaybeMeLidUser();
-          const meUser = UserPrefs.getMaybeMePnUser();
-          let from = chat.id.isLid() ? lidUser : meUser;
-          let participant;
-
-          if (typeof chat.id?.isGroup === "function" && chat.id.isGroup()) {
-            from = chat.groupMetadata && chat.groupMetadata.isLidAddressingMode ? lidUser : meUser;
-            participant = WidFactory.asUserWidOrThrow(from);
-          }
-
-          const newMsgKey = new MsgKey({ from, to: chat.id, id: newId, participant, selfDir: "out" });
-          const eph = Ephemeral.getEphemeralFields(chat);
-
-          const msg = {
-            id: newMsgKey,
-            ack: 0,
-            body: msgText,
-            from: from,
-            to: chat.id,
-            local: true,
-            self: "out",
-            t: parseInt(Date.now() / 1000),
-            isNewMsg: true,
-            type: "chat",
-            ...eph,
-          };
-
-          const [msgPromise, resultPromise] = SendAction.addAndSendMsgToChat(chat, msg);
-          await msgPromise;
-          const sendResult = await resultPromise;
-
-          // Try to get the sent message ID from the collection
-          let msgId = null;
           try {
-            const sentMsg = MsgColl.get(newMsgKey._serialized);
-            if (sentMsg && sentMsg.id) msgId = sentMsg.id._serialized;
-          } catch (_) {}
+            if (imagePath && fs.existsSync(imagePath)) {
+              const media = MessageMedia.fromFilePath(imagePath);
+              const sent = await client.sendMessage(chatId, media, {
+                caption: msgText,
+              });
+              results.push({
+                index: i,
+                status: "sent",
+                message_id: sent && sent.id ? sent.id._serialized : null,
+                type: "image",
+              });
+              await new Promise((r) => setTimeout(r, 1500));
+            } else {
+              const sentResult = await client.pupPage.evaluate(async (cid, msgText) => {
+                const WidFactory = window.require("WAWebWidFactory");
+                const ChatColl = window.require("WAWebCollections").Chat;
+                const MsgKey = window.require("WAWebMsgKey");
+                const UserPrefs = window.require("WAWebUserPrefsMeUser");
+                const Ephemeral = window.require("WAWebGetEphemeralFieldsMsgActionsUtils");
+                const SendAction = window.require("WAWebSendMsgChatAction");
+                const MsgColl = window.require("WAWebCollections").Msg;
 
-          return {
-            status: sendResult && sendResult.messageSendResult === "OK" ? "sent" : "error",
-            messageSendResult: sendResult ? sendResult.messageSendResult : "UNKNOWN",
-            chat_id: cid,
-            message_id: msgId,
-            ack: msgId ? 1 : -1,
-            t: sendResult ? sendResult.t : null,
-          };
-        }, chatId, message);
+                const wid = WidFactory.createWid(cid);
+                const chat = ChatColl.get(wid);
+                if (!chat) return { status: "not_found", error: "Chat not found for " + cid };
 
-        if (sentResult.status === "sent") {
-          resultJson(sentResult);
-        } else {
-          resultJson(sentResult);
+                const newId = await MsgKey.newId();
+                const lidUser = UserPrefs.getMaybeMeLidUser();
+                const meUser = UserPrefs.getMaybeMePnUser();
+                let from = chat.id.isLid() ? lidUser : meUser;
+                let participant;
+
+                if (typeof chat.id?.isGroup === "function" && chat.id.isGroup()) {
+                  from = chat.groupMetadata && chat.groupMetadata.isLidAddressingMode ? lidUser : meUser;
+                  participant = WidFactory.asUserWidOrThrow(from);
+                }
+
+                const newMsgKey = new MsgKey({ from, to: chat.id, id: newId, participant, selfDir: "out" });
+                const eph = Ephemeral.getEphemeralFields(chat);
+
+                const msgObj = {
+                  id: newMsgKey,
+                  ack: 0,
+                  body: msgText,
+                  from: from,
+                  to: chat.id,
+                  local: true,
+                  self: "out",
+                  t: parseInt(Date.now() / 1000),
+                  isNewMsg: true,
+                  type: "chat",
+                  ...eph,
+                };
+
+                const [msgPromise, resultPromise] = SendAction.addAndSendMsgToChat(chat, msgObj);
+                await msgPromise;
+                const sendResult = await resultPromise;
+
+                let msgId = null;
+                try {
+                  const sentMsg = MsgColl.get(newMsgKey._serialized);
+                  if (sentMsg && sentMsg.id) msgId = sentMsg.id._serialized;
+                } catch (_) {}
+
+                return {
+                  status: sendResult && sendResult.messageSendResult === "OK" ? "sent" : "error",
+                  messageSendResult: sendResult ? sendResult.messageSendResult : "UNKNOWN",
+                  message_id: msgId,
+                };
+              }, chatId, msgText);
+
+              results.push({
+                index: i,
+                status: sentResult.status,
+                message_id: sentResult.message_id || null,
+                type: "text",
+              });
+            }
+          } catch (msgErr) {
+            results.push({
+              index: i,
+              status: "error",
+              error: msgErr.message || String(msgErr),
+              type: imagePath && fs.existsSync(imagePath) ? "image" : "text",
+            });
+          }
         }
+
+        const allSent = results.every((r) => r.status === "sent");
+        resultJson({
+          status: allSent ? "sent" : "error",
+          results: results,
+          chat_id: chatId,
+          total: messages.length,
+          sent: results.filter((r) => r.status === "sent").length,
+          failed: results.filter((r) => r.status !== "sent").length,
+        });
       } catch (err) {
-        resultJson({ status: "error", error: err.message || String(err), chat_id: chatId });
+        resultJson({ status: "error", error: err.message || String(err), results });
       }
 
       try { await client.destroy(); } catch (_) {}

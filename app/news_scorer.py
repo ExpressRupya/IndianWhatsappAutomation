@@ -35,7 +35,18 @@ NEGATIVE_KEYWORDS = [
 ]
 
 
-def score_article(title: str, snippet: str, company_name: str | None) -> dict:
+INDIAN_DC_COMPANIES = [
+    "CtrlS", "Nxtra Data", "STT GDC India", "Sify Technologies", "Yotta",
+    "Pi Datacentres", "AdaniConneX", "Web Werks", "Net4", "ESDS",
+    "NetMagic", "Trimax", "NeevCloud", "Lumina CloudInfra",
+    "Digital Connexion", "TATA Communications", "Reliance Communications",
+    "Bharti Airtel",
+]
+
+PRIORITY_BOOST = {"High": 40, "Medium": 20}
+
+
+def score_article(title: str, snippet: str, company_name: str | None, priority: str | None = None) -> dict:
     text = f"{title} {snippet}".lower()
     matched_keywords = []
     categories = set()
@@ -60,9 +71,16 @@ def score_article(title: str, snippet: str, company_name: str | None) -> dict:
 
     if company_name:
         score += 10
+        boost = PRIORITY_BOOST.get(priority, 0)
+        score += boost
+        if company_name in INDIAN_DC_COMPANIES:
+            score += 20
 
     if "india" in text:
         score += 10
+    for city in ["hyderabad", "bengaluru", "mumbai", "chennai", "pune", "jaipur", "noida", "gurgaon", "delhi", "kolkata"]:
+        if city in text or city[:-1] in text:
+            score += 5
 
     for kw in NEGATIVE_KEYWORDS:
         if kw in text:

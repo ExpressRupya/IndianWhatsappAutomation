@@ -53,6 +53,103 @@ def _run_node(payload: str) -> subprocess.CompletedProcess:
     )
 
 
+def send_whatsapp_multi(messages: list[dict], community_name: str = "") -> list[bool]:
+    _clean_stale_locks()
+
+    if not community_name:
+        community_name = os.getenv("WHATSAPP_COMMUNITY_NAME", "")
+
+    target_chat_id = os.getenv("WHATSAPP_TARGET_CHAT_ID", "")
+
+    if not community_name and not target_chat_id:
+        logger.warning("Neither WHATSAPP_COMMUNITY_NAME nor WHATSAPP_TARGET_CHAT_ID set — skipping WhatsApp")
+        return []
+
+    if not NODE_SCRIPT.exists():
+        logger.error(f"send_to_community.js not found at {NODE_SCRIPT}")
+        return []
+
+    payload_data = {
+        "community_name": community_name,
+        "chat_id": target_chat_id,
+        "messages": [
+            {
+                "text": m.get("text", ""),
+                "image_path": m.get("image_path", ""),
+            }
+            for m in messages
+        ],
+    }
+    payload = json.dumps(payload_data)
+
+    max_attempts = 3
+    for attempt in range(1, max_attempts + 1):
+        try:
+            result = _run_node(payload)
+            output = (result.stdout or "").strip()
+            if output:
+                for line in output.splitlines():
+                    if not line.startswith("RETRY_LOG"):
+                        logger.info(f"Node.js output: {line}")
+
+            parsed = _parse_result(output)
+
+            if parsed is None:
+                if "QR_CODE_REQUIRED" in output:
+                    logger.warning("QR code needed — run 'node setup_whatsapp.js' once to authenticate")
+                    return [False] * len(messages)
+                elif "QR_TIMEOUT" in output:
+                    logger.warning("QR scan timed out")
+                    return [False] * len(messages)
+                elif "AUTH_FAILURE" in output:
+                    logger.error(f"WhatsApp auth failure: {output}")
+                    return [False] * len(messages)
+                else:
+                    logger.warning("Node.js produced no valid result")
+                    if attempt < max_attempts:
+                        time.sleep(3)
+                        continue
+                    return [False] * len(messages)
+
+            status = parsed.get("status")
+            if status == "sent":
+                results = parsed.get("results", [])
+                sent_count = sum(1 for r in results if r.get("status") == "sent")
+                failed_count = sum(1 for r in results if r.get("status") != "sent")
+                logger.info(f"Messages sent: {sent_count} OK, {failed_count} failed")
+                return [r.get("status") == "sent" for r in results]
+
+            elif status == "not_found":
+                logger.error(f"Target not found: {parsed.get('error', '')}")
+                return [False] * len(messages)
+
+            elif status == "error":
+                err_msg = parsed.get("error", "Unknown error")
+                if attempt < max_attempts:
+                    logger.warning(f"Transient error (attempt {attempt}/{max_attempts}) — retrying in 3s: {err_msg}")
+                    time.sleep(3)
+                    continue
+                logger.error(f"WhatsApp send error: {err_msg}")
+                return [False] * len(messages)
+
+            else:
+                logger.error(f"Unknown result status: {parsed}")
+                return [False] * len(messages)
+
+        except subprocess.TimeoutExpired:
+            if attempt < max_attempts:
+                logger.warning(f"Timeout (attempt {attempt}/{max_attempts}) — retrying in 3s")
+                time.sleep(3)
+                continue
+            logger.error("Node.js script timed out")
+            return [False] * len(messages)
+        except FileNotFoundError:
+            logger.error("Node.js not found — is it installed and on PATH?")
+            return [False] * len(messages)
+
+    return [False] * len(messages)
+
+
 def send_whatsapp(digest: str, community_name: str = "") -> bool:
     _clean_stale_locks()
 
