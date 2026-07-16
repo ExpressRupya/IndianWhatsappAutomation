@@ -3,9 +3,10 @@ node_modules/
 .wwebjs_cache/
 __pycache__/
 *.pyc
-
+temp_images/
 chrome/
 logs/
 temp_images/
 data/news_log.csv
 data/news_log.json
+
