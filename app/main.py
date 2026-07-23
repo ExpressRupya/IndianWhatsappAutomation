@@ -10,7 +10,7 @@ from .news_scorer import score_article
 from .dedupe import filter_duplicates
 from .storage import save_articles, load_unsent_today, mark_as_sent
 from .digest_builder import build_digest, build_article_summary
-from .whatsapp_sender import send_whatsapp, send_whatsapp_multi
+from .whatsapp_sender import send_whatsapp_multi
 from .image_gen import generate_article_card, cleanup_temp_images
 
 logger = logging.getLogger(__name__)
@@ -146,18 +146,18 @@ def run():
 
         messages = [m for m in messages if m]
 
-        logger.info(f"Sending {len(messages)} individual article messages")
+        digest = build_digest(to_send)
+        messages.append({"text": digest, "image_path": ""})
+
+        logger.info(f"Sending {len(messages)} messages ({len(messages)-1} articles + 1 digest)")
         results = send_whatsapp_multi(messages, community_name)
 
-        sent_count = sum(1 for r in results if r)
-        logger.info(f"Sent {sent_count}/{len(results)} article messages successfully")
+        article_results = results[:-1] if len(results) > 1 else []
+        sent_count = sum(1 for r in article_results if r)
+        logger.info(f"Sent {sent_count}/{len(article_results)} article messages successfully")
 
-        if any(results):
-            digest = build_digest(to_send)
-            logger.info("Sending summary digest message")
-            send_whatsapp(digest, community_name)
-            if unsent:
-                mark_as_sent(unsent)
+        if any(article_results) and unsent:
+            mark_as_sent(unsent)
 
         cleanup_temp_images()
     else:

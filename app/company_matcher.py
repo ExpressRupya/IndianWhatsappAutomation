@@ -6,6 +6,28 @@ from .config import COMPANIES_FILE
 
 logger = logging.getLogger(__name__)
 
+DC_CONTEXT_KEYWORDS = [
+    "data centre", "data center", "datacenter",
+    "land", "acre", "acres",
+    "campus", "facility", "expansion",
+    "hyperscale", "hyperscaler", "cloud",
+    "power", "substation", "renewable", "green energy",
+    "colocation", "investment", "capex",
+    "mw", "megawatt", "capacity",
+    "groundbreaking", "ground breaking", "inaugurat",
+    "construction", "greenfield", "brownfield",
+    "server", "edge data", "tier",
+    "data centre park", "data center park",
+]
+
+
+def _has_dc_context(text: str) -> bool:
+    t = text.lower()
+    for kw in DC_CONTEXT_KEYWORDS:
+        if kw in t:
+            return True
+    return False
+
 
 def load_companies() -> list[dict]:
     df = pd.read_csv(COMPANIES_FILE)
@@ -24,6 +46,8 @@ def load_companies() -> list[dict]:
 
 
 def match_company(text: str, companies: list[dict]) -> tuple:
+    if not _has_dc_context(text):
+        return (None, None)
     text_lower = text.lower()
     for co in companies:
         if co["status"].lower() != "active":

@@ -1,12 +1,25 @@
+# Node
 node_modules/
+
+# WhatsApp session
 .wwebjs_auth/
 .wwebjs_cache/
+
+# Python
+venv/
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+
+# Secrets
+
+# Generated data
 temp_images/
 chrome/
-logs/
-temp_images/
-data/news_log.csv
-data/news_log.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
 

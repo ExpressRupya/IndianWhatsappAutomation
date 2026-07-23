@@ -47,8 +47,8 @@ process.stdin.on("end", async () => {
     });
 
     let initTimeout = setTimeout(() => {
-      resultJson({ status: "error", error: "Initialization timed out after 90s" });
-    }, 90000);
+      resultJson({ status: "error", error: "Initialization timed out after 120s" });
+    }, 120000);
 
     let qrTimedOut = false;
     client.on("qr", () => {

@@ -30,6 +30,17 @@ def _clean_stale_locks():
             pass
 
 
+def kill_chrome():
+    """Kill lingering Chrome/Chromium processes to free resources between sends."""
+    import subprocess as _sp
+    for proc in ("chrome.exe", "chromium.exe"):
+        try:
+            _sp.run(["taskkill", "/f", "/im", proc], capture_output=True, timeout=10)
+        except Exception:
+            pass
+    logger.info("Killed lingering Chrome processes")
+
+
 def _parse_result(output: str) -> dict | None:
     for line in output.splitlines():
         if _RESULT_RE.match(line):

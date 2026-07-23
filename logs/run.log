@@ -1,0 +1,1596 @@
+2026-07-04 13:26:43,055 [INFO] __main__: ============================================================
+2026-07-04 13:26:43,055 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-04 13:26:43,071 [INFO] app.main: Loaded 32 companies and 8 queries
+2026-07-04 13:26:43,071 [INFO] app.main: Fetching query: Land Purchase
+2026-07-04 13:26:43,493 [WARNING] app.serpapi_client: Attempt 1/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=%22data+centre%22+OR+%22data+center%22+OR+%22data+centre+park%22+India+%28land+OR+acre+OR+acres+OR+%22land+acquisition%22+OR+%22land+purchase%22+OR+acquired%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:26:45,933 [WARNING] app.serpapi_client: Attempt 2/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=%22data+centre%22+OR+%22data+center%22+OR+%22data+centre+park%22+India+%28land+OR+acre+OR+acres+OR+%22land+acquisition%22+OR+%22land+purchase%22+OR+acquired%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:26:50,316 [WARNING] app.serpapi_client: Attempt 3/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=%22data+centre%22+OR+%22data+center%22+OR+%22data+centre+park%22+India+%28land+OR+acre+OR+acres+OR+%22land+acquisition%22+OR+%22land+purchase%22+OR+acquired%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:26:50,316 [INFO] app.main:   Got 0 results
+2026-07-04 13:26:50,316 [INFO] app.main: Fetching query: New Projects
+2026-07-04 13:26:50,739 [WARNING] app.serpapi_client: Attempt 1/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=%22data+centre%22+OR+%22data+center%22+India+%28%22new%22+OR+announces+OR+announced+OR+groundbreaking+OR+inaugurated+OR+%22to+build%22+OR+%22planned%22+OR+launch%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:26:53,184 [WARNING] app.serpapi_client: Attempt 2/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=%22data+centre%22+OR+%22data+center%22+India+%28%22new%22+OR+announces+OR+announced+OR+groundbreaking+OR+inaugurated+OR+%22to+build%22+OR+%22planned%22+OR+launch%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:26:57,624 [WARNING] app.serpapi_client: Attempt 3/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=%22data+centre%22+OR+%22data+center%22+India+%28%22new%22+OR+announces+OR+announced+OR+groundbreaking+OR+inaugurated+OR+%22to+build%22+OR+%22planned%22+OR+launch%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:26:57,624 [INFO] app.main:   Got 0 results
+2026-07-04 13:26:57,624 [INFO] app.main: Fetching query: Indian DC Operators
+2026-07-04 13:26:58,030 [WARNING] app.serpapi_client: Attempt 1/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=CtrlS+OR+Nxtra+Data+OR+Web+Werks+OR+Rackbank+OR+Yotta+OR+Sify+%28%22data+centre%22+OR+land+OR+expansion%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:00,457 [WARNING] app.serpapi_client: Attempt 2/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=CtrlS+OR+Nxtra+Data+OR+Web+Werks+OR+Rackbank+OR+Yotta+OR+Sify+%28%22data+centre%22+OR+land+OR+expansion%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:04,856 [WARNING] app.serpapi_client: Attempt 3/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=CtrlS+OR+Nxtra+Data+OR+Web+Werks+OR+Rackbank+OR+Yotta+OR+Sify+%28%22data+centre%22+OR+land+OR+expansion%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:04,856 [INFO] app.main:   Got 0 results
+2026-07-04 13:27:04,856 [INFO] app.main: Fetching query: Global DC Operators
+2026-07-04 13:27:05,247 [WARNING] app.serpapi_client: Attempt 1/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=Equinix+OR+NTT+OR+%22Bridge+Data+Centres%22+OR+%22STT+GDC%22+%28%22data+centre%22+OR+land+OR+campus%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:07,624 [WARNING] app.serpapi_client: Attempt 2/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=Equinix+OR+NTT+OR+%22Bridge+Data+Centres%22+OR+%22STT+GDC%22+%28%22data+centre%22+OR+land+OR+campus%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:12,006 [WARNING] app.serpapi_client: Attempt 3/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=Equinix+OR+NTT+OR+%22Bridge+Data+Centres%22+OR+%22STT+GDC%22+%28%22data+centre%22+OR+land+OR+campus%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:12,006 [INFO] app.main:   Got 0 results
+2026-07-04 13:27:12,006 [INFO] app.main: Fetching query: Hyperscaler Projects
+2026-07-04 13:27:12,428 [WARNING] app.serpapi_client: Attempt 1/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=Microsoft+OR+AWS+OR+%22Google+Cloud%22+OR+%22Oracle+Cloud%22+%28%22data+centre%22+OR+%22cloud+region%22+OR+land+OR+investment%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:14,884 [WARNING] app.serpapi_client: Attempt 2/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=Microsoft+OR+AWS+OR+%22Google+Cloud%22+OR+%22Oracle+Cloud%22+%28%22data+centre%22+OR+%22cloud+region%22+OR+land+OR+investment%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:19,310 [WARNING] app.serpapi_client: Attempt 3/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=Microsoft+OR+AWS+OR+%22Google+Cloud%22+OR+%22Oracle+Cloud%22+%28%22data+centre%22+OR+%22cloud+region%22+OR+land+OR+investment%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:19,310 [INFO] app.main:   Got 0 results
+2026-07-04 13:27:19,310 [INFO] app.main: Fetching query: Telecom Infra
+2026-07-04 13:27:19,701 [WARNING] app.serpapi_client: Attempt 1/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=%22Tata+Communications%22+OR+Reliance+OR+Airtel+OR+Jio+%28%22data+centre%22+OR+land+OR+project%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:22,114 [WARNING] app.serpapi_client: Attempt 2/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=%22Tata+Communications%22+OR+Reliance+OR+Airtel+OR+Jio+%28%22data+centre%22+OR+land+OR+project%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:26,513 [WARNING] app.serpapi_client: Attempt 3/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=%22Tata+Communications%22+OR+Reliance+OR+Airtel+OR+Jio+%28%22data+centre%22+OR+land+OR+project%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:26,513 [INFO] app.main:   Got 0 results
+2026-07-04 13:27:26,513 [INFO] app.main: Fetching query: New Strategic
+2026-07-04 13:27:26,919 [WARNING] app.serpapi_client: Attempt 1/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=AdaniConneX+OR+%22Princeton+Digital+Group%22+OR+CapitaLand+%28%22data+centre%22+OR+campus+OR+land%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:29,298 [WARNING] app.serpapi_client: Attempt 2/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=AdaniConneX+OR+%22Princeton+Digital+Group%22+OR+CapitaLand+%28%22data+centre%22+OR+campus+OR+land%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:33,762 [WARNING] app.serpapi_client: Attempt 3/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=AdaniConneX+OR+%22Princeton+Digital+Group%22+OR+CapitaLand+%28%22data+centre%22+OR+campus+OR+land%29+India&gl=in&hl=en&api_key=
+2026-07-04 13:27:33,762 [INFO] app.main:   Got 0 results
+2026-07-04 13:27:33,762 [INFO] app.main: Fetching query: Land Power Infra
+2026-07-04 13:27:34,170 [WARNING] app.serpapi_client: Attempt 1/3 failed: 401 Client Error: Unauthorized for url: https://serpapi.com/search?engine=google_news&q=%22data+centre%22+OR+%22data+center%22+India+%28land+OR+campus+OR+substation+OR+power+OR+renewable+OR+%22green+energy%22+OR+%22data+centre+park%22%29&gl=in&hl=en&api_key=
+2026-07-04 13:31:23,544 [INFO] __main__: ============================================================
+2026-07-04 13:31:23,544 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-04 13:31:23,544 [INFO] app.main: Loaded 32 companies and 8 queries
+2026-07-04 13:31:23,544 [INFO] app.main: Fetching query: Land Purchase
+2026-07-04 13:31:26,079 [INFO] app.main:   Got 100 results
+2026-07-04 13:31:26,094 [INFO] app.main: Fetching query: New Projects
+2026-07-04 13:31:27,862 [INFO] app.main:   Got 100 results
+2026-07-04 13:31:27,877 [INFO] app.main: Fetching query: Indian DC Operators
+2026-07-04 13:31:40,629 [INFO] app.main:   Got 54 results
+2026-07-04 13:31:40,629 [INFO] app.main: Fetching query: Global DC Operators
+2026-07-04 13:31:42,412 [INFO] app.main:   Got 100 results
+2026-07-04 13:31:42,412 [INFO] app.main: Fetching query: Hyperscaler Projects
+2026-07-04 13:31:45,824 [INFO] app.main:   Got 100 results
+2026-07-04 13:31:45,839 [INFO] app.main: Fetching query: Telecom Infra
+2026-07-04 13:31:53,613 [INFO] app.main:   Got 100 results
+2026-07-04 13:31:53,629 [INFO] app.main: Fetching query: New Strategic
+2026-07-04 13:31:55,037 [INFO] app.main:   Got 100 results
+2026-07-04 13:31:55,053 [INFO] app.main: Fetching query: Land Power Infra
+2026-07-04 13:32:01,405 [INFO] app.main:   Got 100 results
+2026-07-04 13:32:01,421 [INFO] app.main: 24h filter: 754 -> 5 articles within last 24h
+2026-07-04 13:32:01,421 [INFO] app.main: Duplicates removed: 5 -> 5
+2026-07-04 13:32:01,421 [INFO] app.main: Above score threshold (20): 5/5
+2026-07-04 13:32:01,421 [INFO] app.main: Land/Project only: 1/5
+2026-07-04 13:32:01,421 [INFO] app.storage: Saved 1 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-04 13:32:01,421 [INFO] app.storage: Saved 1 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-04 13:32:01,421 [INFO] app.main: Digest built
+2026-07-04 13:32:34,347 [ERROR] __main__: Automation failed: 'NoneType' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\IndianNewsAutomation\run_daily.py", line 25, in <module>
+    digest = run()
+             ^^^^^
+  File "C:\Users\Admin\Desktop\IndianNewsAutomation\app\main.py", line 79, in run
+    send_whatsapp(digest, os.getenv("WHATSAPP_COMMUNITY_NAME", ""))
+  File "C:\Users\Admin\Desktop\IndianNewsAutomation\app\whatsapp_sender.py", line 57, in send_whatsapp
+    output = result.stdout.strip()
+             ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-07-04 13:34:14,357 [INFO] __main__: ============================================================
+2026-07-04 13:34:14,357 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-04 13:34:14,357 [INFO] app.main: Loaded 32 companies and 8 queries
+2026-07-04 13:34:14,357 [INFO] app.main: Fetching query: Land Purchase
+2026-07-04 13:34:14,732 [INFO] app.main:   Got 100 results
+2026-07-04 13:34:14,748 [INFO] app.main: Fetching query: New Projects
+2026-07-04 13:34:15,109 [INFO] app.main:   Got 100 results
+2026-07-04 13:34:15,124 [INFO] app.main: Fetching query: Indian DC Operators
+2026-07-04 13:34:15,483 [INFO] app.main:   Got 54 results
+2026-07-04 13:34:15,499 [INFO] app.main: Fetching query: Global DC Operators
+2026-07-04 13:34:15,875 [INFO] app.main:   Got 100 results
+2026-07-04 13:34:15,875 [INFO] app.main: Fetching query: Hyperscaler Projects
+2026-07-04 13:34:16,266 [INFO] app.main:   Got 100 results
+2026-07-04 13:34:16,266 [INFO] app.main: Fetching query: Telecom Infra
+2026-07-04 13:34:16,720 [INFO] app.main:   Got 100 results
+2026-07-04 13:34:16,736 [INFO] app.main: Fetching query: New Strategic
+2026-07-04 13:34:17,159 [INFO] app.main:   Got 100 results
+2026-07-04 13:34:17,175 [INFO] app.main: Fetching query: Land Power Infra
+2026-07-04 13:34:17,550 [INFO] app.main:   Got 100 results
+2026-07-04 13:34:17,565 [INFO] app.main: 24h filter: 754 -> 5 articles within last 24h
+2026-07-04 13:34:17,565 [INFO] app.main: Duplicates removed: 5 -> 4
+2026-07-04 13:34:17,565 [INFO] app.main: Above score threshold (20): 4/4
+2026-07-04 13:34:17,565 [INFO] app.main: Land/Project only: 0/4
+2026-07-04 13:34:17,565 [INFO] app.main: No articles above score threshold to save
+2026-07-04 13:34:17,565 [INFO] app.main: Digest built
+2026-07-04 13:34:53,262 [INFO] app.whatsapp_sender: Node.js output: â—‡ injected env (0) from .env // tip: âŒ˜ enable debugging { debug: true }
+COMMUNITY_NOT_FOUND
+2026-07-04 13:34:53,262 [ERROR] app.whatsapp_sender: Community 'ExpressRupyaNewsLetter' not found in WhatsApp chats
+2026-07-04 13:34:53,262 [INFO] __main__: Automation completed successfully
+2026-07-08 16:12:07,999 [INFO] __main__: ============================================================
+2026-07-08 16:12:07,999 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-08 16:12:07,999 [INFO] app.main: Loaded 32 companies and 8 queries
+2026-07-08 16:12:07,999 [INFO] app.main: Fetching query: Land Purchase
+2026-07-08 16:12:10,423 [INFO] app.main:   Got 100 results
+2026-07-08 16:12:10,438 [INFO] app.main: Fetching query: New Projects
+2026-07-08 16:12:12,550 [INFO] app.main:   Got 100 results
+2026-07-08 16:12:12,581 [INFO] app.main: Fetching query: Indian DC Operators
+2026-07-08 16:12:25,164 [INFO] app.main:   Got 63 results
+2026-07-08 16:12:25,180 [INFO] app.main: Fetching query: Global DC Operators
+2026-07-08 16:12:38,609 [INFO] app.main:   Got 100 results
+2026-07-08 16:12:38,609 [INFO] app.main: Fetching query: Hyperscaler Projects
+2026-07-08 16:12:43,053 [INFO] app.main:   Got 100 results
+2026-07-08 16:12:43,053 [INFO] app.main: Fetching query: Telecom Infra
+2026-07-08 16:12:51,345 [INFO] app.main:   Got 100 results
+2026-07-08 16:12:51,376 [INFO] app.main: Fetching query: New Strategic
+2026-07-08 16:12:53,941 [INFO] app.main:   Got 100 results
+2026-07-08 16:12:53,972 [INFO] app.main: Fetching query: Land Power Infra
+2026-07-08 16:13:07,468 [INFO] app.main:   Got 100 results
+2026-07-08 16:13:07,499 [INFO] app.main: 24h filter: 763 -> 7 articles within last 24h
+2026-07-08 16:13:07,499 [INFO] app.main: Duplicates removed: 7 -> 7
+2026-07-08 16:13:07,499 [INFO] app.main: Above score threshold (20): 7/7
+2026-07-08 16:13:07,499 [INFO] app.main: Land/Project only: 3/7
+2026-07-08 16:13:07,515 [INFO] app.storage: Saved 3 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-08 16:13:07,515 [INFO] app.storage: Saved 4 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-08 16:13:07,515 [INFO] app.main: Digest built
+2026-07-08 16:13:13,450 [INFO] app.whatsapp_sender: Node.js output: â—‡ injected env (0) from .env // tip: â—ˆ encrypted .env [www.dotenvx.com]
+COMMUNITY_NOT_FOUND
+2026-07-08 16:13:13,450 [ERROR] app.whatsapp_sender: Community 'ExpressNews' not found in WhatsApp chats
+2026-07-08 16:13:13,450 [INFO] __main__: Automation completed successfully
+2026-07-08 16:14:39,157 [INFO] __main__: ============================================================
+2026-07-08 16:14:39,157 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-08 16:14:39,157 [INFO] app.main: Loaded 32 companies and 8 queries
+2026-07-08 16:14:39,157 [INFO] app.main: Fetching query: Land Purchase
+2026-07-08 16:14:39,580 [INFO] app.main:   Got 100 results
+2026-07-08 16:14:39,595 [INFO] app.main: Fetching query: New Projects
+2026-07-08 16:14:40,033 [INFO] app.main:   Got 100 results
+2026-07-08 16:14:40,048 [INFO] app.main: Fetching query: Indian DC Operators
+2026-07-08 16:14:40,502 [INFO] app.main:   Got 63 results
+2026-07-08 16:14:40,502 [INFO] app.main: Fetching query: Global DC Operators
+2026-07-08 16:14:40,955 [INFO] app.main:   Got 100 results
+2026-07-08 16:14:40,955 [INFO] app.main: Fetching query: Hyperscaler Projects
+2026-07-08 16:14:41,377 [INFO] app.main:   Got 100 results
+2026-07-08 16:14:41,393 [INFO] app.main: Fetching query: Telecom Infra
+2026-07-08 16:14:41,815 [INFO] app.main:   Got 100 results
+2026-07-08 16:14:41,831 [INFO] app.main: Fetching query: New Strategic
+2026-07-08 16:14:41,956 [INFO] app.main:   Got 100 results
+2026-07-08 16:14:41,972 [INFO] app.main: Fetching query: Land Power Infra
+2026-07-08 16:14:42,410 [INFO] app.main:   Got 100 results
+2026-07-08 16:14:42,425 [INFO] app.main: 24h filter: 763 -> 7 articles within last 24h
+2026-07-08 16:14:42,425 [INFO] app.main: Duplicates removed: 7 -> 4
+2026-07-08 16:14:42,425 [INFO] app.main: Above score threshold (20): 4/4
+2026-07-08 16:14:42,425 [INFO] app.main: Land/Project only: 0/4
+2026-07-08 16:14:42,425 [INFO] app.main: No articles above score threshold to save
+2026-07-08 16:14:42,425 [INFO] app.main: Digest built
+2026-07-08 16:14:46,536 [INFO] app.whatsapp_sender: Node.js output: â—‡ injected env (0) from .env // tip: âŒ˜ multiple files { path: ['.env.local', '.env'] }
+COMMUNITY_NOT_FOUND
+2026-07-08 16:14:46,536 [ERROR] app.whatsapp_sender: Community 'ExpressNews' not found in WhatsApp chats
+2026-07-08 16:14:46,536 [INFO] __main__: Automation completed successfully
+2026-07-08 16:17:14,610 [INFO] __main__: ============================================================
+2026-07-08 16:17:14,610 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-08 16:17:14,610 [INFO] app.main: Loaded 32 companies and 8 queries
+2026-07-08 16:17:14,610 [INFO] app.main: Fetching query: Land Purchase
+2026-07-08 16:17:15,063 [INFO] app.main:   Got 100 results
+2026-07-08 16:17:15,080 [INFO] app.main: Fetching query: New Projects
+2026-07-08 16:17:16,503 [INFO] app.main:   Got 100 results
+2026-07-08 16:17:16,519 [INFO] app.main: Fetching query: Indian DC Operators
+2026-07-08 16:17:16,940 [INFO] app.main:   Got 63 results
+2026-07-08 16:17:16,956 [INFO] app.main: Fetching query: Global DC Operators
+2026-07-08 16:17:17,425 [INFO] app.main:   Got 100 results
+2026-07-08 16:17:17,441 [INFO] app.main: Fetching query: Hyperscaler Projects
+2026-07-08 16:17:17,958 [INFO] app.main:   Got 100 results
+2026-07-08 16:17:17,973 [INFO] app.main: Fetching query: Telecom Infra
+2026-07-08 16:17:18,489 [INFO] app.main:   Got 100 results
+2026-07-08 16:17:18,505 [INFO] app.main: Fetching query: New Strategic
+2026-07-08 16:17:19,005 [INFO] app.main:   Got 100 results
+2026-07-08 16:17:19,037 [INFO] app.main: Fetching query: Land Power Infra
+2026-07-08 16:17:19,819 [INFO] app.main:   Got 100 results
+2026-07-08 16:17:19,866 [INFO] app.main: 24h filter: 763 -> 7 articles within last 24h
+2026-07-08 16:17:19,866 [INFO] app.main: Duplicates removed: 7 -> 4
+2026-07-08 16:17:19,866 [INFO] app.main: Above score threshold (20): 4/4
+2026-07-08 16:17:19,866 [INFO] app.main: Land/Project only: 0/4
+2026-07-08 16:17:19,866 [INFO] app.main: No articles above score threshold to save
+2026-07-08 16:17:19,866 [INFO] app.main: Digest built
+2026-07-08 16:17:24,156 [INFO] app.whatsapp_sender: Node.js output: â—‡ injected env (0) from .env // tip: â—ˆ secrets for agents [www.dotenvx.com]
+COMMUNITY_NOT_FOUND
+2026-07-08 16:17:24,156 [ERROR] app.whatsapp_sender: Community 'ExpressNews' not found in WhatsApp chats
+2026-07-08 16:17:24,156 [INFO] __main__: Automation completed successfully
+2026-07-08 16:28:43,914 [INFO] __main__: ============================================================
+2026-07-08 16:28:43,914 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-08 16:28:43,929 [INFO] app.main: Loaded 32 companies and 8 queries
+2026-07-08 16:28:43,929 [INFO] app.main: Fetching query: Land Purchase
+2026-07-08 16:28:44,054 [INFO] app.main:   Got 100 results
+2026-07-08 16:28:44,070 [INFO] app.main: Fetching query: New Projects
+2026-07-08 16:28:44,195 [INFO] app.main:   Got 100 results
+2026-07-08 16:28:44,211 [INFO] app.main: Fetching query: Indian DC Operators
+2026-07-08 16:28:44,649 [INFO] app.main:   Got 63 results
+2026-07-08 16:28:44,649 [INFO] app.main: Fetching query: Global DC Operators
+2026-07-08 16:28:44,790 [INFO] app.main:   Got 100 results
+2026-07-08 16:28:44,790 [INFO] app.main: Fetching query: Hyperscaler Projects
+2026-07-08 16:28:44,931 [INFO] app.main:   Got 100 results
+2026-07-08 16:28:44,946 [INFO] app.main: Fetching query: Telecom Infra
+2026-07-08 16:28:45,071 [INFO] app.main:   Got 100 results
+2026-07-08 16:28:45,071 [INFO] app.main: Fetching query: New Strategic
+2026-07-08 16:28:45,510 [INFO] app.main:   Got 100 results
+2026-07-08 16:28:45,525 [INFO] app.main: Fetching query: Land Power Infra
+2026-07-08 16:28:45,979 [INFO] app.main:   Got 100 results
+2026-07-08 16:28:45,995 [INFO] app.main: 24h filter: 763 -> 7 articles within last 24h
+2026-07-08 16:28:45,995 [INFO] app.main: Duplicates removed: 7 -> 4
+2026-07-08 16:28:45,995 [INFO] app.main: Above score threshold (20): 4/4
+2026-07-08 16:28:45,995 [INFO] app.main: Land/Project only: 0/4
+2026-07-08 16:28:45,995 [INFO] app.main: No articles above score threshold to save
+2026-07-08 16:28:45,995 [INFO] app.main: Digest built
+2026-07-08 16:29:14,405 [INFO] app.whatsapp_sender: Node.js output: â—‡ injected env (0) from .env // tip: âŒ˜ custom filepath { path: '/custom/path/.env' }
+MESSAGE_SENT
+2026-07-08 16:29:14,405 [INFO] app.whatsapp_sender: WhatsApp message sent successfully
+2026-07-08 16:29:14,405 [INFO] __main__: Automation completed successfully
+2026-07-14 12:23:36,946 [INFO] __main__: ============================================================
+2026-07-14 12:23:36,946 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-14 12:23:36,946 [INFO] app.main: Loaded 32 companies and 8 queries
+2026-07-14 12:23:36,946 [INFO] app.main: Fetching query: Land Purchase
+2026-07-14 12:23:44,881 [INFO] app.main:   Got 100 results
+2026-07-14 12:23:44,895 [INFO] app.main: Fetching query: New Projects
+2026-07-14 12:23:47,351 [INFO] app.main:   Got 100 results
+2026-07-14 12:23:47,367 [INFO] app.main: Fetching query: Indian DC Operators
+2026-07-14 12:23:49,370 [INFO] app.main:   Got 64 results
+2026-07-14 12:23:49,385 [INFO] app.main: Fetching query: Global DC Operators
+2026-07-14 12:23:52,561 [INFO] app.main:   Got 100 results
+2026-07-14 12:23:52,561 [INFO] app.main: Fetching query: Hyperscaler Projects
+2026-07-14 12:23:59,021 [INFO] app.main:   Got 100 results
+2026-07-14 12:23:59,037 [INFO] app.main: Fetching query: Telecom Infra
+2026-07-14 12:24:12,427 [INFO] app.main:   Got 100 results
+2026-07-14 12:24:12,458 [INFO] app.main: Fetching query: New Strategic
+2026-07-14 12:24:14,895 [INFO] app.main:   Got 100 results
+2026-07-14 12:24:14,926 [INFO] app.main: Fetching query: Land Power Infra
+2026-07-14 12:24:20,802 [INFO] app.main:   Got 100 results
+2026-07-14 12:24:20,824 [INFO] app.main: 24h filter: 764 -> 5 articles within last 24h
+2026-07-14 12:24:20,826 [INFO] app.main: Duplicates removed: 5 -> 5
+2026-07-14 12:24:20,826 [INFO] app.main: Above score threshold (20): 3/5
+2026-07-14 12:24:20,827 [INFO] app.main: Land/Project only: 2/3
+2026-07-14 12:24:20,828 [INFO] app.storage: Saved 2 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-14 12:24:20,830 [INFO] app.storage: Saved 6 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-14 12:24:20,830 [INFO] app.main: Digest built
+2026-07-14 12:24:26,878 [INFO] app.whatsapp_sender: Node.js output: â—‡ injected env (0) from .env // tip: âŒ˜ multiple files { path: ['.env.local', '.env'] }
+MESSAGE_SENT
+2026-07-14 12:24:26,878 [INFO] app.whatsapp_sender: WhatsApp message sent successfully
+2026-07-14 12:24:26,878 [INFO] __main__: Automation completed successfully
+2026-07-14 12:39:20,176 [INFO] __main__: ============================================================
+2026-07-14 12:39:20,176 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-14 12:39:20,176 [INFO] app.main: Loaded 32 companies and 8 queries
+2026-07-14 12:39:20,176 [INFO] app.main: Fetching query: Land Purchase
+2026-07-14 12:39:20,786 [INFO] app.main:   Got 100 results
+2026-07-14 12:39:20,801 [INFO] app.main: Fetching query: New Projects
+2026-07-14 12:39:21,225 [INFO] app.main:   Got 100 results
+2026-07-14 12:39:21,240 [INFO] app.main: Fetching query: Indian DC Operators
+2026-07-14 12:39:21,647 [INFO] app.main:   Got 64 results
+2026-07-14 12:39:21,647 [INFO] app.main: Fetching query: Global DC Operators
+2026-07-14 12:39:22,086 [INFO] app.main:   Got 100 results
+2026-07-14 12:39:22,086 [INFO] app.main: Fetching query: Hyperscaler Projects
+2026-07-14 12:39:22,508 [INFO] app.main:   Got 100 results
+2026-07-14 12:39:22,524 [INFO] app.main: Fetching query: Telecom Infra
+2026-07-14 12:39:22,961 [INFO] app.main:   Got 100 results
+2026-07-14 12:39:22,977 [INFO] app.main: Fetching query: New Strategic
+2026-07-14 12:39:23,463 [INFO] app.main:   Got 100 results
+2026-07-14 12:39:23,479 [INFO] app.main: Fetching query: Land Power Infra
+2026-07-14 12:39:23,948 [INFO] app.main:   Got 100 results
+2026-07-14 12:39:23,963 [INFO] app.main: 24h filter: 764 -> 5 articles within last 24h
+2026-07-14 12:39:23,979 [INFO] app.main: Duplicates removed: 5 -> 3
+2026-07-14 12:39:23,979 [INFO] app.main: Above score threshold (20): 1/3
+2026-07-14 12:39:23,979 [INFO] app.main: Land/Project only: 0/1
+2026-07-14 12:39:23,979 [INFO] app.main: No articles above score threshold to save
+2026-07-14 12:39:23,979 [INFO] app.main: Digest built
+2026-07-15 10:00:04,271 [INFO] __main__: ============================================================
+2026-07-15 10:00:04,271 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-15 10:00:04,271 [INFO] app.main: Loaded 32 companies and 8 queries
+2026-07-15 10:00:04,271 [INFO] app.main: Fetching query: Land Purchase
+2026-07-15 10:00:17,304 [INFO] app.main:   Got 100 results
+2026-07-15 10:00:17,319 [INFO] app.main: Fetching query: New Projects
+2026-07-15 10:00:19,496 [INFO] app.main:   Got 100 results
+2026-07-15 10:00:19,510 [INFO] app.main: Fetching query: Indian DC Operators
+2026-07-15 10:00:24,532 [INFO] app.main:   Got 65 results
+2026-07-15 10:00:24,547 [INFO] app.main: Fetching query: Global DC Operators
+2026-07-15 10:00:38,931 [INFO] app.main:   Got 100 results
+2026-07-15 10:00:38,931 [INFO] app.main: Fetching query: Hyperscaler Projects
+2026-07-15 10:00:40,888 [INFO] app.main:   Got 100 results
+2026-07-15 10:00:40,904 [INFO] app.main: Fetching query: Telecom Infra
+2026-07-15 10:00:44,176 [INFO] app.main:   Got 100 results
+2026-07-15 10:00:44,192 [INFO] app.main: Fetching query: New Strategic
+2026-07-15 10:00:46,400 [INFO] app.main:   Got 100 results
+2026-07-15 10:00:46,415 [INFO] app.main: Fetching query: Land Power Infra
+2026-07-15 10:00:48,623 [INFO] app.main:   Got 100 results
+2026-07-15 10:00:48,639 [INFO] app.main: 24h filter: 765 -> 8 articles within last 24h
+2026-07-15 10:00:48,639 [INFO] app.main: Duplicates removed: 8 -> 8
+2026-07-15 10:00:48,639 [INFO] app.main: Above score threshold (20): 0/8
+2026-07-15 10:00:48,639 [INFO] app.main: Land/Project only: 0/0
+2026-07-15 10:00:48,639 [INFO] app.main: No articles above score threshold to save
+2026-07-15 10:00:48,639 [INFO] app.main: Digest built
+2026-07-15 10:01:22,627 [INFO] app.whatsapp_sender: Node.js output: â—‡ injected env (0) from .env // tip: âŒ˜ enable debugging { debug: true }
+QR_CODE_REQUIRED
+QR_TIMEOUT
+2026-07-15 10:01:22,627 [WARNING] app.whatsapp_sender: QR code needed — run 'node setup_whatsapp.js' in automation/ folder once to authenticate
+2026-07-15 10:01:22,627 [INFO] __main__: Automation completed successfully
+2026-07-15 12:45:13,115 [INFO] __main__: ============================================================
+2026-07-15 12:45:13,130 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-15 12:45:13,130 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-15 12:45:13,130 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-15 12:45:13,602 [INFO] app.main:   Got 5 results
+2026-07-15 12:45:13,603 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-15 12:45:13,725 [INFO] app.main:   Got 6 results
+2026-07-15 12:45:13,725 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-15 12:45:13,833 [INFO] app.main:   Got 3 results
+2026-07-15 12:45:13,833 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-15 12:45:14,256 [INFO] app.main:   Got 3 results
+2026-07-15 12:45:14,256 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-15 12:45:14,714 [INFO] app.main:   Got 24 results
+2026-07-15 12:45:14,725 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-15 12:45:15,147 [INFO] app.main:   Got 38 results
+2026-07-15 12:45:15,147 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-15 12:45:15,601 [INFO] app.main:   Got 27 results
+2026-07-15 12:45:15,601 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-15 12:45:16,070 [INFO] app.main:   Got 43 results
+2026-07-15 12:45:16,086 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-15 12:45:16,508 [INFO] app.main:   Got 35 results
+2026-07-15 12:45:16,524 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-15 12:45:16,961 [INFO] app.main:   Got 4 results
+2026-07-15 12:45:16,961 [INFO] app.main: Today filter: 188 -> 44 articles published today
+2026-07-15 12:45:16,977 [INFO] app.main: Duplicates removed: 44 -> 36
+2026-07-15 12:45:16,977 [INFO] app.main: Above score threshold (20): 15/36
+2026-07-15 12:45:16,977 [INFO] app.main: Land/Project only: 6/15
+2026-07-15 12:45:16,977 [INFO] app.storage: Saved 6 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-15 12:45:16,984 [INFO] app.storage: Saved 12 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-15 12:45:16,984 [INFO] app.storage: Loaded 6 unsent articles from today
+2026-07-15 12:45:16,984 [INFO] app.main: Digest built
+2026-07-15 12:45:25,158 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+2026-07-15 12:45:25,158 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","messageSendResult":"OK","chat_id":"120363410375552266@g.us","message_id":null,"ack":-1,"t":1784099724}
+2026-07-15 12:45:25,158 [INFO] app.whatsapp_sender: Message confirmed sent to 'unknown' (chat_id=120363410375552266@g.us, msg_id=None, ack=-1)
+2026-07-15 12:45:25,158 [INFO] app.storage: Marked 6 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-15 12:45:25,158 [INFO] __main__: Automation completed successfully
+2026-07-15 12:46:28,430 [INFO] __main__: ============================================================
+2026-07-15 12:46:28,430 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-15 12:46:28,430 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-15 12:46:28,430 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-15 12:46:28,868 [INFO] app.main:   Got 5 results
+2026-07-15 12:46:28,868 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-15 12:46:29,274 [INFO] app.main:   Got 6 results
+2026-07-15 12:46:29,290 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-15 12:46:29,415 [INFO] app.main:   Got 3 results
+2026-07-15 12:46:29,415 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-15 12:46:29,525 [INFO] app.main:   Got 3 results
+2026-07-15 12:46:29,525 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-15 12:46:29,963 [INFO] app.main:   Got 24 results
+2026-07-15 12:46:29,963 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-15 12:46:30,401 [INFO] app.main:   Got 38 results
+2026-07-15 12:46:30,417 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-15 12:46:30,870 [INFO] app.main:   Got 27 results
+2026-07-15 12:46:30,870 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-15 12:46:30,996 [INFO] app.main:   Got 43 results
+2026-07-15 12:46:31,011 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-15 12:46:31,121 [INFO] app.main:   Got 35 results
+2026-07-15 12:46:31,136 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-15 12:46:31,246 [INFO] app.main:   Got 4 results
+2026-07-15 12:46:31,246 [INFO] app.main: Today filter: 188 -> 44 articles published today
+2026-07-15 12:46:31,261 [INFO] app.main: Duplicates removed: 44 -> 30
+2026-07-15 12:46:31,261 [INFO] app.main: No land/project articles — falling back to all 9 scored articles
+2026-07-15 12:46:31,261 [INFO] app.main: Above score threshold (20): 9/30
+2026-07-15 12:46:31,261 [INFO] app.main: Land/Project only: 9/9
+2026-07-15 12:46:31,261 [INFO] app.storage: Saved 9 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-15 12:46:31,261 [INFO] app.storage: Saved 21 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-15 12:46:31,261 [INFO] app.storage: Loaded 9 unsent articles from today
+2026-07-15 12:46:31,261 [INFO] app.main: Digest built
+2026-07-15 12:46:37,767 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-07-15 12:46:37,767 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","messageSendResult":"OK","chat_id":"120363410375552266@g.us","message_id":null,"ack":-1,"t":1784099796}
+2026-07-15 12:46:37,767 [INFO] app.whatsapp_sender: Message confirmed sent to 'unknown' (chat_id=120363410375552266@g.us, msg_id=None, ack=-1)
+2026-07-15 12:46:37,767 [INFO] app.storage: Marked 9 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-15 12:46:37,767 [INFO] __main__: Automation completed successfully
+2026-07-16 10:00:04,752 [INFO] __main__: ============================================================
+2026-07-16 10:00:04,752 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-16 10:00:04,752 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-16 10:00:04,752 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-16 10:00:12,174 [INFO] app.main:   Got 13 results
+2026-07-16 10:00:12,174 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-16 10:00:14,004 [INFO] app.main:   Got 2 results
+2026-07-16 10:00:14,007 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-16 10:00:16,718 [INFO] app.main:   Got 6 results
+2026-07-16 10:00:16,718 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-16 10:00:18,657 [INFO] app.main:   Got 12 results
+2026-07-16 10:00:18,658 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-16 10:00:20,658 [INFO] app.main:   Got 45 results
+2026-07-16 10:00:20,674 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-16 10:00:22,806 [INFO] app.main:   Got 33 results
+2026-07-16 10:00:22,814 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-16 10:00:25,754 [INFO] app.main:   Got 28 results
+2026-07-16 10:00:25,760 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-16 10:00:28,205 [INFO] app.main:   Got 55 results
+2026-07-16 10:00:28,221 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-16 10:00:35,064 [INFO] app.main:   Got 51 results
+2026-07-16 10:00:35,080 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-16 10:00:44,283 [INFO] app.main:   Got 3 results
+2026-07-16 10:00:44,283 [INFO] app.main: Today filter: 248 -> 39 articles published today
+2026-07-16 10:00:44,283 [INFO] app.main: Duplicates removed: 39 -> 23
+2026-07-16 10:00:44,283 [INFO] app.main: Above score threshold (20): 14/23
+2026-07-16 10:00:44,283 [INFO] app.main: Land/Project only: 7/14
+2026-07-16 10:00:44,299 [INFO] app.storage: Saved 7 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-16 10:00:44,299 [INFO] app.storage: Saved 28 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-16 10:00:44,299 [INFO] app.storage: Loaded 7 unsent articles from today
+2026-07-16 10:00:44,299 [INFO] app.main: Digest built
+2026-07-16 10:00:53,315 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-07-16 10:00:53,315 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","messageSendResult":"OK","chat_id":"120363410375552266@g.us","message_id":null,"ack":-1,"t":1784176252}
+2026-07-16 10:00:53,315 [INFO] app.whatsapp_sender: Message confirmed sent to 'unknown' (chat_id=120363410375552266@g.us, msg_id=None, ack=-1)
+2026-07-16 10:00:53,315 [INFO] app.storage: Marked 7 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-16 10:00:53,315 [INFO] __main__: Automation completed successfully
+2026-07-16 11:10:54,339 [INFO] __main__: ============================================================
+2026-07-16 11:10:54,339 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-16 11:10:54,339 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-16 11:10:54,339 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-16 11:10:54,730 [INFO] app.main:   Got 13 results
+2026-07-16 11:10:54,730 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-16 11:10:55,112 [INFO] app.main:   Got 1 results
+2026-07-16 11:10:55,112 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-16 11:10:55,491 [INFO] app.main:   Got 6 results
+2026-07-16 11:10:55,507 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-16 11:10:55,880 [INFO] app.main:   Got 12 results
+2026-07-16 11:10:55,881 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-16 11:10:55,998 [INFO] app.main:   Got 47 results
+2026-07-16 11:10:56,015 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-16 11:10:56,399 [INFO] app.main:   Got 32 results
+2026-07-16 11:10:56,415 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-16 11:10:56,775 [INFO] app.main:   Got 27 results
+2026-07-16 11:10:56,790 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-16 11:10:56,915 [INFO] app.main:   Got 54 results
+2026-07-16 11:10:56,931 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-16 11:10:57,307 [INFO] app.main:   Got 53 results
+2026-07-16 11:10:57,323 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-16 11:10:57,698 [INFO] app.main:   Got 4 results
+2026-07-16 11:10:57,713 [INFO] app.main: 24h filter: 249 -> 246 articles within last 24h
+2026-07-16 11:10:57,729 [INFO] app.dedupe: Duplicate story (same run): AWS expands Hyderabad cloud region, commits $21 bn to India  ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,729 [INFO] app.dedupe: Duplicate story (same run): AWS expands Hyderabad cloud region, commits $21 bn to India  ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,729 [INFO] app.dedupe: Duplicate story (same run): AWS expands Hyderabad cloud region, commits $21 bn to India  ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,729 [INFO] app.dedupe: Duplicate story (same run): Telangana secures Amazon’s biggest India data centre project ~~ Telangana secures Amazon’s biggest India data centre project
+2026-07-16 11:10:57,745 [INFO] app.dedupe: Duplicate story (same run): Telangana secures Amazon’s biggest India data centre project ~~ Telangana secures Amazon’s biggest India data centre project
+2026-07-16 11:10:57,745 [INFO] app.dedupe: Duplicate story (same run): Telangana secures Amazon’s biggest India data centre project ~~ Telangana secures Amazon’s biggest India data centre project
+2026-07-16 11:10:57,761 [INFO] app.dedupe: Duplicate story (same run): AWS breaks ground for data centre project ~~ Telangana secures Amazon’s biggest India data centre project
+2026-07-16 11:10:57,776 [INFO] app.dedupe: Duplicate story (same run): Sify Infinit Spaces to add 100 MW of data centre capacity in ~~ Sify Infinit Spaces to add 100 MW of data centre capacity in
+2026-07-16 11:10:57,792 [INFO] app.dedupe: Duplicate story (same run): AWS Starts Hyderabad Data Center, Part of $21 Billion India  ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,792 [INFO] app.dedupe: Duplicate story (same run): AWS Starts Hyderabad Data Center, Part of $21 Billion India  ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,792 [INFO] app.dedupe: Duplicate story (same run): AWS Starts Hyderabad Data Center, Part of $21 Billion India  ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,792 [INFO] app.dedupe: Duplicate story (same run): Sify Technologies Reports Q1 FY2027 Revenue Growth of 15% to ~~ Sify Technologies Q1 Earnings Call Highlights
+2026-07-16 11:10:57,807 [INFO] app.dedupe: Duplicate story (same run): Sify Technologies Ltd (SIFY) Q1 2027 Earnings Call Highlight ~~ Sify Technologies Q1 Earnings Call Highlights
+2026-07-16 11:10:57,807 [INFO] app.dedupe: Duplicate story (same run): Sify reports Consolidated Financial Results for Q1 FY 2026-2 ~~ Sify Technologies Q1 Earnings Call Highlights
+2026-07-16 11:10:57,807 [INFO] app.dedupe: Duplicate story (same run): Reliance Group Files Linked to Kudankulam Nuclear Plant Leak ~~ Cabinet clears National Investment Policy 2026 to boost urea
+2026-07-16 11:10:57,807 [INFO] app.dedupe: Duplicate story (same run): Reliance confirms partial data breach after hackers claim Ku ~~ Cabinet clears National Investment Policy 2026 to boost urea
+2026-07-16 11:10:57,823 [INFO] app.dedupe: Duplicate story (same run): AWS to Expand Data Centre Operations in Hyderabad ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,823 [INFO] app.dedupe: Duplicate story (same run): Hyderabad AWS Data Centre Expands Digital Infrastructure ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,823 [INFO] app.dedupe: Duplicate story (same run): AWS to Expand Data Centre Operations in Hyderabad ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,823 [INFO] app.dedupe: Duplicate story (same run): Hyderabad AWS Data Centre Expands Digital Infrastructure ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,823 [INFO] app.dedupe: Duplicate story (same run): AWS to expand data centre operations in Hyderabad ~~ Aws expands Hyderabad data centre operations with planned $2
+2026-07-16 11:10:57,839 [INFO] app.dedupe: Duplicate story (same run): Explained: What is in Gujarat’s new data centre policy? ~~ Karnataka set to unveil data centre policy
+2026-07-16 11:10:57,854 [INFO] app.dedupe: Duplicate story (same run): Telangana CM lays foundation for Amazon Data Centre, seeks ₹ ~~ Amazon to invest Rs 60,000 crore in Telangana as CM Revanth 
+2026-07-16 11:10:57,854 [INFO] app.dedupe: Duplicate story (same run): Amazon breaks ground on Bharat Future City hyperscale data c ~~ Amazon breaks ground to establish data centre in Telangana
+2026-07-16 11:10:57,870 [INFO] app.dedupe: Duplicate story (same run): Explained: What is in Gujarat’s new data centre policy? ~~ Karnataka set to unveil data centre policy
+2026-07-16 11:10:57,870 [INFO] app.dedupe: Duplicate story (same run): Explained: What is in Gujarat’s new data centre policy? ~~ Karnataka set to unveil data centre policy
+2026-07-16 11:10:57,870 [INFO] app.dedupe: Duplicate story (same run): CM Revanth Reddy to Lay Foundation Stone for Amazon's Larges ~~ AWS Hyper-Scale Data Centre Coming to Bharat Future City
+2026-07-16 11:10:57,886 [INFO] app.dedupe: Duplicate story (same run): Explained: What is in Gujarat’s new data centre policy? ~~ Karnataka set to unveil data centre policy
+2026-07-16 11:10:57,886 [INFO] app.dedupe: Duplicate story (same run): Amazon breaks ground on Bharat Future City hyperscale data c ~~ Amazon breaks ground to establish data centre in Telangana
+2026-07-16 11:10:57,886 [INFO] app.dedupe: Duplicate story (same run): Explained: What is in Gujarat’s new data centre policy? ~~ Karnataka set to unveil data centre policy
+2026-07-16 11:10:57,901 [INFO] app.dedupe: Duplicate story (same run): Karnataka to roll out data centre policy to power AI ecosyst ~~ Karnataka set to unveil data centre policy
+2026-07-16 11:10:57,917 [INFO] app.dedupe: Duplicate story (same run): Karnataka to roll out data centre policy to power AI-led GCC ~~ Karnataka set to unveil data centre policy
+2026-07-16 11:10:57,917 [INFO] app.dedupe: Duplicate story (same run): Karnataka to roll out data centre policy to power AI growth, ~~ Karnataka set to unveil data centre policy
+2026-07-16 11:10:57,932 [INFO] app.dedupe: Duplicate story (same run): Karnataka to roll out data centre policy to power AI ecosyst ~~ Karnataka set to unveil data centre policy
+2026-07-16 11:10:57,948 [INFO] app.dedupe: Duplicate story (same run): Revanth Reddy lays stone for Amazon data centre near Hyderab ~~ Revanth Reddy lays stone for Amazon data centre near Hyderab
+2026-07-16 11:10:57,964 [INFO] app.dedupe: Duplicate story (same run): Ransomware Group Reportedly Leaks Kudankulam Nuclear Plant B ~~ Ransomware Group Claims Leak Of Files Linked To Indias Large
+2026-07-16 11:10:57,964 [INFO] app.dedupe: Duplicate story (same run): Ransomware Breach: Reliance's Nuclear Files Exposed ~~ Cabinet clears National Investment Policy 2026 to boost urea
+2026-07-16 11:10:57,964 [INFO] app.dedupe: Duplicate story (same run): Ransomware Group Reportedly Leaks Kudankulam Nuclear Plant B ~~ Ransomware Group Claims Leak Of Files Linked To Indias Large
+2026-07-16 11:10:57,979 [INFO] app.dedupe: Duplicate story (same run): Kudankulam nuclear power plant ‘data’ on dark web ~~ 858,000 Files and Confidential Blueprints: Inside Data Breac
+2026-07-16 11:10:57,979 [INFO] app.dedupe: Duplicate story (same run): Ransomware group claims Kudankulam nuclear plant files leak; ~~ Cabinet clears National Investment Policy 2026 to boost urea
+2026-07-16 11:10:57,979 [INFO] app.dedupe: Duplicate story (same run): Karnataka to roll out comprehensive data centre policy to su ~~ Karnataka set to unveil data centre policy
+2026-07-16 11:10:57,995 [INFO] app.dedupe: Duplicate story (same run): Karnataka Plans AI University and Data Centre Policy to Boos ~~ Karnataka CM announces green data centre, plans AI universit
+2026-07-16 11:10:58,027 [INFO] app.dedupe: Duplicate story (same run): KEC International shares up 4%: Bags Rs 1,180 crore orders a ~~ Infra Stock Jumps 5% After Bagging ₹1,180 Cr Orders Across T
+2026-07-16 11:10:58,042 [INFO] app.dedupe: Duplicate story (same run): Amazon CEO Andy Jassy projects $50B business potential for c ~~ Revanth Reddy Unveils Vision for ‘Future City’ at Amazon Dat
+2026-07-16 11:10:58,074 [INFO] app.dedupe: Duplicate story (same run): Kudankulam-Linked Files Allegedly Exposed In Reliance Group  ~~ Cabinet clears National Investment Policy 2026 to boost urea
+2026-07-16 11:10:58,074 [INFO] app.dedupe: Duplicate story (same run): NPCIL denies ‘sensitive data breach’ at Kudankulam nuclear p ~~ Kudankulam nuclear plant data breached, NPCIL says core syst
+2026-07-16 11:10:58,074 [INFO] app.dedupe: Duplicate story (same run): Kudankulam nuclear plant files leaked on dark web ~~ Ransomware Group Claims Leak Of Files Linked To Indias Large
+2026-07-16 11:10:58,074 [INFO] app.dedupe: Duplicate story (same run): Amazon to pump Rs 60,000 crore into Telangana data centre ~~ Amazon to invest Rs 60,000 crore in Telangana as CM Revanth 
+2026-07-16 11:10:58,089 [INFO] app.dedupe: Duplicate story (same run): Amazon Data Centre to anchor one trillion dollar dream ~~ Revanth Reddy Unveils Vision for ‘Future City’ at Amazon Dat
+2026-07-16 11:10:58,105 [INFO] app.dedupe: Duplicate story (same run): Amazon Data Centre to anchor one trillion dollar dream ~~ Revanth Reddy Unveils Vision for ‘Future City’ at Amazon Dat
+2026-07-16 11:10:58,105 [INFO] app.dedupe: Duplicate story (same run): Telangana CM lays foundation for Amazon data centre ~~ Amazon to invest Rs 60,000 crore in Telangana as CM Revanth 
+2026-07-16 11:10:58,120 [INFO] app.dedupe: Duplicate story (same run): Telangana to Break Ground on ₹60,000 Crore Amazon Data Centr ~~ Amazon breaks ground to establish data centre in Telangana
+2026-07-16 11:10:58,120 [INFO] app.dedupe: Duplicate story (same run): Trump Slams New York's Data Center Moratorium ~~ New York imposes first state data center moratorium
+2026-07-16 11:10:58,136 [INFO] app.dedupe: Duplicate story (same run): KEC International bags ₹1,180 crore orders, including first  ~~ KEC International Secures First Data Centre T&D Project in ₹
+2026-07-16 11:10:58,136 [INFO] app.dedupe: Duplicate story (same run): Trump Slams New York's Data Center Moratorium ~~ New York imposes first state data center moratorium
+2026-07-16 11:10:58,152 [INFO] app.dedupe: Duplicate story (same run): NPCIL denies ‘sensitive data breach’ at Kudankulam nuclear p ~~ Kudankulam nuclear plant data breached, NPCIL says core syst
+2026-07-16 11:10:58,152 [INFO] app.dedupe: Duplicate story (same run): India’s data centre boom could create 1 lakh jobs: Report ~~ 1 Lakh New Jobs To Be Generated By Data Centres In Inida
+2026-07-16 11:10:58,152 [INFO] app.dedupe: Within-run dedup removed 164 duplicate articles
+2026-07-16 11:10:58,152 [INFO] app.main: Duplicates removed: 246 -> 82
+2026-07-16 11:10:58,152 [INFO] app.main: Above score threshold (20): 46/82
+2026-07-16 11:10:58,152 [INFO] app.main: Land/Project only: 20/46
+2026-07-16 11:10:58,152 [INFO] app.main: Top-15 selection: 20 -> 15 articles
+2026-07-16 11:10:58,152 [INFO] app.storage: Saved 15 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-16 11:10:58,152 [INFO] app.storage: Saved 43 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-16 11:10:58,152 [INFO] app.storage: Loaded 15 unsent articles from today
+2026-07-16 11:10:58,152 [INFO] app.main: Building individual article cards for 15/15 articles
+2026-07-16 11:10:58,152 [INFO] app.main: Article 0 [project] AWS India: keywords=['[PROJECT] planned', '[PROJECT] investment', 'hyderabad', 'investment']
+2026-07-16 11:10:58,152 [INFO] app.main: Article 1 [project] Reliance Communications: keywords=['[PROJECT] investment', 'policy', 'investment']
+2026-07-16 11:10:58,152 [INFO] app.main: Article 2 [project] Pi Datacentres: keywords=['[PROJECT] announced']
+2026-07-16 11:10:58,152 [INFO] app.main: Article 3 [project] AWS India: keywords=['[PROJECT] investment', 'investment']
+2026-07-16 11:10:58,763 [INFO] app.image_gen: Using OG image for article 3: AWS Plans ₹1.75 Lakh Crore India Cloud Investment 
+2026-07-16 11:10:58,778 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_3_20260716111058.png
+2026-07-16 11:10:58,778 [INFO] app.main: Article 4 [project] Pi Datacentres: keywords=['[PROJECT] commits']
+2026-07-16 11:10:59,618 [INFO] app.image_gen: Using OG image for article 2: Telangana secures Amazon’s biggest India data cent
+2026-07-16 11:10:59,650 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_2_20260716111059.png
+2026-07-16 11:10:59,650 [INFO] app.main: Article 5 [land] Equinix: keywords=['[LAND] land']
+2026-07-16 11:10:59,665 [INFO] app.image_gen: No OG image found for article 0, generating card
+2026-07-16 11:10:59,697 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_0_20260716111059.png
+2026-07-16 11:10:59,697 [INFO] app.main: Article 6 [project] Net4: keywords=['[PROJECT] announces']
+2026-07-16 11:11:00,010 [INFO] app.image_gen: Using OG image for article 1: Cabinet clears National Investment Policy 2026 to 
+2026-07-16 11:11:00,057 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_1_20260716111100.png
+2026-07-16 11:11:00,057 [INFO] app.main: Article 7 [project] AWS India: keywords=['[PROJECT] to invest']
+2026-07-16 11:11:00,691 [INFO] app.image_gen: No OG image found for article 7, generating card
+2026-07-16 11:11:00,722 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_7_20260716111100.png
+2026-07-16 11:11:00,722 [INFO] app.main: Article 8 [project] ESDS: keywords=['[PROJECT] launch']
+2026-07-16 11:11:00,738 [INFO] app.image_gen: Using OG image for article 4: HCLTech Commits Initial Rs 3,500 Crore To AI Data 
+2026-07-16 11:11:00,738 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_4_20260716111100.png
+2026-07-16 11:11:00,738 [INFO] app.main: Article 9 [land] CapitaLand Data Centre: keywords=['[LAND] land']
+2026-07-16 11:11:01,495 [INFO] app.image_gen: No OG image found for article 8, generating card
+2026-07-16 11:11:01,526 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_8_20260716111101.png
+2026-07-16 11:11:01,526 [INFO] app.main: Article 10 [project] Industry News: keywords=['[PROJECT] breaks ground', '[PROJECT] establish']
+2026-07-16 11:11:01,620 [INFO] app.image_gen: Using OG image for article 9: CapitaLand Ascendas REIT to divest Kim Chuan Telec
+2026-07-16 11:11:01,651 [INFO] app.image_gen: Using OG image for article 5: Cape Town tribunal approves land rezoning for two 
+2026-07-16 11:11:01,651 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_9_20260716111101.png
+2026-07-16 11:11:01,651 [INFO] app.main: Article 11 [project] Industry News: keywords=['[PROJECT] investment', 'renewable', 'investment']
+2026-07-16 11:11:01,683 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_5_20260716111101.png
+2026-07-16 11:11:01,683 [INFO] app.main: Article 12 [land] Industry News: keywords=['[LAND] acre']
+2026-07-16 11:11:02,027 [INFO] app.image_gen: Using OG image for article 6: Karnataka CM announces green data centre, plans AI
+2026-07-16 11:11:02,058 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_6_20260716111102.png
+2026-07-16 11:11:02,058 [INFO] app.main: Article 13 [project] Industry News: keywords=['[PROJECT] investment', 'policy', 'investment']
+2026-07-16 11:11:03,008 [INFO] app.image_gen: Using OG image for article 10: Amazon breaks ground to establish data centre in T
+2026-07-16 11:11:03,024 [INFO] app.image_gen: Using OG image for article 12: Andhra Pradesh Approves 91-Acre Logistics Park to 
+2026-07-16 11:11:03,055 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_10_20260716111103.png
+2026-07-16 11:11:03,055 [INFO] app.main: Article 14 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-16 11:11:03,071 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_12_20260716111103.png
+2026-07-16 11:11:03,196 [INFO] app.image_gen: No OG image found for article 14, generating card
+2026-07-16 11:11:03,212 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_14_20260716111103.png
+2026-07-16 11:11:04,898 [INFO] app.image_gen: Using OG image for article 11: Greece Data Center Market Trends & Investment Anal
+2026-07-16 11:11:04,913 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_11_20260716111104.png
+2026-07-16 11:11:05,258 [INFO] app.image_gen: Using OG image for article 13: Trump urges New York to rethink data centre policy
+2026-07-16 11:11:05,304 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_13_20260716111105.png
+2026-07-16 11:11:05,304 [INFO] app.main: Sending 15 individual article messages
+2026-07-16 11:11:48,523 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+2026-07-16 11:11:48,523 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"image"},{"index":1,"status":"sent","message_id":null,"type":"image"},{"index":2,"status":"sent","message_id":null,"type":"image"},{"index":3,"status":"sent","message_id":null,"type":"image"},{"index":4,"status":"sent","message_id":null,"type":"image"},{"index":5,"status":"sent","message_id":null,"type":"image"},{"index":6,"status":"sent","message_id":null,"type":"image"},{"index":7,"status":"sent","message_id":null,"type":"image"},{"index":8,"status":"sent","message_id":null,"type":"image"},{"index":9,"status":"sent","message_id":null,"type":"image"},{"index":10,"status":"sent","message_id":null,"type":"image"},{"index":11,"status":"sent","message_id":null,"type":"image"},{"index":12,"status":"sent","message_id":null,"type":"image"},{"index":13,"status":"sent","message_id":null,"type":"image"},{"index":14,"status":"sent","message_id":null,"type":"image"}],"chat_id":"120363410375552266@g.us","total":15,"sent":15,"failed":0}
+2026-07-16 11:11:48,523 [INFO] app.whatsapp_sender: Messages sent: 15 OK, 0 failed
+2026-07-16 11:11:48,523 [INFO] app.main: Sent 15/15 article messages successfully
+2026-07-16 11:11:48,523 [ERROR] __main__: Automation failed: name 'top' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\IndianNewsAutomation\run_daily.py", line 26, in <module>
+    articles = run()
+               ^^^^^
+  File "C:\Users\Admin\Desktop\IndianNewsAutomation\app\main.py", line 156, in run
+    digest = build_digest(to_send)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\IndianNewsAutomation\app\digest_builder.py", line 39, in build_digest
+    land_articles = [a for a in top if a.get("category") == "land"]
+                                ^^^
+NameError: name 'top' is not defined
+2026-07-16 16:00:04,798 [INFO] __main__: ============================================================
+2026-07-16 16:00:04,798 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-16 16:00:04,798 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-16 16:00:04,814 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-16 16:00:06,158 [INFO] app.main:   Got 12 results
+2026-07-16 16:00:06,158 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-16 16:00:07,625 [INFO] app.main:   Got 4 results
+2026-07-16 16:00:07,625 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-16 16:00:10,500 [INFO] app.main:   Got 8 results
+2026-07-16 16:00:10,500 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-16 16:00:13,032 [INFO] app.main:   Got 13 results
+2026-07-16 16:00:13,032 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-16 16:00:15,411 [INFO] app.main:   Got 43 results
+2026-07-16 16:00:15,411 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-16 16:00:17,125 [INFO] app.main:   Got 39 results
+2026-07-16 16:00:17,141 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-16 16:00:19,329 [INFO] app.main:   Got 26 results
+2026-07-16 16:00:19,329 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-16 16:00:22,033 [INFO] app.main:   Got 52 results
+2026-07-16 16:00:22,049 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-16 16:00:28,189 [INFO] app.main:   Got 53 results
+2026-07-16 16:00:28,205 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-16 16:00:30,422 [INFO] app.main:   Got 4 results
+2026-07-16 16:00:30,422 [INFO] app.main: 24h filter: 254 -> 254 articles within last 24h
+2026-07-16 16:00:30,470 [INFO] app.dedupe: Duplicate story (same run): Business News | ITI Wins BSNL's 4G Network Expansion Order W ~~ ITI wins ₹856.39 crore BSNL 4G expansion order under Phase I
+2026-07-16 16:00:30,501 [INFO] app.dedupe: Duplicate story (same run): Sify Reports Q1 FY27 Revenue of ₹12,352 Million, Financial R ~~ Sify Technologies Q1 Earnings Call Highlights
+2026-07-16 16:00:30,501 [INFO] app.dedupe: Duplicate story (same run): Sify Technologies Ltd (SIFY) Q1 2027 Earnings Call Highlight ~~ Sify Technologies Q1 Earnings Call Highlights
+2026-07-16 16:00:30,501 [INFO] app.dedupe: Duplicate story (same run): Sify Technologies Reports Q1 FY2027 Revenue Growth of 15% to ~~ Sify Technologies Q1 Earnings Call Highlights
+2026-07-16 16:00:30,501 [INFO] app.dedupe: Duplicate story (same run): Sify reports Consolidated Financial Results for Q1 FY 2026-2 ~~ Sify Technologies Q1 Earnings Call Highlights
+2026-07-16 16:00:30,520 [INFO] app.dedupe: Duplicate story (same run): Sify Reports Q1 FY27 Revenue of ₹12,352 Million, Financial R ~~ Sify Technologies Q1 Earnings Call Highlights
+2026-07-16 16:00:30,522 [INFO] app.dedupe: Duplicate story (same run): Sify reports Consolidated Financial Results for Q1 FY 2026-2 ~~ Sify Technologies Q1 Earnings Call Highlights
+2026-07-16 16:00:30,525 [INFO] app.dedupe: Duplicate story (same run): AWS Starts New Hyderabad Data Center, Plans ₹1 Lakh Crore Ou ~~ AWS Starts Hyderabad Data Center, Part of $21 Billion India 
+2026-07-16 16:00:30,527 [INFO] app.dedupe: Duplicate story (same run): AWS Starts New Hyderabad Data Center, Plans ₹1 Lakh Crore Ou ~~ AWS Starts Hyderabad Data Center, Part of $21 Billion India 
+2026-07-16 16:00:30,542 [INFO] app.dedupe: Duplicate story (same run): Explained: What is in Gujarat’s new data centre policy? ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,548 [INFO] app.dedupe: Duplicate story (same run): Amazon breaks ground on Bharat Future City hyperscale data c ~~ AWS breaks ground for data centre project
+2026-07-16 16:00:30,548 [INFO] app.dedupe: Duplicate story (same run): Explained: What is in Gujarat’s new data centre policy? ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,563 [INFO] app.dedupe: Duplicate story (same run): Explained: What is in Gujarat’s new data centre policy? ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,563 [INFO] app.dedupe: Duplicate story (same run): Explained: What is in Gujarat’s new data centre policy? ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,563 [INFO] app.dedupe: Duplicate story (same run): Amazon breaks ground on Bharat Future City hyperscale data c ~~ AWS breaks ground for data centre project
+2026-07-16 16:00:30,563 [INFO] app.dedupe: Duplicate story (same run): Revanth seeks Rs 1 lakh crore investment from Amazon ~~ Telangana CM lays foundation for Amazon Data Centre, seeks ₹
+2026-07-16 16:00:30,579 [INFO] app.dedupe: Duplicate story (same run): Explained: What is in Gujarat’s new data centre policy? ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,595 [INFO] app.dedupe: Duplicate story (same run): Karnataka to roll out data centre policy to power AI ecosyst ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,610 [INFO] app.dedupe: Duplicate story (same run): Karnataka to roll out data centre policy to power AI-led GCC ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,610 [INFO] app.dedupe: Duplicate story (same run): Karnataka to roll out data centre policy to power AI growth, ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,626 [INFO] app.dedupe: Duplicate story (same run): Karnataka to roll out data centre policy to power AI ecosyst ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,626 [INFO] app.dedupe: Duplicate story (same run): Revanth Reddy lays stone for Amazon data centre near Hyderab ~~ Revanth Reddy lays stone for Amazon data centre near Hyderab
+2026-07-16 16:00:30,654 [INFO] app.dedupe: Duplicate story (same run): Kudankulam nuclear power plant ‘data’ on dark web ~~ 858,000 Files and Confidential Blueprints: Inside Data Breac
+2026-07-16 16:00:30,657 [INFO] app.dedupe: Duplicate story (same run): Govt denies sensitive data breach at Kudankulam nuclear powe ~~ 858,000 Files and Confidential Blueprints: Inside Data Breac
+2026-07-16 16:00:30,657 [INFO] app.dedupe: Duplicate story (same run): Macquarie to buy Sydney site for campus & data centre ~~ Macquarie Data Centres Acquires Sydney Site for 200MW AI Cam
+2026-07-16 16:00:30,657 [INFO] app.dedupe: Duplicate story (same run): Karnataka to roll out comprehensive data centre policy to su ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,657 [INFO] app.dedupe: Duplicate story (same run): Karnataka Plans AI University and Data Centre Policy to Boos ~~ Karnataka set to unveil data centre policy
+2026-07-16 16:00:30,688 [INFO] app.dedupe: Duplicate story (same run): Foundation laid for new Amazon data centre in Telangana’s Fu ~~ Telangana CM lays foundation for Amazon Data Centre, seeks ₹
+2026-07-16 16:00:30,704 [INFO] app.dedupe: Duplicate story (same run): Amazon CEO Andy Jassy projects $50B business potential for c ~~ Revanth Reddy Unveils Vision for ‘Future City’ at Amazon Dat
+2026-07-16 16:00:30,719 [INFO] app.dedupe: Duplicate story (same run): Files linked to Kudankulam nuclear plant surface on dark web ~~ Nearly 19,000 Kudankulam nuclear plant files leaked online: 
+2026-07-16 16:00:30,735 [INFO] app.dedupe: Duplicate story (same run): Kudankulam nuclear plant files leaked on dark web ~~ 858,000 Files and Confidential Blueprints: Inside Data Breac
+2026-07-16 16:00:30,755 [INFO] app.dedupe: Duplicate story (same run): Amazon Data Centre to anchor one trillion dollar dream ~~ Revanth Reddy Unveils Vision for ‘Future City’ at Amazon Dat
+2026-07-16 16:00:30,764 [INFO] app.dedupe: Duplicate story (same run): Amazon Data Centre to anchor one trillion dollar dream ~~ Revanth Reddy Unveils Vision for ‘Future City’ at Amazon Dat
+2026-07-16 16:00:30,766 [INFO] app.dedupe: Duplicate story (same run): Foundation laid for new Amazon data centre in Telangana’s Fu ~~ Telangana CM lays foundation for Amazon Data Centre, seeks ₹
+2026-07-16 16:00:30,782 [INFO] app.dedupe: Duplicate story (same run): Trump Slams New York's Data Center Moratorium ~~ New York imposes first state data center moratorium
+2026-07-16 16:00:30,797 [INFO] app.dedupe: Duplicate story (same run): Trump Slams New York's Data Center Moratorium ~~ New York imposes first state data center moratorium
+2026-07-16 16:00:30,813 [INFO] app.dedupe: Duplicate story (same run): INDIA’S DATA CENTRE BOOM COULD CREATE 1 LAKH JOBS: REPORT ~~ 1 Lakh New Jobs To Be Generated By Data Centres In Inida
+2026-07-16 16:00:30,828 [INFO] app.dedupe: Within-run dedup removed 183 duplicate articles
+2026-07-16 16:00:30,828 [INFO] app.main: Duplicates removed: 254 -> 71
+2026-07-16 16:00:30,828 [INFO] app.main: Above score threshold (20): 39/71
+2026-07-16 16:00:30,828 [INFO] app.main: Land/Project only: 16/39
+2026-07-16 16:00:30,828 [INFO] app.main: Top-15 selection: 16 -> 15 articles
+2026-07-16 16:00:30,844 [INFO] app.storage: Saved 15 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-16 16:00:30,860 [INFO] app.storage: Saved 58 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-16 16:00:30,860 [INFO] app.storage: Loaded 30 unsent articles from today
+2026-07-16 16:00:30,860 [INFO] app.main: Building individual article cards for 30/30 articles
+2026-07-16 16:00:30,860 [INFO] app.main: Article 0 [project] AWS India: keywords=['[PROJECT] planned', '[PROJECT] investment', 'hyderabad', 'investment']
+2026-07-16 16:00:30,860 [INFO] app.main: Article 1 [project] Reliance Communications: keywords=['[PROJECT] investment', 'policy', 'investment']
+2026-07-16 16:00:30,860 [INFO] app.main: Article 2 [project] Pi Datacentres: keywords=['[PROJECT] announced']
+2026-07-16 16:00:30,860 [INFO] app.main: Article 3 [project] AWS India: keywords=['[PROJECT] investment', 'investment']
+2026-07-16 16:00:31,453 [INFO] app.image_gen: Using OG image for article 2: Telangana secures Amazon’s biggest India data cent
+2026-07-16 16:00:31,485 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_2_20260716160031.png
+2026-07-16 16:00:31,485 [INFO] app.main: Article 4 [project] Pi Datacentres: keywords=['[PROJECT] commits']
+2026-07-16 16:00:31,548 [INFO] app.image_gen: Using OG image for article 3: AWS Plans ₹1.75 Lakh Crore India Cloud Investment 
+2026-07-16 16:00:31,579 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_3_20260716160031.png
+2026-07-16 16:00:31,579 [INFO] app.main: Article 5 [land] Equinix: keywords=['[LAND] land']
+2026-07-16 16:00:31,595 [INFO] app.image_gen: Using OG image for article 1: Cabinet clears National Investment Policy 2026 to 
+2026-07-16 16:00:31,642 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_1_20260716160031.png
+2026-07-16 16:00:31,642 [INFO] app.main: Article 6 [project] Net4: keywords=['[PROJECT] announces']
+2026-07-16 16:00:31,798 [INFO] app.image_gen: No OG image found for article 0, generating card
+2026-07-16 16:00:31,813 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_0_20260716160031.png
+2026-07-16 16:00:31,813 [INFO] app.main: Article 7 [project] AWS India: keywords=['[PROJECT] to invest']
+2026-07-16 16:00:32,033 [INFO] app.image_gen: Using OG image for article 6: Karnataka CM announces green data centre, plans AI
+2026-07-16 16:00:32,079 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_6_20260716160032.png
+2026-07-16 16:00:32,079 [INFO] app.main: Article 8 [project] ESDS: keywords=['[PROJECT] launch']
+2026-07-16 16:00:32,500 [INFO] app.image_gen: Using OG image for article 5: Cape Town tribunal approves land rezoning for two 
+2026-07-16 16:00:32,532 [INFO] app.image_gen: No OG image found for article 7, generating card
+2026-07-16 16:00:32,532 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_5_20260716160032.png
+2026-07-16 16:00:32,532 [INFO] app.main: Article 9 [land] CapitaLand Data Centre: keywords=['[LAND] land']
+2026-07-16 16:00:32,532 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_7_20260716160032.png
+2026-07-16 16:00:32,532 [INFO] app.main: Article 10 [project] Industry News: keywords=['[PROJECT] breaks ground', '[PROJECT] establish']
+2026-07-16 16:00:33,080 [INFO] app.image_gen: No OG image found for article 8, generating card
+2026-07-16 16:00:33,111 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_8_20260716160033.png
+2026-07-16 16:00:33,111 [INFO] app.main: Article 11 [project] Industry News: keywords=['[PROJECT] investment', 'renewable', 'investment']
+2026-07-16 16:00:33,252 [INFO] app.image_gen: Using OG image for article 10: Amazon breaks ground to establish data centre in T
+2026-07-16 16:00:33,283 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_10_20260716160033.png
+2026-07-16 16:00:33,283 [INFO] app.main: Article 12 [land] Industry News: keywords=['[LAND] acre']
+2026-07-16 16:00:33,642 [INFO] app.image_gen: Using OG image for article 9: CapitaLand Ascendas REIT to divest Kim Chuan Telec
+2026-07-16 16:00:33,691 [INFO] app.image_gen: Using OG image for article 4: HCLTech Commits Initial Rs 3,500 Crore To AI Data 
+2026-07-16 16:00:33,691 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_9_20260716160033.png
+2026-07-16 16:00:33,691 [INFO] app.main: Article 13 [project] Industry News: keywords=['[PROJECT] investment', 'policy', 'investment']
+2026-07-16 16:00:33,699 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_4_20260716160033.png
+2026-07-16 16:00:33,700 [INFO] app.main: Article 14 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-16 16:00:33,875 [INFO] app.image_gen: No OG image found for article 14, generating card
+2026-07-16 16:00:33,891 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_14_20260716160033.png
+2026-07-16 16:00:33,891 [INFO] app.main: Article 15 [project] Pi Datacentres: keywords=['[PROJECT] to invest', 'mw', 'capacity']
+2026-07-16 16:00:34,368 [INFO] app.image_gen: Using OG image for article 12: Andhra Pradesh Approves 91-Acre Logistics Park to 
+2026-07-16 16:00:34,392 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_12_20260716160034.png
+2026-07-16 16:00:34,392 [INFO] app.main: Article 16 [project] Industry News: keywords=['[PROJECT] to build', '[PROJECT] investment', 'investment']
+2026-07-16 16:00:34,439 [INFO] app.image_gen: Using OG image for article 11: Greece Data Center Market Trends & Investment Anal
+2026-07-16 16:00:34,455 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_11_20260716160034.png
+2026-07-16 16:00:34,455 [INFO] app.main: Article 17 [project] AWS India: keywords=['[PROJECT] investment', 'investment']
+2026-07-16 16:00:34,486 [INFO] app.image_gen: Using OG image for article 15: HCLTech To Invest Rs 3,500 Cr In AI Data Centre Bu
+2026-07-16 16:00:34,517 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_15_20260716160034.png
+2026-07-16 16:00:34,517 [INFO] app.main: Article 18 [project] Google Cloud India: keywords=['[PROJECT] launch']
+2026-07-16 16:00:34,767 [INFO] app.image_gen: Using OG image for article 16: Google AI Hub in Visakhapatnam: $15 Billion Invest
+2026-07-16 16:00:34,804 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_16_20260716160034.png
+2026-07-16 16:00:34,804 [INFO] app.main: Article 19 [project] AWS India: keywords=['[PROJECT] breaks ground']
+2026-07-16 16:00:34,861 [INFO] app.image_gen: Using OG image for article 17: MP draws investment proposals worth over ₹40,000 c
+2026-07-16 16:00:34,892 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_17_20260716160034.png
+2026-07-16 16:00:34,892 [INFO] app.main: Article 20 [project] Digital Connexion: keywords=['[PROJECT] expansion']
+2026-07-16 16:00:34,954 [INFO] app.image_gen: No OG image found for article 19, generating card
+2026-07-16 16:00:34,970 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_19_20260716160034.png
+2026-07-16 16:00:34,970 [INFO] app.main: Article 21 [project] Industry News: keywords=['[PROJECT] investment', 'policy', 'investment']
+2026-07-16 16:00:35,127 [INFO] app.image_gen: No OG image found for article 21, generating card
+2026-07-16 16:00:35,134 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_21_20260716160035.png
+2026-07-16 16:00:35,135 [INFO] app.main: Article 22 [project] Industry News: keywords=['[PROJECT] expansion', 'hyderabad']
+2026-07-16 16:00:35,298 [INFO] app.image_gen: Using OG image for article 18: TCS and Google Cloud launch Gemini Experience Cent
+2026-07-16 16:00:35,346 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_18_20260716160035.png
+2026-07-16 16:00:35,346 [INFO] app.main: Article 23 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-16 16:00:35,798 [INFO] app.image_gen: Using OG image for article 22: Hyderabad Data Centre Expansion Boosts Digital Eco
+2026-07-16 16:00:35,845 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_22_20260716160035.png
+2026-07-16 16:00:35,845 [INFO] app.main: Article 24 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-16 16:00:35,877 [INFO] app.image_gen: Using OG image for article 23: Telangana CM lays foundation for Amazon Data Centr
+2026-07-16 16:00:35,906 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_23_20260716160035.png
+2026-07-16 16:00:35,906 [INFO] app.main: Article 25 [land] Industry News: keywords=['[LAND] land']
+2026-07-16 16:00:36,016 [INFO] app.image_gen: Using OG image for article 13: Trump urges New York to rethink data centre policy
+2026-07-16 16:00:36,031 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_13_20260716160036.png
+2026-07-16 16:00:36,047 [INFO] app.main: Article 26 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-16 16:00:36,828 [INFO] app.image_gen: Using OG image for article 25: 'Flying Buses Soon': Nitin Gadkari Reveals Next Ma
+2026-07-16 16:00:36,887 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_25_20260716160036.png
+2026-07-16 16:00:36,888 [INFO] app.main: Article 27 [land] Industry News: keywords=['[LAND] land']
+2026-07-16 16:00:38,017 [INFO] app.image_gen: Using OG image for article 20: ITI wins ₹856.39 crore BSNL 4G expansion order und
+2026-07-16 16:00:38,048 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_20_20260716160038.png
+2026-07-16 16:00:38,048 [INFO] app.main: Article 28 [project] Industry News: keywords=['[PROJECT] expansion']
+2026-07-16 16:00:38,141 [INFO] app.image_gen: Using OG image for article 24: Google inks investment, offtake deal for largest U
+2026-07-16 16:00:38,173 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_24_20260716160038.png
+2026-07-16 16:00:38,173 [INFO] app.main: Article 29 [project] Industry News: keywords=['[PROJECT] groundbreaking']
+2026-07-16 16:00:38,717 [INFO] app.image_gen: Using OG image for article 28: Kerala Chief Minister Signals Softer Stance On Viz
+2026-07-16 16:00:38,750 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_28_20260716160038.png
+2026-07-16 16:00:39,563 [INFO] app.image_gen: Using OG image for article 29: Revanth Reddy Unveils Vision for ‘Future City’ at 
+2026-07-16 16:00:39,594 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_29_20260716160039.png
+2026-07-16 16:00:39,941 [INFO] app.image_gen: Using OG image for article 27: Macquarie Technology (ASX: MAQ) Secures Land for A
+2026-07-16 16:00:39,969 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_27_20260716160039.png
+2026-07-16 16:00:40,940 [INFO] app.image_gen: Using OG image for article 26: How is Madhya Pradesh Attracting Tech Investments?
+2026-07-16 16:00:40,971 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_26_20260716160040.png
+2026-07-16 16:00:40,971 [INFO] app.main: Sending 30 individual article messages
+2026-07-16 16:01:48,330 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+2026-07-16 16:01:48,330 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"image"},{"index":1,"status":"sent","message_id":null,"type":"image"},{"index":2,"status":"sent","message_id":null,"type":"image"},{"index":3,"status":"sent","message_id":null,"type":"image"},{"index":4,"status":"sent","message_id":null,"type":"image"},{"index":5,"status":"sent","message_id":null,"type":"image"},{"index":6,"status":"sent","message_id":null,"type":"image"},{"index":7,"status":"sent","message_id":null,"type":"image"},{"index":8,"status":"sent","message_id":null,"type":"image"},{"index":9,"status":"sent","message_id":null,"type":"image"},{"index":10,"status":"sent","message_id":null,"type":"image"},{"index":11,"status":"sent","message_id":null,"type":"image"},{"index":12,"status":"sent","message_id":null,"type":"image"},{"index":13,"status":"sent","message_id":null,"type":"image"},{"index":14,"status":"sent","message_id":null,"type":"image"},{"index":15,"status":"sent","message_id":null,"type":"image"},{"index":16,"status":"sent","message_id":null,"type":"image"},{"index":17,"status":"sent","message_id":null,"type":"image"},{"index":18,"status":"sent","message_id":null,"type":"image"},{"index":19,"status":"sent","message_id":null,"type":"image"},{"index":20,"status":"sent","message_id":null,"type":"image"},{"index":21,"status":"sent","message_id":null,"type":"image"},{"index":22,"status":"sent","message_id":null,"type":"image"},{"index":23,"status":"sent","message_id":null,"type":"image"},{"index":24,"status":"sent","message_id":null,"type":"image"},{"index":25,"status":"sent","message_id":null,"type":"image"},{"index":26,"status":"sent","message_id":null,"type":"image"},{"index":27,"status":"sent","message_id":null,"type":"image"},{"index":28,"status":"sent","message_id":null,"type":"image"},{"index":29,"status":"sent","message_id":null,"type":"image"}],"chat_id":"120363410375552266@g.us","total":30,"sent":30,"failed":0}
+2026-07-16 16:01:48,330 [INFO] app.whatsapp_sender: Messages sent: 30 OK, 0 failed
+2026-07-16 16:01:48,330 [INFO] app.main: Sent 30/30 article messages successfully
+2026-07-16 16:01:48,330 [INFO] app.main: Sending summary digest message
+2026-07-16 16:01:55,002 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+2026-07-16 16:01:55,002 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"text"}],"chat_id":"120363410375552266@g.us","total":1,"sent":1,"failed":0}
+2026-07-16 16:01:55,002 [INFO] app.whatsapp_sender: Message confirmed sent to 'unknown' (chat_id=120363410375552266@g.us, msg_id=, ack=-1)
+2026-07-16 16:01:55,002 [INFO] app.storage: Marked 30 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-16 16:01:55,017 [INFO] app.image_gen: Cleaned up 45 temp images
+2026-07-16 16:01:55,017 [INFO] __main__: Automation completed successfully
+2026-07-17 10:00:04,707 [INFO] __main__: ============================================================
+2026-07-17 10:00:04,707 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-17 10:00:04,711 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-17 10:00:04,711 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-17 10:00:11,404 [INFO] app.main:   Got 8 results
+2026-07-17 10:00:11,409 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-17 10:00:13,614 [INFO] app.main:   Got 1 results
+2026-07-17 10:00:13,617 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-17 10:00:17,361 [INFO] app.main:   Got 3 results
+2026-07-17 10:00:17,361 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-17 10:00:24,051 [INFO] app.main:   Got 4 results
+2026-07-17 10:00:24,051 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-17 10:00:25,909 [INFO] app.main:   Got 28 results
+2026-07-17 10:00:25,925 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-17 10:00:35,680 [INFO] app.main:   Got 49 results
+2026-07-17 10:00:35,696 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-17 10:00:37,738 [INFO] app.main:   Got 25 results
+2026-07-17 10:00:37,739 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-17 10:00:39,647 [INFO] app.main:   Got 43 results
+2026-07-17 10:00:39,663 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-17 10:00:41,691 [INFO] app.main:   Got 47 results
+2026-07-17 10:00:41,707 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-17 10:00:48,848 [INFO] app.main:   Got 2 results
+2026-07-17 10:00:48,848 [INFO] app.main: 24h filter: 210 -> 210 articles within last 24h
+2026-07-17 10:00:48,940 [INFO] app.dedupe: Duplicate story (same run): Power ministry draws AI-era grid roadmap ~~ Power ministry plans grid for data centres as demand surges
+2026-07-17 10:00:48,940 [INFO] app.dedupe: Duplicate story (same run): Power ministry draws AI-era grid roadmap ~~ Power ministry plans grid for data centres as demand surges
+2026-07-17 10:00:48,987 [INFO] app.dedupe: Duplicate story (same run): India's Ministry of Power readies grid for 35.7GW data cente ~~ Power ministry plans grid for data centres as demand surges
+2026-07-17 10:00:49,026 [INFO] app.dedupe: Duplicate story (same run): Stocks to Watch Today, July 17: Wipro, Jio Financial, ​Coal  ~~ Q1 results today: Jio Financial, Wipro, Polycab India, BHEL 
+2026-07-17 10:00:49,039 [INFO] app.dedupe: Duplicate story (same run): Stocks to watch, July 17: Jio Financial, RIL, Wipro, TechM,  ~~ Q1 results today: Jio Financial, Wipro, Polycab India, BHEL 
+2026-07-17 10:00:49,050 [INFO] app.dedupe: Duplicate story (same run): Power Ministry Prepares Grid for 35.7 GW Data Centre Demand ~~ Power ministry plans grid for data centres as demand surges
+2026-07-17 10:00:49,066 [INFO] app.dedupe: Duplicate story (same run): Power Ministry Prepares Grid for 35.7 GW Data Centre Demand ~~ Power ministry plans grid for data centres as demand surges
+2026-07-17 10:00:49,113 [INFO] app.dedupe: Duplicate story (same run): Jio Financial Services Q1 net profit jumps 156% to Rs 830 cr ~~ Jio Financial Services (JFSL) Q1 FY27 Results Update
+2026-07-17 10:00:49,128 [INFO] app.dedupe: Duplicate story (same run): Q1 Results Today: Wipro, Tech Mahindra, ITC Hotels, BHEL, Ji ~~ Q1 results today: Jio Financial, Wipro, Polycab India, BHEL 
+2026-07-17 10:00:49,138 [INFO] app.dedupe: Duplicate story (same run): Jio Financial Services Q1 Profit Jumps 156% to ₹830 Crore ~~ Jio Financial Q1 Profit Surges 156% to ₹830 Crore
+2026-07-17 10:00:49,142 [INFO] app.dedupe: Duplicate story (same run): Jio Financial Q1 Profit Jumps 156% to ₹830 Crore ~~ Jio Financial Q1 Profit Surges 156% to ₹830 Crore
+2026-07-17 10:00:49,173 [INFO] app.dedupe: Duplicate story (same run): Foundation laid for new Amazon data centre in Telangana’s Fu ~~ Foundation laid for new Amazon data centre in Telangana’s Fu
+2026-07-17 10:00:49,220 [INFO] app.dedupe: Within-run dedup removed 131 duplicate articles
+2026-07-17 10:00:49,220 [INFO] app.main: Duplicates removed: 210 -> 79
+2026-07-17 10:00:49,220 [INFO] app.main: Above score threshold (20): 36/79
+2026-07-17 10:00:49,220 [INFO] app.main: Land/Project only: 19/36
+2026-07-17 10:00:49,220 [INFO] app.main: Top-15 selection: 19 -> 15 articles
+2026-07-17 10:00:49,220 [INFO] app.storage: Saved 15 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-17 10:00:49,236 [INFO] app.storage: Saved 73 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-17 10:00:49,236 [INFO] app.storage: Loaded 15 unsent articles from today
+2026-07-17 10:00:49,236 [INFO] app.main: Building individual article cards for 15/15 articles
+2026-07-17 10:00:49,236 [INFO] app.main: Article 0 [land] Industry News: keywords=['[LAND] land', '[LAND] acre', '[LAND] acres']
+2026-07-17 10:00:49,236 [INFO] app.main: Article 1 [land] Industry News: keywords=['[LAND] land', '[LAND] acre', '[LAND] acres']
+2026-07-17 10:00:49,236 [INFO] app.main: Article 2 [land] Industry News: keywords=['[LAND] land', '[LAND] acre', '[LAND] acres']
+2026-07-17 10:00:49,236 [INFO] app.main: Article 3 [project] AWS India: keywords=['[PROJECT] groundbreaking', 'hyderabad']
+2026-07-17 10:00:49,674 [INFO] app.image_gen: Using OG image for article 2: Andhra Pradesh Govt. Approves 91 Acres Land Allotm
+2026-07-17 10:00:49,721 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_2_20260717100049.png
+2026-07-17 10:00:49,721 [INFO] app.main: Article 4 [project] Microsoft: keywords=['[PROJECT] to build']
+2026-07-17 10:00:49,922 [INFO] app.image_gen: No OG image found for article 1, generating card
+2026-07-17 10:00:49,956 [INFO] app.image_gen: No OG image found for article 0, generating card
+2026-07-17 10:00:49,971 [INFO] app.image_gen: No OG image found for article 3, generating card
+2026-07-17 10:00:49,971 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_1_20260717100049.png
+2026-07-17 10:00:49,971 [INFO] app.main: Article 5 [land] Industry News: keywords=['[LAND] land', '[LAND] land acquisition']
+2026-07-17 10:00:49,971 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_0_20260717100049.png
+2026-07-17 10:00:49,971 [INFO] app.main: Article 6 [land] Industry News: keywords=['[LAND] land', '[PROJECT] data centre campus', 'campus']
+2026-07-17 10:00:49,971 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_3_20260717100049.png
+2026-07-17 10:00:49,971 [INFO] app.main: Article 7 [project] Digital Connexion: keywords=['[PROJECT] launch']
+2026-07-17 10:00:50,018 [INFO] app.image_gen: No OG image found for article 4, generating card
+2026-07-17 10:00:50,018 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_4_20260717100050.png
+2026-07-17 10:00:50,018 [INFO] app.main: Article 8 [project] ESDS: keywords=['[PROJECT] launch']
+2026-07-17 10:00:50,462 [INFO] app.image_gen: No OG image found for article 8, generating card
+2026-07-17 10:00:50,471 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_8_20260717100050.png
+2026-07-17 10:00:50,471 [INFO] app.main: Article 9 [project] Digital Connexion: keywords=['[PROJECT] expansion']
+2026-07-17 10:00:50,534 [INFO] app.image_gen: No OG image found for article 5, generating card
+2026-07-17 10:00:50,534 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_5_20260717100050.png
+2026-07-17 10:00:50,534 [INFO] app.main: Article 10 [land] CapitaLand Data Centre: keywords=['[LAND] land']
+2026-07-17 10:00:50,911 [INFO] app.image_gen: Using OG image for article 10: Remote Supervision Framework Points to Efficiency 
+2026-07-17 10:00:50,958 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_10_20260717100050.png
+2026-07-17 10:00:50,958 [INFO] app.main: Article 11 [project] Industry News: keywords=['[PROJECT] planned', '[PROJECT] opens']
+2026-07-17 10:00:51,035 [INFO] app.image_gen: Using OG image for article 9: ITI bags BSNL's 4G network expansion order worth R
+2026-07-17 10:00:51,050 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_9_20260717100051.png
+2026-07-17 10:00:51,062 [INFO] app.main: Article 12 [land] Industry News: keywords=['[LAND] land', 'campus']
+2026-07-17 10:00:51,378 [WARNING] app.image_gen: OG overlay failed for article 12, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x000002752C163AB0>
+2026-07-17 10:00:51,393 [INFO] app.image_gen: No OG image found for article 7, generating card
+2026-07-17 10:00:51,393 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_12_20260717100051.png
+2026-07-17 10:00:51,393 [INFO] app.main: Article 13 [project] Industry News: keywords=['[PROJECT] to invest']
+2026-07-17 10:00:51,409 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_7_20260717100051.png
+2026-07-17 10:00:51,409 [INFO] app.main: Article 14 [project] Industry News: keywords=['[PROJECT] greenfield', 'capacity']
+2026-07-17 10:00:51,892 [INFO] app.image_gen: Using OG image for article 13: Amazon To Invest $48 Billion In India
+2026-07-17 10:00:51,909 [INFO] app.image_gen: Using OG image for article 14: HSL proposes greenfield shipyard in A.P. to boost 
+2026-07-17 10:00:51,925 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_13_20260717100051.png
+2026-07-17 10:00:51,956 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_14_20260717100051.png
+2026-07-17 10:00:51,956 [INFO] app.image_gen: Using OG image for article 11: Waaree ESS Opens 5.15 GWh BESS Container Manufactu
+2026-07-17 10:00:51,972 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_11_20260717100051.png
+2026-07-17 10:00:58,180 [INFO] app.image_gen: Using OG image for article 6: Macquarie Technology Group Exercises $240 Million 
+2026-07-17 10:00:58,195 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_6_20260717100058.png
+2026-07-17 10:00:58,195 [INFO] app.main: Sending 15 individual article messages
+2026-07-17 10:01:39,161 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+2026-07-17 10:01:39,161 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"image"},{"index":1,"status":"sent","message_id":null,"type":"image"},{"index":2,"status":"sent","message_id":null,"type":"image"},{"index":3,"status":"sent","message_id":null,"type":"image"},{"index":4,"status":"sent","message_id":null,"type":"image"},{"index":5,"status":"sent","message_id":null,"type":"image"},{"index":6,"status":"sent","message_id":null,"type":"image"},{"index":7,"status":"sent","message_id":null,"type":"image"},{"index":8,"status":"sent","message_id":null,"type":"image"},{"index":9,"status":"sent","message_id":null,"type":"image"},{"index":10,"status":"sent","message_id":null,"type":"image"},{"index":11,"status":"sent","message_id":null,"type":"image"},{"index":12,"status":"sent","message_id":null,"type":"image"},{"index":13,"status":"sent","message_id":null,"type":"image"},{"index":14,"status":"sent","message_id":null,"type":"image"}],"chat_id":"120363410375552266@g.us","total":15,"sent":15,"failed":0}
+2026-07-17 10:01:39,161 [INFO] app.whatsapp_sender: Messages sent: 15 OK, 0 failed
+2026-07-17 10:01:39,161 [INFO] app.main: Sent 15/15 article messages successfully
+2026-07-17 10:01:39,161 [INFO] app.main: Sending summary digest message
+2026-07-17 10:03:11,520 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+2026-07-17 10:03:11,520 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"Initialization timed out after 90s"}
+2026-07-17 10:03:11,520 [WARNING] app.whatsapp_sender: Transient error (attempt 1/3) — retrying in 3s: Initialization timed out after 90s
+2026-07-17 10:04:46,881 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-07-17 10:04:46,881 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"Initialization timed out after 90s"}
+2026-07-17 10:04:46,881 [WARNING] app.whatsapp_sender: Transient error (attempt 2/3) — retrying in 3s: Initialization timed out after 90s
+2026-07-17 10:04:55,908 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+2026-07-17 10:04:55,908 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"text"}],"chat_id":"120363410375552266@g.us","total":1,"sent":1,"failed":0}
+2026-07-17 10:04:55,908 [INFO] app.whatsapp_sender: Message confirmed sent to 'unknown' (chat_id=120363410375552266@g.us, msg_id=, ack=-1)
+2026-07-17 10:04:55,909 [INFO] app.storage: Marked 15 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-17 10:04:55,912 [INFO] app.image_gen: Cleaned up 15 temp images
+2026-07-17 10:04:55,912 [INFO] __main__: Automation completed successfully
+2026-07-20 11:58:41,391 [INFO] __main__: ============================================================
+2026-07-20 11:58:41,407 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-20 11:58:41,407 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-20 11:58:41,407 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-20 11:58:42,908 [INFO] app.main:   Got 2 results
+2026-07-20 11:58:42,908 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-20 11:58:44,411 [INFO] app.main:   Got 3 results
+2026-07-20 11:58:44,411 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-20 11:58:46,243 [INFO] app.main:   Got 1 results
+2026-07-20 11:58:46,243 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-20 11:58:48,481 [INFO] app.main:   Got 6 results
+2026-07-20 11:58:48,481 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-20 11:58:49,967 [INFO] app.main:   Got 6 results
+2026-07-20 11:58:49,967 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-20 11:58:57,979 [INFO] app.main:   Got 53 results
+2026-07-20 11:58:57,979 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-20 11:58:59,701 [INFO] app.main:   Got 15 results
+2026-07-20 11:58:59,716 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-20 11:59:01,390 [INFO] app.main:   Got 49 results
+2026-07-20 11:59:01,406 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-20 11:59:03,879 [INFO] app.main:   Got 45 results
+2026-07-20 11:59:03,894 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-20 11:59:16,461 [INFO] app.main:   Got 3 results
+2026-07-20 11:59:16,461 [INFO] app.main: 24h filter: 183 -> 183 articles within last 24h
+2026-07-20 11:59:16,492 [INFO] app.dedupe: Duplicate story (same run): NTT DATA commits $1.5 billion to AI data centre expansion in ~~ Ntt data commits 1 5 billion for india ai data center expans
+2026-07-20 11:59:16,508 [INFO] app.dedupe: Duplicate story (same run): NTT DATA commits $1.5 billion to AI data centre expansion in ~~ Ntt data commits 1 5 billion for india ai data center expans
+2026-07-20 11:59:16,508 [INFO] app.dedupe: Duplicate story (same run): NTT DATA commits $1.5 billion to AI data centre expansion in ~~ Ntt data commits 1 5 billion for india ai data center expans
+2026-07-20 11:59:16,508 [INFO] app.dedupe: Duplicate story (same run): NTT DATA commits $1.5 billion to AI data centre expansion in ~~ Ntt data commits 1 5 billion for india ai data center expans
+2026-07-20 11:59:16,508 [INFO] app.dedupe: Duplicate story (same run): NTT DATA commits $1.5 billion to AI data centre expansion in ~~ Ntt data commits 1 5 billion for india ai data center expans
+2026-07-20 11:59:16,555 [INFO] app.dedupe: Duplicate story (same run): AI data centres likely to be real-estate sector's next growt ~~ AI data centres likely to be real-estate sector's next growt
+2026-07-20 11:59:16,555 [INFO] app.dedupe: Duplicate story (same run): AI data centres likely to be real-estate sector's next growt ~~ AI data centres likely to be real-estate sector's next growt
+2026-07-20 11:59:16,633 [INFO] app.dedupe: Duplicate story (same run): Telecommunication Cable Market Forecast Points Higher Toward ~~ Module Plc Splitter Market Forecast Points Higher Toward 203
+2026-07-20 11:59:16,633 [INFO] app.dedupe: Duplicate story (same run): Delhi HC Rejects Interim Plea To Shift Sonam Wangchuk To Pri ~~ Delhi Traffic Advisory Issued Ahead Of Parliament Monsoon Se
+2026-07-20 11:59:16,633 [INFO] app.dedupe: Duplicate story (same run): Delhi Uber Driver With ₹80,000 Monthly Rental Income Continu ~~ Delhi Traffic Advisory Issued Ahead Of Parliament Monsoon Se
+2026-07-20 11:59:16,696 [INFO] app.dedupe: Duplicate story (same run): 🎥 #WATCH | Delhi: On July 18, Barkha Trehan, a men's rights  ~~ Delhi Traffic Advisory Issued Ahead Of Parliament Monsoon Se
+2026-07-20 11:59:16,743 [INFO] app.dedupe: Duplicate story (same run): Business News ~~ L&T wins mega orders worth over ₹10,000 crore for metals and
+2026-07-20 11:59:16,852 [INFO] app.dedupe: Duplicate story (same run): Industrial Furniture and Storage Systems Market Demand to Ac ~~ Refrigerant Pumps Market Demand to Accelerate by 2035 on Dat
+2026-07-20 11:59:16,884 [INFO] app.dedupe: Duplicate story (same run): Prysmian Signs €5.5 Billion Data Center Deal With Molex ~~ Prysmian Signs €5.5bn Molex Deal in Data Centre Expansion Dr
+2026-07-20 11:59:16,899 [INFO] app.dedupe: Duplicate story (same run): Data centre battles shaking up politics worldwide ~~ Data center battles marking politics worldwide
+2026-07-20 11:59:16,899 [INFO] app.dedupe: Duplicate story (same run): Industrial Furniture and Storage Systems Market Demand to Ac ~~ Refrigerant Pumps Market Demand to Accelerate by 2035 on Dat
+2026-07-20 11:59:16,915 [INFO] app.dedupe: Duplicate story (same run): New Era Energy & Digital (NUAI) Is Down 8.0% After FERC Ques ~~ New Era Energy & Digital (NUAI) Is Down 8.0% After PJM Opens
+2026-07-20 11:59:16,931 [INFO] app.dedupe: Duplicate story (same run): Prysmian Signs €5.5 Billion Data Center Deal With Molex ~~ Prysmian Signs €5.5bn Molex Deal in Data Centre Expansion Dr
+2026-07-20 11:59:16,946 [INFO] app.dedupe: Within-run dedup removed 94 duplicate articles
+2026-07-20 11:59:16,946 [INFO] app.main: Duplicates removed: 183 -> 89
+2026-07-20 11:59:16,946 [INFO] app.main: Above score threshold (20): 36/89
+2026-07-20 11:59:16,946 [INFO] app.main: Land/Project only: 23/36
+2026-07-20 11:59:16,946 [INFO] app.main: Top-15 selection: 23 -> 15 articles
+2026-07-20 11:59:16,946 [INFO] app.storage: Saved 15 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-20 11:59:16,946 [INFO] app.storage: Saved 88 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-20 11:59:16,946 [INFO] app.storage: Loaded 15 unsent articles from today
+2026-07-20 11:59:16,946 [INFO] app.main: Building individual article cards for 15/15 articles
+2026-07-20 11:59:16,946 [INFO] app.main: Article 0 [project] AWS India: keywords=['[PROJECT] begins construction', '[PROJECT] investment', 'hyderabad', 'investment']
+2026-07-20 11:59:16,946 [INFO] app.main: Article 1 [land] AWS India: keywords=['[LAND] land', '[PROJECT] investment', 'hyderabad', 'investment']
+2026-07-20 11:59:16,946 [INFO] app.main: Article 2 [project] NTT: keywords=['[PROJECT] expansion', '[PROJECT] commits']
+2026-07-20 11:59:16,946 [INFO] app.main: Article 3 [project] Nxtra Data: keywords=['[PROJECT] expansion']
+2026-07-20 11:59:17,509 [WARNING] app.image_gen: OG overlay failed for article 2, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x0000028D2927A340>
+2026-07-20 11:59:17,509 [WARNING] app.image_gen: OG overlay failed for article 3, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x0000028D2927BE70>
+2026-07-20 11:59:17,525 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_2_20260720115917.png
+2026-07-20 11:59:17,525 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_3_20260720115917.png
+2026-07-20 11:59:17,525 [INFO] app.main: Article 4 [project] Pi Datacentres: keywords=['[PROJECT] expansion']
+2026-07-20 11:59:17,525 [INFO] app.main: Article 5 [project] Industry News: keywords=['[PROJECT] hyperscale campus', '[PROJECT] investment', 'hyperscale', 'campus', 'investment']
+2026-07-20 11:59:17,870 [WARNING] app.image_gen: OG overlay failed for article 5, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x0000028D293175B0>
+2026-07-20 11:59:17,885 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_5_20260720115917.png
+2026-07-20 11:59:17,885 [INFO] app.main: Article 6 [land] Net4: keywords=['[LAND] land']
+2026-07-20 11:59:18,652 [WARNING] app.image_gen: OG overlay failed for article 6, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x0000028D2944D170>
+2026-07-20 11:59:18,668 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_6_20260720115918.png
+2026-07-20 11:59:18,668 [INFO] app.main: Article 7 [project] Net4: keywords=['[PROJECT] expansion']
+2026-07-20 11:59:19,199 [WARNING] app.image_gen: OG overlay failed for article 0, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x0000028D7FBFD210>
+2026-07-20 11:59:19,215 [INFO] app.image_gen: Using OG image for article 4: Prysmian Signs €5.5bn Molex Deal in Data Centre Ex
+2026-07-20 11:59:19,215 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_0_20260720115919.png
+2026-07-20 11:59:19,215 [INFO] app.main: Article 8 [project] Industry News: keywords=['[PROJECT] announces', '[PROJECT] set up']
+2026-07-20 11:59:19,246 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_4_20260720115919.png
+2026-07-20 11:59:19,246 [INFO] app.main: Article 9 [project] Industry News: keywords=['[PROJECT] planned', 'mw']
+2026-07-20 11:59:19,293 [INFO] app.image_gen: Using OG image for article 1: Amazon Web Services Expands Hyderabad Footprint wi
+2026-07-20 11:59:19,309 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_1_20260720115919.png
+2026-07-20 11:59:19,309 [INFO] app.main: Article 10 [land] Industry News: keywords=['[LAND] land']
+2026-07-20 11:59:19,590 [INFO] app.image_gen: Using OG image for article 7: 'Big AI' Faces National Backlash: Over 140 Protest
+2026-07-20 11:59:19,622 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_7_20260720115919.png
+2026-07-20 11:59:19,622 [INFO] app.main: Article 11 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-20 11:59:19,794 [INFO] app.image_gen: Using OG image for article 9: Thane Residents Protest Amazon's Planned 422 MW Da
+2026-07-20 11:59:19,810 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_9_20260720115919.png
+2026-07-20 11:59:19,810 [INFO] app.main: Article 12 [land] Industry News: keywords=['[LAND] land']
+2026-07-20 11:59:19,888 [INFO] app.image_gen: Using OG image for article 8: Bihar To Set Up Ramdhari Singh Dinkar University I
+2026-07-20 11:59:19,919 [INFO] app.image_gen: Using OG image for article 10: Emotional Scenes! Didier Deschamps Consoles NGolo 
+2026-07-20 11:59:19,935 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_8_20260720115919.png
+2026-07-20 11:59:19,935 [INFO] app.main: Article 13 [land] Industry News: keywords=['[LAND] land']
+2026-07-20 11:59:19,951 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_10_20260720115919.png
+2026-07-20 11:59:19,951 [INFO] app.main: Article 14 [project] Industry News: keywords=['[PROJECT] launch', 'power']
+2026-07-20 11:59:20,310 [WARNING] app.image_gen: OG overlay failed for article 14, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x0000028D29782C50>
+2026-07-20 11:59:20,326 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_14_20260720115920.png
+2026-07-20 11:59:20,466 [INFO] app.image_gen: Using OG image for article 13: Lenders to Auction Wadia Realty's Thane Land for ₹
+2026-07-20 11:59:20,482 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_13_20260720115920.png
+2026-07-20 11:59:21,577 [INFO] app.image_gen: Using OG image for article 12: A legal shortcut greenlit a data center on public 
+2026-07-20 11:59:21,593 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_12_20260720115921.png
+2026-07-20 11:59:21,734 [INFO] app.image_gen: Using OG image for article 11: Chhattisgarh tops CRISIL-NITI Aayog Index for inve
+2026-07-20 11:59:21,750 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_11_20260720115921.png
+2026-07-20 11:59:21,750 [INFO] app.main: Sending 15 individual article messages
+2026-07-20 11:59:31,575 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+2026-07-20 11:59:31,575 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"Disconnected:LOGOUT"}
+2026-07-20 11:59:31,575 [WARNING] app.whatsapp_sender: Transient error (attempt 1/3) — retrying in 3s: Disconnected:LOGOUT
+2026-07-20 12:00:16,326 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+2026-07-20 12:00:16,326 [INFO] app.whatsapp_sender: Node.js output: QR_CODE_REQUIRED
+2026-07-20 12:00:16,326 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"QR_TIMEOUT"}
+2026-07-20 12:00:16,326 [WARNING] app.whatsapp_sender: Transient error (attempt 2/3) — retrying in 3s: QR_TIMEOUT
+2026-07-20 12:00:54,226 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+2026-07-20 12:00:54,226 [INFO] app.whatsapp_sender: Node.js output: QR_CODE_REQUIRED
+2026-07-20 12:00:54,226 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"QR_TIMEOUT"}
+2026-07-20 12:00:54,226 [ERROR] app.whatsapp_sender: WhatsApp send error: QR_TIMEOUT
+2026-07-20 12:00:54,226 [INFO] app.main: Sent 0/15 article messages successfully
+2026-07-20 12:00:54,226 [INFO] app.image_gen: Cleaned up 15 temp images
+2026-07-20 12:00:54,226 [INFO] __main__: Automation completed successfully
+2026-07-20 12:02:37,734 [INFO] __main__: ============================================================
+2026-07-20 12:02:37,734 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-20 12:02:37,750 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-20 12:02:37,750 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-20 12:02:38,109 [INFO] app.main:   Got 2 results
+2026-07-20 12:02:38,109 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-20 12:02:38,469 [INFO] app.main:   Got 3 results
+2026-07-20 12:02:38,469 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-20 12:02:38,584 [INFO] app.main:   Got 1 results
+2026-07-20 12:02:38,584 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-20 12:02:38,688 [INFO] app.main:   Got 6 results
+2026-07-20 12:02:38,704 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-20 12:02:39,048 [INFO] app.main:   Got 6 results
+2026-07-20 12:02:39,048 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-20 12:02:39,408 [INFO] app.main:   Got 53 results
+2026-07-20 12:02:39,424 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-20 12:02:39,800 [INFO] app.main:   Got 15 results
+2026-07-20 12:02:39,800 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-20 12:02:39,941 [INFO] app.main:   Got 49 results
+2026-07-20 12:02:39,941 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-20 12:02:40,050 [INFO] app.main:   Got 45 results
+2026-07-20 12:02:40,066 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-20 12:02:40,426 [INFO] app.main:   Got 3 results
+2026-07-20 12:02:40,426 [INFO] app.main: 24h filter: 183 -> 183 articles within last 24h
+2026-07-20 12:02:40,473 [INFO] app.dedupe: Duplicate story (same run): AI data centres likely to be real-estate sector's next growt ~~ AI data centres likely to be real-estate sector's next growt
+2026-07-20 12:02:40,488 [INFO] app.dedupe: Duplicate story (same run): AI data centres likely to be real-estate sector's next growt ~~ AI data centres likely to be real-estate sector's next growt
+2026-07-20 12:02:40,535 [INFO] app.dedupe: Duplicate story (same run): Telecommunication Cable Market Forecast Points Higher Toward ~~ Module Plc Splitter Market Forecast Points Higher Toward 203
+2026-07-20 12:02:40,551 [INFO] app.dedupe: Duplicate story (same run): Delhi HC Rejects Interim Plea To Shift Sonam Wangchuk To Pri ~~ Delhi Traffic Advisory Issued Ahead Of Parliament Monsoon Se
+2026-07-20 12:02:40,551 [INFO] app.dedupe: Duplicate story (same run): Delhi Uber Driver With ₹80,000 Monthly Rental Income Continu ~~ Delhi Traffic Advisory Issued Ahead Of Parliament Monsoon Se
+2026-07-20 12:02:40,614 [INFO] app.dedupe: Duplicate story (same run): 🎥 #WATCH | Delhi: On July 18, Barkha Trehan, a men's rights  ~~ Delhi Traffic Advisory Issued Ahead Of Parliament Monsoon Se
+2026-07-20 12:02:40,661 [INFO] app.dedupe: Duplicate story (same run): Business News ~~ L&T wins mega orders worth over ₹10,000 crore for metals and
+2026-07-20 12:02:40,755 [INFO] app.dedupe: Duplicate story (same run): Industrial Furniture and Storage Systems Market Demand to Ac ~~ Refrigerant Pumps Market Demand to Accelerate by 2035 on Dat
+2026-07-20 12:02:40,817 [INFO] app.dedupe: Duplicate story (same run): Data centre battles shaking up politics worldwide ~~ Data center battles marking politics worldwide
+2026-07-20 12:02:40,817 [INFO] app.dedupe: Duplicate story (same run): Industrial Furniture and Storage Systems Market Demand to Ac ~~ Refrigerant Pumps Market Demand to Accelerate by 2035 on Dat
+2026-07-20 12:02:40,817 [INFO] app.dedupe: Duplicate story (same run): New Era Energy & Digital (NUAI) Is Down 8.0% After FERC Ques ~~ New Era Energy & Digital (NUAI) Is Down 8.0% After PJM Opens
+2026-07-20 12:02:40,849 [INFO] app.dedupe: Within-run dedup removed 108 duplicate articles
+2026-07-20 12:02:40,864 [INFO] app.main: Duplicates removed: 183 -> 75
+2026-07-20 12:02:40,864 [INFO] app.main: Above score threshold (20): 21/75
+2026-07-20 12:02:40,864 [INFO] app.main: Land/Project only: 8/21
+2026-07-20 12:02:40,864 [INFO] app.storage: Saved 8 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-20 12:02:40,864 [INFO] app.storage: Saved 96 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-20 12:02:40,864 [INFO] app.storage: Loaded 23 unsent articles from today
+2026-07-20 12:02:40,864 [INFO] app.main: Building individual article cards for 23/23 articles
+2026-07-20 12:02:40,864 [INFO] app.main: Article 0 [project] AWS India: keywords=['[PROJECT] begins construction', '[PROJECT] investment', 'hyderabad', 'investment']
+2026-07-20 12:02:40,864 [INFO] app.main: Article 1 [land] AWS India: keywords=['[LAND] land', '[PROJECT] investment', 'hyderabad', 'investment']
+2026-07-20 12:02:40,864 [INFO] app.main: Article 2 [project] NTT: keywords=['[PROJECT] expansion', '[PROJECT] commits']
+2026-07-20 12:02:40,864 [INFO] app.main: Article 3 [project] Nxtra Data: keywords=['[PROJECT] expansion']
+2026-07-20 12:02:41,318 [WARNING] app.image_gen: OG overlay failed for article 3, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x000002BAFD08DDF0>
+2026-07-20 12:02:41,349 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_3_20260720120241.png
+2026-07-20 12:02:41,349 [INFO] app.main: Article 4 [project] Pi Datacentres: keywords=['[PROJECT] expansion']
+2026-07-20 12:02:41,380 [WARNING] app.image_gen: OG overlay failed for article 2, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x000002BAFDA95620>
+2026-07-20 12:02:41,396 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_2_20260720120241.png
+2026-07-20 12:02:41,396 [INFO] app.main: Article 5 [project] Industry News: keywords=['[PROJECT] hyperscale campus', '[PROJECT] investment', 'hyperscale', 'campus', 'investment']
+2026-07-20 12:02:41,758 [WARNING] app.image_gen: OG overlay failed for article 5, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x000002BAFDAC1620>
+2026-07-20 12:02:41,772 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_5_20260720120241.png
+2026-07-20 12:02:41,772 [INFO] app.main: Article 6 [land] Net4: keywords=['[LAND] land']
+2026-07-20 12:02:42,100 [WARNING] app.image_gen: OG overlay failed for article 6, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x000002BAFDC955D0>
+2026-07-20 12:02:42,116 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_6_20260720120242.png
+2026-07-20 12:02:42,116 [INFO] app.main: Article 7 [project] Net4: keywords=['[PROJECT] expansion']
+2026-07-20 12:02:42,350 [INFO] app.image_gen: Using OG image for article 4: Prysmian Signs €5.5bn Molex Deal in Data Centre Ex
+2026-07-20 12:02:42,382 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_4_20260720120242.png
+2026-07-20 12:02:42,382 [INFO] app.main: Article 8 [project] Industry News: keywords=['[PROJECT] announces', '[PROJECT] set up']
+2026-07-20 12:02:42,805 [WARNING] app.image_gen: OG overlay failed for article 0, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x000002BAFE5C8090>
+2026-07-20 12:02:42,805 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_0_20260720120242.png
+2026-07-20 12:02:42,805 [INFO] app.main: Article 9 [project] Industry News: keywords=['[PROJECT] planned', 'mw']
+2026-07-20 12:02:42,966 [INFO] app.image_gen: Using OG image for article 8: Bihar To Set Up Ramdhari Singh Dinkar University I
+2026-07-20 12:02:42,993 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_8_20260720120242.png
+2026-07-20 12:02:42,993 [INFO] app.main: Article 10 [land] Industry News: keywords=['[LAND] land']
+2026-07-20 12:02:43,149 [INFO] app.image_gen: Using OG image for article 7: 'Big AI' Faces National Backlash: Over 140 Protest
+2026-07-20 12:02:43,180 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_7_20260720120243.png
+2026-07-20 12:02:43,180 [INFO] app.main: Article 11 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-20 12:02:43,227 [INFO] app.image_gen: Using OG image for article 1: Amazon Web Services Expands Hyderabad Footprint wi
+2026-07-20 12:02:43,243 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_1_20260720120243.png
+2026-07-20 12:02:43,243 [INFO] app.main: Article 12 [land] Industry News: keywords=['[LAND] land']
+2026-07-20 12:02:43,305 [INFO] app.image_gen: Using OG image for article 9: Thane Residents Protest Amazon's Planned 422 MW Da
+2026-07-20 12:02:43,321 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_9_20260720120243.png
+2026-07-20 12:02:43,321 [INFO] app.main: Article 13 [land] Industry News: keywords=['[LAND] land']
+2026-07-20 12:02:43,556 [INFO] app.image_gen: Using OG image for article 10: Emotional Scenes! Didier Deschamps Consoles NGolo 
+2026-07-20 12:02:43,587 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_10_20260720120243.png
+2026-07-20 12:02:43,587 [INFO] app.main: Article 14 [project] Industry News: keywords=['[PROJECT] launch', 'power']
+2026-07-20 12:02:43,654 [INFO] app.image_gen: Using OG image for article 13: Lenders to Auction Wadia Realty's Thane Land for ₹
+2026-07-20 12:02:43,681 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_13_20260720120243.png
+2026-07-20 12:02:43,681 [INFO] app.main: Article 15 [project] Industry News: keywords=['[PROJECT] expansion', 'mw']
+2026-07-20 12:02:43,916 [WARNING] app.image_gen: OG overlay failed for article 14, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x000002BAFF7B3060>
+2026-07-20 12:02:43,932 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_14_20260720120243.png
+2026-07-20 12:02:43,932 [INFO] app.main: Article 16 [project] Industry News: keywords=['[PROJECT] expansion']
+2026-07-20 12:02:44,120 [INFO] app.image_gen: No OG image found for article 16, generating card
+2026-07-20 12:02:44,120 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_16_20260720120244.png
+2026-07-20 12:02:44,120 [INFO] app.main: Article 17 [project] Industry News: keywords=['[PROJECT] expansion']
+2026-07-20 12:02:44,167 [INFO] app.image_gen: Using OG image for article 15: L&T Vyoma Plans 200 MW Data Center Expansion by FY
+2026-07-20 12:02:44,183 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_15_20260720120244.png
+2026-07-20 12:02:44,183 [INFO] app.main: Article 18 [project] Industry News: keywords=['[PROJECT] inaugurates']
+2026-07-20 12:02:44,495 [WARNING] app.image_gen: OG overlay failed for article 17, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x000002BA800280E0>
+2026-07-20 12:02:44,511 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_17_20260720120244.png
+2026-07-20 12:02:44,511 [INFO] app.main: Article 19 [project] Industry News: keywords=['[PROJECT] expansion']
+2026-07-20 12:02:44,731 [INFO] app.image_gen: Using OG image for article 12: A legal shortcut greenlit a data center on public 
+2026-07-20 12:02:44,746 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_12_20260720120244.png
+2026-07-20 12:02:44,746 [INFO] app.main: Article 20 [project] Industry News: keywords=['[PROJECT] expansion']
+2026-07-20 12:02:44,825 [INFO] app.image_gen: No OG image found for article 18, generating card
+2026-07-20 12:02:44,841 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_18_20260720120244.png
+2026-07-20 12:02:44,841 [INFO] app.main: Article 21 [project] Industry News: keywords=['[PROJECT] to build']
+2026-07-20 12:02:45,122 [INFO] app.image_gen: Using OG image for article 21: Nonprofit Current AI is racing to build the World 
+2026-07-20 12:02:45,154 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_21_20260720120245.png
+2026-07-20 12:02:45,154 [INFO] app.main: Article 22 [project] Industry News: keywords=['[PROJECT] opens']
+2026-07-20 12:02:45,529 [INFO] app.image_gen: Using OG image for article 11: Chhattisgarh tops CRISIL-NITI Aayog Index for inve
+2026-07-20 12:02:45,544 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_11_20260720120245.png
+2026-07-20 12:02:45,795 [INFO] app.image_gen: Using OG image for article 20: Module Plc Splitter Market Forecast Points Higher 
+2026-07-20 12:02:45,827 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_20_20260720120245.png
+2026-07-20 12:02:46,375 [INFO] app.image_gen: Using OG image for article 22: New Era Energy & Digital (NUAI) Is Down 8.0% After
+2026-07-20 12:02:46,406 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_22_20260720120246.png
+2026-07-20 12:02:46,547 [INFO] app.image_gen: Using OG image for article 19: Refrigerant Pumps Market Demand to Accelerate by 2
+2026-07-20 12:02:46,563 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_19_20260720120246.png
+2026-07-20 12:02:46,563 [INFO] app.main: Sending 23 individual article messages
+2026-07-20 12:03:45,597 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+2026-07-20 12:03:45,613 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"image"},{"index":1,"status":"sent","message_id":null,"type":"image"},{"index":2,"status":"sent","message_id":null,"type":"image"},{"index":3,"status":"sent","message_id":null,"type":"image"},{"index":4,"status":"sent","message_id":null,"type":"image"},{"index":5,"status":"sent","message_id":null,"type":"image"},{"index":6,"status":"sent","message_id":null,"type":"image"},{"index":7,"status":"sent","message_id":null,"type":"image"},{"index":8,"status":"sent","message_id":null,"type":"image"},{"index":9,"status":"sent","message_id":null,"type":"image"},{"index":10,"status":"sent","message_id":null,"type":"image"},{"index":11,"status":"sent","message_id":null,"type":"image"},{"index":12,"status":"sent","message_id":null,"type":"image"},{"index":13,"status":"sent","message_id":null,"type":"image"},{"index":14,"status":"sent","message_id":null,"type":"image"},{"index":15,"status":"sent","message_id":null,"type":"image"},{"index":16,"status":"sent","message_id":null,"type":"image"},{"index":17,"status":"sent","message_id":null,"type":"image"},{"index":18,"status":"sent","message_id":null,"type":"image"},{"index":19,"status":"sent","message_id":null,"type":"image"},{"index":20,"status":"sent","message_id":null,"type":"image"},{"index":21,"status":"sent","message_id":null,"type":"image"},{"index":22,"status":"sent","message_id":null,"type":"image"}],"chat_id":"120363410375552266@g.us","total":23,"sent":23,"failed":0}
+2026-07-20 12:03:45,613 [INFO] app.whatsapp_sender: Messages sent: 23 OK, 0 failed
+2026-07-20 12:03:45,613 [INFO] app.main: Sent 23/23 article messages successfully
+2026-07-20 12:03:45,628 [INFO] app.main: Sending summary digest message
+2026-07-20 12:05:18,046 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+2026-07-20 12:05:18,046 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"Initialization timed out after 90s"}
+2026-07-20 12:05:18,046 [WARNING] app.whatsapp_sender: Transient error (attempt 1/3) — retrying in 3s: Initialization timed out after 90s
+2026-07-20 12:06:53,548 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+2026-07-20 12:06:53,548 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"Initialization timed out after 90s"}
+2026-07-20 12:06:53,548 [WARNING] app.whatsapp_sender: Transient error (attempt 2/3) — retrying in 3s: Initialization timed out after 90s
+2026-07-20 12:08:29,057 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+2026-07-20 12:08:29,057 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"Initialization timed out after 90s"}
+2026-07-20 12:08:29,057 [ERROR] app.whatsapp_sender: WhatsApp send error: Initialization timed out after 90s
+2026-07-20 12:08:29,057 [INFO] app.storage: Marked 23 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-20 12:08:29,057 [INFO] app.image_gen: Cleaned up 23 temp images
+2026-07-20 12:08:29,057 [INFO] __main__: Automation completed successfully
+2026-07-20 16:00:04,736 [INFO] __main__: ============================================================
+2026-07-20 16:00:04,736 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-20 16:00:04,741 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-20 16:00:04,741 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-20 16:00:06,862 [INFO] app.main:   Got 2 results
+2026-07-20 16:00:06,878 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-20 16:00:11,257 [INFO] app.main:   Got 3 results
+2026-07-20 16:00:11,257 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-20 16:00:14,009 [INFO] app.main:   Got 1 results
+2026-07-20 16:00:14,025 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-20 16:00:17,355 [INFO] app.main:   Got 7 results
+2026-07-20 16:00:17,355 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-20 16:00:20,904 [INFO] app.main:   Got 12 results
+2026-07-20 16:00:20,904 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-20 16:00:28,478 [INFO] app.main:   Got 52 results
+2026-07-20 16:00:28,493 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-20 16:00:30,856 [INFO] app.main:   Got 19 results
+2026-07-20 16:00:30,871 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-20 16:00:37,550 [INFO] app.main:   Got 54 results
+2026-07-20 16:00:37,550 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-20 16:00:40,066 [INFO] app.main:   Got 55 results
+2026-07-20 16:00:40,082 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-20 16:00:43,399 [INFO] app.main:   Got 3 results
+2026-07-20 16:00:43,415 [INFO] app.main: 24h filter: 208 -> 208 articles within last 24h
+2026-07-20 16:00:43,462 [INFO] app.dedupe: Duplicate story (same run): Pace Digitek arm partners MEGMEET to expand into AI data cen ~~ Pace Digitek expands AI data centre power portfolio through 
+2026-07-20 16:00:43,462 [INFO] app.dedupe: Duplicate story (same run): ‘Airtel data center arm Nxtra’s revenue from operations up b ~~ Airtel's data center arm to expand capacity to 1GW
+2026-07-20 16:00:43,477 [INFO] app.dedupe: Duplicate story (same run): Reliance Share Price Holds Firm Despite Q1 Profit Fall as Ji ~~ Reliance Jio releases standalone financial results for QE Ju
+2026-07-20 16:00:43,477 [INFO] app.dedupe: Duplicate story (same run): ‘Airtel data center arm Nxtra’s revenue from operations up b ~~ Airtel's data center arm to expand capacity to 1GW
+2026-07-20 16:00:43,477 [INFO] app.dedupe: Duplicate story (same run): Airtel's Nxtra targets 1 gigawatt amid AI and cloud surge ~~ Airtel's Nxtra targets 1 GW AI-ready data centre capacity: C
+2026-07-20 16:00:43,509 [INFO] app.dedupe: Duplicate story (same run): ‘Airtel data center arm Nxtra’s revenue from operations up b ~~ Airtel's data center arm to expand capacity to 1GW
+2026-07-20 16:00:43,509 [INFO] app.dedupe: Duplicate story (same run): AI data centres likely to be real-estate sector's next growt ~~ AI data centres likely to be real-estate sector's next growt
+2026-07-20 16:00:43,509 [INFO] app.dedupe: Duplicate story (same run): Airtel's Nxtra targets 1 gigawatt amid AI and cloud surge ~~ Airtel's Nxtra targets 1 GW AI-ready data centre capacity: C
+2026-07-20 16:00:43,509 [INFO] app.dedupe: Duplicate story (same run): Pace Digitek rises on AI data centre partnership ~~ Pace Digitek expands AI data centre power portfolio through 
+2026-07-20 16:00:43,524 [INFO] app.dedupe: Duplicate story (same run): ‘Airtel data center arm Nxtra’s revenue from operations up b ~~ Airtel's data center arm to expand capacity to 1GW
+2026-07-20 16:00:43,524 [INFO] app.dedupe: Duplicate story (same run): Airtel's Nxtra targets 1 gigawatt amid AI and cloud surge ~~ Airtel's Nxtra targets 1 GW AI-ready data centre capacity: C
+2026-07-20 16:00:43,571 [INFO] app.dedupe: Duplicate story (same run): Delhi HC Rejects Interim Plea To Shift Sonam Wangchuk To Pri ~~ Delhi Traffic Advisory Issued Ahead Of Parliament Monsoon Se
+2026-07-20 16:00:43,571 [INFO] app.dedupe: Duplicate story (same run): Delhi Uber Driver With ₹80,000 Monthly Rental Income Continu ~~ Delhi Traffic Advisory Issued Ahead Of Parliament Monsoon Se
+2026-07-20 16:00:43,602 [INFO] app.dedupe: Duplicate story (same run): Pace Digitek Partners MEGMEET for AI Data Center Power Solut ~~ Pace Digitek expands AI data centre power portfolio through 
+2026-07-20 16:00:43,618 [INFO] app.dedupe: Duplicate story (same run): Pace Digitek Partners MEGMEET for AI Data Center Power Solut ~~ Pace Digitek expands AI data centre power portfolio through 
+2026-07-20 16:00:43,618 [INFO] app.dedupe: Duplicate story (same run): Sonam Wangchuks Wife Assaulted By Delhi Police: CJP Spokespe ~~ Delhi Traffic Advisory Issued Ahead Of Parliament Monsoon Se
+2026-07-20 16:00:43,618 [INFO] app.dedupe: Duplicate story (same run): Vertiv Hosts Delhi Masterclass on AI-Ready Data Centre ~~ Vertiv hosts high-density data centre masterclass
+2026-07-20 16:00:43,681 [INFO] app.dedupe: Duplicate story (same run): Business News ~~ This business of Mukesh Ambani becomes profitable for first 
+2026-07-20 16:00:43,790 [INFO] app.dedupe: Duplicate story (same run): OpenAl elevates Uday Ruddaraju to CTO ~~ Meet Uday Ruddaraju, OpenAI's new Indian-origin CTO of Compu
+2026-07-20 16:00:43,806 [INFO] app.dedupe: Duplicate story (same run): Stone Honeycomb Panels Market Demand to Accelerate by 2035 o ~~ Industrial Furniture and Storage Systems Market Demand to Ac
+2026-07-20 16:00:43,853 [INFO] app.dedupe: Duplicate story (same run): Gujarat's Data Centre Push Could Drive 45 GW Solar Demand: N ~~ Gujarat’s Rs 6 trillion data centre bet may trigger 45 GW so
+2026-07-20 16:00:43,868 [INFO] app.dedupe: Duplicate story (same run): OpenAl elevates Uday Ruddaraju to CTO ~~ Meet Uday Ruddaraju, OpenAI's new Indian-origin CTO of Compu
+2026-07-20 16:00:43,884 [INFO] app.dedupe: Duplicate story (same run): Stone Honeycomb Panels Market Demand to Accelerate by 2035 o ~~ Industrial Furniture and Storage Systems Market Demand to Ac
+2026-07-20 16:00:43,900 [INFO] app.dedupe: Duplicate story (same run): Solar startups raise over $1 bn ~~ Solar startups raise over $1 bn
+2026-07-20 16:00:43,915 [INFO] app.dedupe: Within-run dedup removed 136 duplicate articles
+2026-07-20 16:00:43,915 [INFO] app.main: Duplicates removed: 208 -> 72
+2026-07-20 16:00:43,915 [INFO] app.main: Above score threshold (20): 21/72
+2026-07-20 16:00:43,915 [INFO] app.main: Land/Project only: 7/21
+2026-07-20 16:00:43,915 [INFO] app.storage: Saved 7 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-20 16:00:43,915 [INFO] app.storage: Saved 103 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-20 16:00:43,915 [INFO] app.storage: Loaded 7 unsent articles from today
+2026-07-20 16:00:43,915 [INFO] app.main: Building individual article cards for 7/7 articles
+2026-07-20 16:00:43,915 [INFO] app.main: Article 0 [land] Sify Technologies: keywords=['[LAND] land']
+2026-07-20 16:00:43,915 [INFO] app.main: Article 1 [land] Industry News: keywords=['[LAND] land', 'power']
+2026-07-20 16:00:43,915 [INFO] app.main: Article 2 [project] Industry News: keywords=['[PROJECT] expansion', 'capacity']
+2026-07-20 16:00:43,915 [INFO] app.main: Article 3 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-20 16:00:44,525 [INFO] app.image_gen: Using OG image for article 2: Raghu Vamsi Aerospace Raises $40 Million for Capac
+2026-07-20 16:00:44,541 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_2_20260720160044.png
+2026-07-20 16:00:44,541 [INFO] app.main: Article 4 [project] Industry News: keywords=['[PROJECT] to invest', 'power']
+2026-07-20 16:00:44,682 [INFO] app.image_gen: No OG image found for article 4, generating card
+2026-07-20 16:00:44,698 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_4_20260720160044.png
+2026-07-20 16:00:44,698 [INFO] app.main: Article 5 [project] Industry News: keywords=['[PROJECT] expansion']
+2026-07-20 16:00:44,838 [INFO] app.image_gen: Using OG image for article 0: Big Tech is now targeting Native American land for
+2026-07-20 16:00:44,870 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_0_20260720160044.png
+2026-07-20 16:00:44,870 [INFO] app.main: Article 6 [project] Industry News: keywords=['[PROJECT] expansion']
+2026-07-20 16:00:44,932 [INFO] app.image_gen: No OG image found for article 3, generating card
+2026-07-20 16:00:44,948 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_3_20260720160044.png
+2026-07-20 16:00:45,198 [INFO] app.image_gen: No OG image found for article 1, generating card
+2026-07-20 16:00:45,213 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_1_20260720160045.png
+2026-07-20 16:00:45,949 [INFO] app.image_gen: Using OG image for article 6: Telecommunication Cable Market Forecast Points Hig
+2026-07-20 16:00:45,965 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_6_20260720160045.png
+2026-07-20 16:00:46,481 [INFO] app.image_gen: Using OG image for article 5: Removable Metal Floor Panels Market Growth Driven 
+2026-07-20 16:00:46,497 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_5_20260720160046.png
+2026-07-20 16:00:46,497 [INFO] app.main: Sending 7 individual article messages
+2026-07-20 16:01:09,215 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+2026-07-20 16:01:09,215 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"image"},{"index":1,"status":"sent","message_id":null,"type":"image"},{"index":2,"status":"sent","message_id":null,"type":"image"},{"index":3,"status":"sent","message_id":null,"type":"image"},{"index":4,"status":"sent","message_id":null,"type":"image"},{"index":5,"status":"sent","message_id":null,"type":"image"},{"index":6,"status":"sent","message_id":null,"type":"image"}],"chat_id":"120363410375552266@g.us","total":7,"sent":7,"failed":0}
+2026-07-20 16:01:09,215 [INFO] app.whatsapp_sender: Messages sent: 7 OK, 0 failed
+2026-07-20 16:01:09,215 [INFO] app.main: Sent 7/7 article messages successfully
+2026-07-20 16:01:10,529 [INFO] app.whatsapp_sender: Killed lingering Chrome processes
+2026-07-20 16:01:15,541 [INFO] app.main: Sending summary digest message
+2026-07-20 16:01:22,459 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+2026-07-20 16:01:22,459 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"text"}],"chat_id":"120363410375552266@g.us","total":1,"sent":1,"failed":0}
+2026-07-20 16:01:22,459 [INFO] app.whatsapp_sender: Message confirmed sent to 'unknown' (chat_id=120363410375552266@g.us, msg_id=, ack=-1)
+2026-07-20 16:01:22,459 [INFO] app.storage: Marked 7 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-20 16:01:22,459 [INFO] app.image_gen: Cleaned up 7 temp images
+2026-07-20 16:01:22,459 [INFO] __main__: Automation completed successfully
+2026-07-22 16:00:06,283 [INFO] __main__: ============================================================
+2026-07-22 16:00:06,283 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-22 16:00:06,283 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-22 16:00:06,283 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-22 16:00:13,747 [INFO] app.main:   Got 5 results
+2026-07-22 16:00:13,747 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-22 16:00:18,613 [ERROR] app.serpapi_client: SerpApi error: Google News hasn't returned any results for this query.
+2026-07-22 16:00:18,629 [INFO] app.main:   Got 0 results
+2026-07-22 16:00:18,629 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-22 16:00:22,071 [INFO] app.main:   Got 1 results
+2026-07-22 16:00:22,071 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-22 16:00:26,234 [INFO] app.main:   Got 16 results
+2026-07-22 16:00:26,234 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-22 16:00:28,582 [INFO] app.main:   Got 34 results
+2026-07-22 16:00:28,582 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-22 16:00:30,697 [INFO] app.main:   Got 55 results
+2026-07-22 16:00:30,712 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-22 16:00:32,434 [INFO] app.main:   Got 38 results
+2026-07-22 16:00:32,449 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-22 16:00:34,811 [INFO] app.main:   Got 39 results
+2026-07-22 16:00:34,827 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-22 16:00:38,112 [INFO] app.main:   Got 38 results
+2026-07-22 16:00:38,127 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-22 16:00:40,631 [INFO] app.main:   Got 4 results
+2026-07-22 16:00:40,631 [INFO] app.main: 24h filter: 230 -> 230 articles within last 24h
+2026-07-22 16:00:40,663 [INFO] app.dedupe: Duplicate story (same run): TCS Secures Vizag And Pune Land Parcels As OpenAI India Data ~~ OpenAI's First India Data Centre Set for Visakhapatnam, Pune
+2026-07-22 16:00:40,663 [INFO] app.dedupe: Duplicate story (same run): TCS Secures Vizag And Pune Land Parcels As OpenAI India Data ~~ OpenAI's First India Data Centre Set for Visakhapatnam, Pune
+2026-07-22 16:00:40,663 [INFO] app.dedupe: Duplicate story (same run): TCS Secures Vizag And Pune Land Parcels As OpenAI India Data ~~ OpenAI's First India Data Centre Set for Visakhapatnam, Pune
+2026-07-22 16:00:40,678 [INFO] app.dedupe: Duplicate story (same run): TCS Secures Land in Anakapalli, Pune for AI Data Centre Expa ~~ OpenAI's First India Data Centre Set for Visakhapatnam, Pune
+2026-07-22 16:00:40,678 [INFO] app.dedupe: Duplicate story (same run): TCS Secures Land in Anakapalli, Pune for AI Data Centre Expa ~~ OpenAI's First India Data Centre Set for Visakhapatnam, Pune
+2026-07-22 16:00:40,694 [INFO] app.dedupe: Duplicate story (same run): TCS Secures Land in Anakapalli, Pune for AI Data Centre Expa ~~ OpenAI's First India Data Centre Set for Visakhapatnam, Pune
+2026-07-22 16:00:40,725 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Jaipu ~~ ST Telemedia Global Data Centres Launches Rajasthan’s First 
+2026-07-22 16:00:40,725 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Jaipu ~~ ST Telemedia Global Data Centres Launches Rajasthan’s First 
+2026-07-22 16:00:40,741 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Jaipu ~~ ST Telemedia Global Data Centres Launches Rajasthan’s First 
+2026-07-22 16:00:40,741 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Jaipu ~~ ST Telemedia Global Data Centres Launches Rajasthan’s First 
+2026-07-22 16:00:40,741 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Jaipu ~~ ST Telemedia Global Data Centres Launches Rajasthan’s First 
+2026-07-22 16:00:40,756 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Jaipu ~~ ST Telemedia Global Data Centres Launches Rajasthan’s First 
+2026-07-22 16:00:40,756 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Jaipu ~~ ST Telemedia Global Data Centres Launches Rajasthan’s First 
+2026-07-22 16:00:40,772 [INFO] app.dedupe: Duplicate story (same run): Q1 Results Today: IndusInd Bank, Tata Communications, Adani  ~~ Waaree, Premier, Vikram, Tata Power, Adani Energy, To Coal I
+2026-07-22 16:00:40,788 [INFO] app.dedupe: Duplicate story (same run): Reliance Retail's Tira brings K-beauty brand Dr. Melaxin to  ~~ Reliance Retail's Tira brings viral Korean skincare brand Dr
+2026-07-22 16:00:40,819 [INFO] app.dedupe: Duplicate story (same run): Jio vs Airtel: Why does Airtel earn more per user despite ha ~~ Airtel ARPU Gap: Why Airtel Earns More Than Jio
+2026-07-22 16:00:40,834 [INFO] app.dedupe: Duplicate story (same run): India Data Center Capacity Hits 1.8 GW, Pushing Expansion to ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:40,850 [INFO] app.dedupe: Duplicate story (same run): India's new data centre capacity rises 59% in January-June ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:40,850 [INFO] app.dedupe: Duplicate story (same run): India Data Center Capacity Hits 1.8 GW, Pushing Expansion to ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:40,866 [INFO] app.dedupe: Duplicate story (same run): India Data Center Capacity Hits 1.8 GW, Pushing Expansion to ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:40,866 [INFO] app.dedupe: Duplicate story (same run): India Data Center Capacity Hits 1.8 GW, Pushing Expansion to ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:40,928 [INFO] app.dedupe: Duplicate story (same run): Petition aims to reverse Cheyenne City Council’s decision on ~~ Petition aims to reverse Council’s 3,460-acre data center an
+2026-07-22 16:00:40,975 [INFO] app.dedupe: Duplicate story (same run): India Data Center Capacity Hits 1.8 GW After 258 MW H1 Jump ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:40,991 [INFO] app.dedupe: Duplicate story (same run): India Data Center Capacity Hits 1.8 GW After 258 MW H1 Jump ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:40,991 [INFO] app.dedupe: Duplicate story (same run): India Data Center Capacity Hits 1.8 GW After 258 MW H1 Jump ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:40,991 [INFO] app.dedupe: Duplicate story (same run): India Data Center Capacity Hits 1.8 GW After 258 MW H1 Jump ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,006 [INFO] app.dedupe: Duplicate story (same run): India’s data centre capacity expected to exceed 6.5 GW by 20 ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,022 [INFO] app.dedupe: Duplicate story (same run): India's installed data centre capacity to grow over four-fol ~~ India’s Installed Data Centre Capacity to Grow Over 4x from 
+2026-07-22 16:00:41,022 [INFO] app.dedupe: Duplicate story (same run): India’s data centre capacity likely to quadruple to 6.5 GW b ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,022 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,037 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity Surges 59% in H1 2026, Forecast ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,037 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity Surges 59% in H1 2026, Forecast ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,053 [INFO] app.dedupe: Duplicate story (same run): India's installed data centre capacity to grow over four-fol ~~ India’s Installed Data Centre Capacity to Grow Over 4x from 
+2026-07-22 16:00:41,053 [INFO] app.dedupe: Duplicate story (same run): India’s data centre capacity expected to exceed 6.5 GW by 20 ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,069 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity Surges 59% in H1 2026, Forecast ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,069 [INFO] app.dedupe: Duplicate story (same run): India’s data centre capacity expected to exceed 6.5 GW by 20 ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,069 [INFO] app.dedupe: Duplicate story (same run): Data Centre Boom: India’s Capacity to Quadruple to 6.5 GW by ~~ India’s Installed Data Centre Capacity to Grow Over 4x from 
+2026-07-22 16:00:41,084 [INFO] app.dedupe: Duplicate story (same run): India's installed data centre capacity to grow over four-fol ~~ India’s Installed Data Centre Capacity to Grow Over 4x from 
+2026-07-22 16:00:41,084 [INFO] app.dedupe: Duplicate story (same run): India’s data centre capacity likely to quadruple to 6.5 GW b ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,084 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India Data Centre Capacity Adds 258 MW in H1
+2026-07-22 16:00:41,116 [INFO] app.dedupe: Duplicate story (same run): Amazon Project Kuiper Targets India for Satellite Broadband ~~ Amazon Leo Eyes India for Global Satellite Internet Expansio
+2026-07-22 16:00:41,116 [INFO] app.dedupe: Duplicate story (same run): India’s Coal Self-Reliance Push: Govt Takes Major Steps to B ~~ Reliance Retail's Tira brings viral Korean skincare brand Dr
+2026-07-22 16:00:41,147 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ ST Telemedia Global Data Centres Launches Rajasthan’s First 
+2026-07-22 16:00:41,147 [INFO] app.dedupe: Duplicate story (same run): Centre Reviews Data Centre Policies Across 15 States After D ~~ Delhi data centre fire sparks a nationwide operations safety
+2026-07-22 16:00:41,163 [INFO] app.dedupe: Duplicate story (same run): Centre Reviews Data Centre Policies Across 15 States After D ~~ Delhi data centre fire sparks a nationwide operations safety
+2026-07-22 16:00:41,178 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ ST Telemedia Global Data Centres Launches Rajasthan’s First 
+2026-07-22 16:00:41,194 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ ST Telemedia Global Data Centres Launches Rajasthan’s First 
+2026-07-22 16:00:41,257 [INFO] app.dedupe: Duplicate story (same run): The infrastructure revolution no one saw coming: Tier II cit ~~ The infrastructure revolution no one saw coming: Tier II cit
+2026-07-22 16:00:41,319 [INFO] app.dedupe: Duplicate story (same run): The infrastructure revolution no one saw coming: Tier II cit ~~ The infrastructure revolution no one saw coming: Tier II cit
+2026-07-22 16:00:41,350 [INFO] app.dedupe: Duplicate story (same run): Data centre safety under review; Bira 91’s Ankur Jain steps  ~~ Data centre safety under review; Bira 91’s Ankur Jain steps 
+2026-07-22 16:00:41,350 [INFO] app.dedupe: Duplicate story (same run): Anant Raj to demerge data centre arm into separately listed  ~~ Anant Raj Demerges Data Centre, Cloud Business into Ashok Cl
+2026-07-22 16:00:41,366 [INFO] app.dedupe: Duplicate story (same run): Anant Raj Demerger: Data Centre And Cloud Business To Be Spl ~~ Anant Raj Demerges Data Centre, Cloud Business into Ashok Cl
+2026-07-22 16:00:41,366 [INFO] app.dedupe: Duplicate story (same run): Anant Raj to demerge data centre arm into separately listed  ~~ Anant Raj Demerges Data Centre, Cloud Business into Ashok Cl
+2026-07-22 16:00:41,382 [INFO] app.dedupe: Duplicate story (same run): Anant Raj Plans Data Center Business Demerger ~~ Anant Raj Demerges Data Centre, Cloud Business into Ashok Cl
+2026-07-22 16:00:41,382 [INFO] app.dedupe: Duplicate story (same run): The infrastructure revolution no one saw coming: Tier II cit ~~ The infrastructure revolution no one saw coming: Tier II cit
+2026-07-22 16:00:41,398 [INFO] app.dedupe: Within-run dedup removed 147 duplicate articles
+2026-07-22 16:00:41,398 [INFO] app.main: Duplicates removed: 230 -> 83
+2026-07-22 16:00:41,398 [INFO] app.main: Above score threshold (20): 45/83
+2026-07-22 16:00:41,398 [INFO] app.main: Land/Project only: 23/45
+2026-07-22 16:00:41,398 [INFO] app.main: Top-15 selection: 23 -> 15 articles
+2026-07-22 16:00:41,398 [INFO] app.storage: Saved 15 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-22 16:00:41,398 [INFO] app.storage: Saved 118 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-22 16:00:41,398 [INFO] app.storage: Loaded 15 unsent articles from today
+2026-07-22 16:00:41,398 [INFO] app.main: Building individual article cards for 15/15 articles
+2026-07-22 16:00:41,398 [INFO] app.main: Article 0 [land] Pi Datacentres: keywords=['[LAND] land', '[LAND] land parcel', '[LAND] land parcel', 'pune']
+2026-07-22 16:00:41,398 [INFO] app.main: Article 1 [land] Pi Datacentres: keywords=['[LAND] land', '[LAND] acquires land', '[PROJECT] set up', 'maharashtra']
+2026-07-22 16:00:41,398 [INFO] app.main: Article 2 [land] Pi Datacentres: keywords=['[LAND] land', '[LAND] acquires land']
+2026-07-22 16:00:41,398 [INFO] app.main: Article 3 [land] Pi Datacentres: keywords=['[LAND] acre', '[LAND] acres']
+2026-07-22 16:00:41,945 [INFO] app.image_gen: Using OG image for article 0: OpenAI's First India Data Centre Set for Visakhapa
+2026-07-22 16:00:41,960 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_0_20260722160041.png
+2026-07-22 16:00:41,960 [INFO] app.main: Article 4 [land] Industry News: keywords=['[LAND] land', '[LAND] acre', '[LAND] acres']
+2026-07-22 16:00:42,085 [INFO] app.image_gen: Using OG image for article 1: Tata acquires land in Andhra Pradesh and Maharasht
+2026-07-22 16:00:42,117 [INFO] app.image_gen: Using OG image for article 3: TCS Secures 200 Acres Near Vizag for AI Data Centr
+2026-07-22 16:00:42,132 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_1_20260722160042.png
+2026-07-22 16:00:42,132 [INFO] app.main: Article 5 [project] STT GDC India: keywords=['[PROJECT] launch']
+2026-07-22 16:00:42,148 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_3_20260722160042.png
+2026-07-22 16:00:42,148 [INFO] app.main: Article 6 [project] Microsoft: keywords=['[PROJECT] investment', 'investment']
+2026-07-22 16:00:42,164 [INFO] app.image_gen: Using OG image for article 2: Tata acquires land in India for OpenAI data center
+2026-07-22 16:00:42,164 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_2_20260722160042.png
+2026-07-22 16:00:42,164 [INFO] app.main: Article 7 [land] Industry News: keywords=['[LAND] land', '[PROJECT] launch', 'power']
+2026-07-22 16:00:42,430 [INFO] app.image_gen: Using OG image for article 4: MP plans to reclaim Patanjali's allotted land: 419
+2026-07-22 16:00:42,477 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_4_20260722160042.png
+2026-07-22 16:00:42,477 [INFO] app.main: Article 8 [project] Net4: keywords=['[PROJECT] commits']
+2026-07-22 16:00:42,727 [INFO] app.image_gen: No OG image found for article 8, generating card
+2026-07-22 16:00:42,743 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_8_20260722160042.png
+2026-07-22 16:00:42,743 [INFO] app.main: Article 9 [project] Industry News: keywords=['[PROJECT] investment', 'hyperscale', 'investment']
+2026-07-22 16:00:43,791 [INFO] app.image_gen: Using OG image for article 7: Beetaloo Energy Launches Digital Subsidiary and Se
+2026-07-22 16:00:43,822 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_7_20260722160043.png
+2026-07-22 16:00:43,822 [INFO] app.main: Article 10 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-22 16:00:44,276 [INFO] app.image_gen: Using OG image for article 5: ST Telemedia Global Data Centres Launches Rajastha
+2026-07-22 16:00:44,322 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_5_20260722160044.png
+2026-07-22 16:00:44,322 [INFO] app.main: Article 11 [land] Industry News: keywords=['[LAND] land', 'power']
+2026-07-22 16:00:44,369 [INFO] app.image_gen: Using OG image for article 6: Amazon vs. Microsoft: Which AI Cloud Titan Is the 
+2026-07-22 16:00:44,385 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_6_20260722160044.png
+2026-07-22 16:00:44,385 [INFO] app.main: Article 12 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-22 16:00:44,808 [INFO] app.image_gen: Using OG image for article 10: Real Estate Investment India Hits $19 Billion in Q
+2026-07-22 16:00:44,855 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_10_20260722160044.png
+2026-07-22 16:00:44,855 [INFO] app.main: Article 13 [project] Industry News: keywords=['[PROJECT] expansion']
+2026-07-22 16:00:45,042 [INFO] app.image_gen: Using OG image for article 11: Hedgehog USA Signs Strategic Energy Supply Agreeme
+2026-07-22 16:00:45,058 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_11_20260722160045.png
+2026-07-22 16:00:45,058 [INFO] app.main: Article 14 [land] Industry News: keywords=['[LAND] land']
+2026-07-22 16:00:45,089 [INFO] app.image_gen: Using OG image for article 9: Hyperscalers Face Rising Costs Amid AI Investment 
+2026-07-22 16:00:45,120 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_9_20260722160045.png
+2026-07-22 16:00:45,449 [INFO] app.image_gen: Using OG image for article 13: Amazon Leo Eyes India for Global Satellite Interne
+2026-07-22 16:00:45,480 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_13_20260722160045.png
+2026-07-22 16:00:45,496 [INFO] app.image_gen: Using OG image for article 14: Telin & BW Digital land subsea cable in Batam, Ind
+2026-07-22 16:00:45,527 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_14_20260722160045.png
+2026-07-22 16:00:45,715 [INFO] app.image_gen: Using OG image for article 12: AI investment boom puts Big Tech's free cash flow 
+2026-07-22 16:00:45,731 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_12_20260722160045.png
+2026-07-22 16:00:45,731 [INFO] app.main: Sending 15 individual article messages
+2026-07-22 16:01:32,513 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+2026-07-22 16:01:32,513 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"image"},{"index":1,"status":"sent","message_id":null,"type":"image"},{"index":2,"status":"sent","message_id":null,"type":"image"},{"index":3,"status":"sent","message_id":null,"type":"image"},{"index":4,"status":"sent","message_id":null,"type":"image"},{"index":5,"status":"sent","message_id":null,"type":"image"},{"index":6,"status":"sent","message_id":null,"type":"image"},{"index":7,"status":"sent","message_id":null,"type":"image"},{"index":8,"status":"sent","message_id":null,"type":"image"},{"index":9,"status":"sent","message_id":null,"type":"image"},{"index":10,"status":"sent","message_id":null,"type":"image"},{"index":11,"status":"sent","message_id":null,"type":"image"},{"index":12,"status":"sent","message_id":null,"type":"image"},{"index":13,"status":"sent","message_id":null,"type":"image"},{"index":14,"status":"sent","message_id":null,"type":"image"}],"chat_id":"120363410375552266@g.us","total":15,"sent":15,"failed":0}
+2026-07-22 16:01:32,513 [INFO] app.whatsapp_sender: Messages sent: 15 OK, 0 failed
+2026-07-22 16:01:32,513 [INFO] app.main: Sent 15/15 article messages successfully
+2026-07-22 16:01:33,842 [INFO] app.whatsapp_sender: Killed lingering Chrome processes
+2026-07-22 16:01:38,857 [INFO] app.main: Sending summary digest message
+2026-07-22 16:01:45,939 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-07-22 16:01:45,939 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"text"}],"chat_id":"120363410375552266@g.us","total":1,"sent":1,"failed":0}
+2026-07-22 16:01:45,939 [INFO] app.whatsapp_sender: Message confirmed sent to 'unknown' (chat_id=120363410375552266@g.us, msg_id=, ack=-1)
+2026-07-22 16:01:45,955 [INFO] app.storage: Marked 15 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-22 16:01:45,955 [INFO] app.image_gen: Cleaned up 15 temp images
+2026-07-22 16:01:45,955 [INFO] __main__: Automation completed successfully
+2026-07-23 10:00:05,967 [INFO] __main__: ============================================================
+2026-07-23 10:00:05,967 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-23 10:00:05,967 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-23 10:00:05,967 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-23 10:00:08,189 [INFO] app.main:   Got 1 results
+2026-07-23 10:00:08,189 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-23 10:00:10,349 [INFO] app.main:   Got 1 results
+2026-07-23 10:00:10,349 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-23 10:00:20,536 [ERROR] app.serpapi_client: SerpApi error: Google News hasn't returned any results for this query.
+2026-07-23 10:00:20,536 [INFO] app.main:   Got 0 results
+2026-07-23 10:00:20,536 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-23 10:00:22,774 [INFO] app.main:   Got 25 results
+2026-07-23 10:00:22,774 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-23 10:00:28,578 [INFO] app.main:   Got 22 results
+2026-07-23 10:00:28,594 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-23 10:00:31,692 [INFO] app.main:   Got 43 results
+2026-07-23 10:00:31,708 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-23 10:00:34,431 [INFO] app.main:   Got 26 results
+2026-07-23 10:00:34,431 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-23 10:00:37,327 [INFO] app.main:   Got 51 results
+2026-07-23 10:00:37,343 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-23 10:00:39,736 [INFO] app.main:   Got 43 results
+2026-07-23 10:00:39,752 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-23 10:00:41,708 [INFO] app.main:   Got 1 results
+2026-07-23 10:00:41,708 [INFO] app.main: 24h filter: 213 -> 213 articles within last 24h
+2026-07-23 10:00:41,755 [INFO] app.dedupe: Duplicate story (same run): Environment News | OpenAI Announces 3.2 GW AI Data Centre Ca ~~ OpenAI announces 3.2 GW AI data centre campus in Georgia
+2026-07-23 10:00:41,770 [INFO] app.dedupe: Duplicate story (same run): Reliance Retail launches AJIO Beauty to expand presence in I ~~ Reliance launches AJIO Beauty to capture India's booming mar
+2026-07-23 10:00:41,786 [INFO] app.dedupe: Duplicate story (same run): HCLTech likely to build its first India data centre in Odish ~~ HCLTech to Build First India Data Centre in Odisha, Targets 
+2026-07-23 10:00:41,802 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Jaipu ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:41,802 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Jaipu ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:41,802 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Jaipu ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:41,817 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Rajas ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:41,817 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Rajas ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:41,833 [INFO] app.dedupe: Duplicate story (same run): STT GDC India launches high-performance data centre in Rajas ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:41,895 [INFO] app.dedupe: Duplicate story (same run): STT Jaipur 1 data centre opens in India ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:41,895 [INFO] app.dedupe: Duplicate story (same run): STT Jaipur 1 data centre opens in India ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:41,895 [INFO] app.dedupe: Duplicate story (same run): STT Jaipur 1 data centre opens in India ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:41,911 [INFO] app.dedupe: Duplicate story (same run): STT Jaipur 1 data centre opens in India ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:41,911 [INFO] app.dedupe: Duplicate story (same run): STT Jaipur 1 data centre opens in India ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:42,037 [INFO] app.dedupe: Duplicate story (same run): India’s Data Centre Capacity Set to Quadruple to 6.5 GW by 2 ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 10:00:42,052 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India Data Center Capacity Hits 1.8 GW, Pushing Expansion to
+2026-07-23 10:00:42,052 [INFO] app.dedupe: Duplicate story (same run): India’s Data Centre Capacity Set to Quadruple to 6.5 GW by 2 ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 10:00:42,068 [INFO] app.dedupe: Duplicate story (same run): India’s Data Centre Capacity Likely To Quadruple To 6.5 GW B ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 10:00:42,068 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India Data Center Capacity Hits 1.8 GW, Pushing Expansion to
+2026-07-23 10:00:42,084 [INFO] app.dedupe: Duplicate story (same run): India’s Data Centre Capacity Set to Quadruple to 6.5 GW by 2 ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 10:00:42,084 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India Data Center Capacity Hits 1.8 GW, Pushing Expansion to
+2026-07-23 10:00:42,115 [INFO] app.dedupe: Duplicate story (same run): Value Addition Through Food Processing Is India's Next Prior ~~ Reliance launches AJIO Beauty to capture India's booming mar
+2026-07-23 10:00:42,146 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:42,162 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:42,162 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ STT GDC India launches high-performance data centre in Jaipu
+2026-07-23 10:00:42,193 [INFO] app.dedupe: Duplicate story (same run): Tech giants ai spending fuels 1 65 trillion hidden debt ~~ How AI data centre spending is creating hidden debt for tech
+2026-07-23 10:00:42,287 [INFO] app.dedupe: Duplicate story (same run): Anant Raj to demerge data centre arm into separately listed  ~~ Anant Raj to demerge its data centre business into separate 
+2026-07-23 10:00:42,303 [INFO] app.dedupe: Duplicate story (same run): Anant Raj demerger: Data centre arm to spin out as separate  ~~ Anant Raj to demerge its data centre business into separate 
+2026-07-23 10:00:42,334 [INFO] app.dedupe: Duplicate story (same run): Anant Raj Demerger: Data Centre And Cloud Business To Be Spl ~~ Anant Raj to demerge its data centre business into separate 
+2026-07-23 10:00:42,350 [INFO] app.dedupe: Duplicate story (same run): HFCL Plans ₹215 Crore Facility For Data Centre Products ~~ HFCL To Invest ₹215 Crore For New Data Center Plant
+2026-07-23 10:00:42,350 [INFO] app.dedupe: Duplicate story (same run): FEATURE-South Africa's data centre 'gold rush' risks resourc ~~ South Africa's data centre 'gold rush' risks resource crunch
+2026-07-23 10:00:42,365 [INFO] app.dedupe: Duplicate story (same run): HFCL Ltd Q1 FY27 Consolidated PAT ₹245.64 Crore; Approves ₹2 ~~ HFCL To Invest ₹215 Crore For New Data Center Plant
+2026-07-23 10:00:42,397 [INFO] app.dedupe: Duplicate story (same run): Anant Raj to demerge data centre arm into separately listed  ~~ Anant Raj to demerge its data centre business into separate 
+2026-07-23 10:00:42,397 [INFO] app.dedupe: Duplicate story (same run): South Africa's data centre 'gold rush' risks resource crunch ~~ South Africa's data centre 'gold rush' risks resource crunch
+2026-07-23 10:00:42,412 [INFO] app.dedupe: Duplicate story (same run): Anant Raj Moves To Demerge Data Centre And Cloud Business In ~~ Anant Raj to demerge its data centre business into separate 
+2026-07-23 10:00:42,412 [INFO] app.dedupe: Duplicate story (same run): HFCL Plans ₹215 Crore Facility For Data Centre Products ~~ HFCL To Invest ₹215 Crore For New Data Center Plant
+2026-07-23 10:00:42,428 [INFO] app.dedupe: Duplicate story (same run): Anant Raj Demerger: Data Centre And Cloud Business To Be Spl ~~ Anant Raj to demerge its data centre business into separate 
+2026-07-23 10:00:42,443 [INFO] app.dedupe: Within-run dedup removed 136 duplicate articles
+2026-07-23 10:00:42,443 [INFO] app.main: Duplicates removed: 213 -> 77
+2026-07-23 10:00:42,443 [INFO] app.main: Above score threshold (20): 41/77
+2026-07-23 10:00:42,443 [INFO] app.main: Land/Project only: 27/41
+2026-07-23 10:00:42,443 [INFO] app.main: Top-15 selection: 27 -> 15 articles
+2026-07-23 10:00:42,443 [INFO] app.storage: Saved 15 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-23 10:00:42,443 [INFO] app.storage: Saved 133 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-23 10:00:42,443 [INFO] app.storage: Loaded 15 unsent articles from today
+2026-07-23 10:00:42,443 [INFO] app.main: Building individual article cards for 15/15 articles
+2026-07-23 10:00:42,443 [INFO] app.main: Article 0 [land] Pi Datacentres: keywords=['[LAND] land', '[LAND] acre', '[LAND] acres', '[PROJECT] expansion', 'maharashtra']
+2026-07-23 10:00:42,443 [INFO] app.main: Article 1 [project] Pi Datacentres: keywords=['[PROJECT] announces', '[PROJECT] investment', 'investment']
+2026-07-23 10:00:42,443 [INFO] app.main: Article 2 [project] Pi Datacentres: keywords=['[PROJECT] announces', '[PROJECT] data centre campus', 'campus']
+2026-07-23 10:00:42,443 [INFO] app.main: Article 3 [project] Net4: keywords=['[PROJECT] new data center', '[PROJECT] to invest']
+2026-07-23 10:00:43,352 [INFO] app.image_gen: Using OG image for article 2: OpenAI announces 3.2 GW AI data centre campus in G
+2026-07-23 10:00:43,383 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_2_20260723100043.png
+2026-07-23 10:00:43,383 [INFO] app.main: Article 4 [project] Reliance Communications: keywords=['[PROJECT] launch']
+2026-07-23 10:00:43,571 [INFO] app.image_gen: Using OG image for article 3: HFCL To Invest ₹215 Crore For New Data Center Plan
+2026-07-23 10:00:43,586 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_3_20260723100043.png
+2026-07-23 10:00:43,602 [INFO] app.main: Article 5 [project] Pi Datacentres: keywords=['[PROJECT] to build']
+2026-07-23 10:00:43,649 [INFO] app.image_gen: Using OG image for article 1: Spain's Submer Announces ₹19,000 Crore AI Data Cen
+2026-07-23 10:00:43,696 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_1_20260723100043.png
+2026-07-23 10:00:43,696 [INFO] app.main: Article 6 [project] Reliance Communications: keywords=['[PROJECT] launch']
+2026-07-23 10:00:43,696 [INFO] app.image_gen: Using OG image for article 0: TCS Secured 288 Acres of Land Across Andhra Prades
+2026-07-23 10:00:43,758 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_0_20260723100043.png
+2026-07-23 10:00:43,758 [INFO] app.main: Article 7 [project] NTT: keywords=['[PROJECT] launch']
+2026-07-23 10:00:44,181 [WARNING] app.image_gen: OG overlay failed for article 5, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x000001610D49E250>
+2026-07-23 10:00:44,196 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_5_20260723100044.png
+2026-07-23 10:00:44,196 [INFO] app.main: Article 8 [project] Industry News: keywords=['[PROJECT] expansion', 'capacity']
+2026-07-23 10:00:44,196 [INFO] app.image_gen: Using OG image for article 4: Reliance launches AJIO Beauty to capture India's b
+2026-07-23 10:00:44,228 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_4_20260723100044.png
+2026-07-23 10:00:44,228 [INFO] app.main: Article 9 [project] Industry News: keywords=['[PROJECT] investment', 'investment']
+2026-07-23 10:00:44,462 [WARNING] app.image_gen: OG overlay failed for article 7, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x000001610D4E6B60>
+2026-07-23 10:00:44,462 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_7_20260723100044.png
+2026-07-23 10:00:44,462 [INFO] app.main: Article 10 [project] Industry News: keywords=['[PROJECT] expansion']
+2026-07-23 10:00:44,838 [INFO] app.image_gen: Using OG image for article 9: Kerala unveils roadmap to attract GCC investments
+2026-07-23 10:00:44,869 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_9_20260723100044.png
+2026-07-23 10:00:44,869 [INFO] app.main: Article 11 [project] Industry News: keywords=['[PROJECT] data centre campus', 'campus']
+2026-07-23 10:00:45,229 [INFO] app.image_gen: Using OG image for article 10: India's ₹10,000 Crore Biopharma SHAKTI Scheme: Maj
+2026-07-23 10:00:45,276 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_10_20260723100045.png
+2026-07-23 10:00:45,276 [INFO] app.main: Article 12 [land] Industry News: keywords=['[LAND] land']
+2026-07-23 10:00:45,354 [INFO] app.image_gen: Using OG image for article 8: India Data Center Capacity Hits 1.8 GW, Pushing Ex
+2026-07-23 10:00:45,386 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_8_20260723100045.png
+2026-07-23 10:00:45,386 [INFO] app.main: Article 13 [land] Industry News: keywords=['[LAND] acre']
+2026-07-23 10:00:45,730 [INFO] app.image_gen: Using OG image for article 11: Hong Kong’s ITC Plans 1GW Jiangsu Data Centre Camp
+2026-07-23 10:00:45,761 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_11_20260723100045.png
+2026-07-23 10:00:45,761 [INFO] app.main: Article 14 [land] Industry News: keywords=['[LAND] land']
+2026-07-23 10:00:46,011 [INFO] app.image_gen: No OG image found for article 12, generating card
+2026-07-23 10:00:46,019 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_12_20260723100046.png
+2026-07-23 10:00:46,106 [INFO] app.image_gen: Using OG image for article 14: NCLT Approves Rs 352.5 Crore Plan for Radius & Des
+2026-07-23 10:00:46,122 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_14_20260723100046.png
+2026-07-23 10:00:48,377 [INFO] app.image_gen: Using OG image for article 6: Reliance Retail Expands Beauty Play with Launch of
+2026-07-23 10:00:48,409 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_6_20260723100048.png
+2026-07-23 10:00:51,068 [INFO] app.image_gen: Using OG image for article 13: Grant County supervisors block township's data cen
+2026-07-23 10:00:51,115 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_13_20260723100051.png
+2026-07-23 10:00:51,115 [INFO] app.main: Sending 15 individual article messages
+2026-07-23 10:01:38,161 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+2026-07-23 10:01:38,161 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"image"},{"index":1,"status":"sent","message_id":null,"type":"image"},{"index":2,"status":"sent","message_id":null,"type":"image"},{"index":3,"status":"sent","message_id":null,"type":"image"},{"index":4,"status":"sent","message_id":null,"type":"image"},{"index":5,"status":"sent","message_id":null,"type":"image"},{"index":6,"status":"sent","message_id":null,"type":"image"},{"index":7,"status":"sent","message_id":null,"type":"image"},{"index":8,"status":"sent","message_id":null,"type":"image"},{"index":9,"status":"sent","message_id":null,"type":"image"},{"index":10,"status":"sent","message_id":null,"type":"image"},{"index":11,"status":"sent","message_id":null,"type":"image"},{"index":12,"status":"sent","message_id":null,"type":"image"},{"index":13,"status":"sent","message_id":null,"type":"image"},{"index":14,"status":"sent","message_id":null,"type":"image"}],"chat_id":"120363410375552266@g.us","total":15,"sent":15,"failed":0}
+2026-07-23 10:01:38,161 [INFO] app.whatsapp_sender: Messages sent: 15 OK, 0 failed
+2026-07-23 10:01:38,161 [INFO] app.main: Sent 15/15 article messages successfully
+2026-07-23 10:01:39,584 [INFO] app.whatsapp_sender: Killed lingering Chrome processes
+2026-07-23 10:01:44,598 [INFO] app.main: Sending summary digest message
+2026-07-23 10:03:47,382 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+2026-07-23 10:03:47,382 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"Initialization timed out after 120s"}
+2026-07-23 10:03:47,382 [WARNING] app.whatsapp_sender: Transient error (attempt 1/3) — retrying in 3s: Initialization timed out after 120s
+2026-07-23 10:05:53,270 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+2026-07-23 10:05:53,270 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"Initialization timed out after 120s"}
+2026-07-23 10:05:53,270 [WARNING] app.whatsapp_sender: Transient error (attempt 2/3) — retrying in 3s: Initialization timed out after 120s
+2026-07-23 10:07:59,032 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+2026-07-23 10:07:59,032 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"error","error":"Initialization timed out after 120s"}
+2026-07-23 10:07:59,032 [ERROR] app.whatsapp_sender: WhatsApp send error: Initialization timed out after 120s
+2026-07-23 10:07:59,035 [INFO] app.storage: Marked 15 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-23 10:07:59,037 [INFO] app.image_gen: Cleaned up 15 temp images
+2026-07-23 10:07:59,038 [INFO] __main__: Automation completed successfully
+2026-07-23 13:23:22,928 [INFO] __main__: ============================================================
+2026-07-23 13:23:22,928 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-23 13:23:22,931 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-23 13:23:22,931 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-23 13:23:25,258 [INFO] app.main:   Got 1 results
+2026-07-23 13:23:25,259 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-23 13:23:29,499 [ERROR] app.serpapi_client: SerpApi error: Google News hasn't returned any results for this query.
+2026-07-23 13:23:29,499 [INFO] app.main:   Got 0 results
+2026-07-23 13:23:29,499 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-23 13:23:33,028 [INFO] app.main:   Got 1 results
+2026-07-23 13:23:33,029 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-23 13:23:35,838 [INFO] app.main:   Got 25 results
+2026-07-23 13:23:35,841 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-23 13:23:38,581 [INFO] app.main:   Got 15 results
+2026-07-23 13:23:38,584 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-23 13:23:41,747 [INFO] app.main:   Got 46 results
+2026-07-23 13:23:41,747 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-23 13:23:44,289 [INFO] app.main:   Got 32 results
+2026-07-23 13:23:44,302 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-23 13:23:49,720 [INFO] app.main:   Got 39 results
+2026-07-23 13:23:49,738 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-23 13:23:52,029 [INFO] app.main:   Got 36 results
+2026-07-23 13:23:52,035 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-23 13:24:06,829 [ERROR] app.serpapi_client: SerpApi error: Google News hasn't returned any results for this query.
+2026-07-23 13:24:06,831 [INFO] app.main:   Got 0 results
+2026-07-23 13:24:06,831 [INFO] app.main: 24h filter: 195 -> 195 articles within last 24h
+2026-07-23 13:24:07,076 [INFO] app.dedupe: Duplicate story (same run): India’s Data Centre Capacity Set to Quadruple to 6.5 GW by 2 ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:24:07,080 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:24:07,080 [INFO] app.dedupe: Duplicate story (same run): India’s Data Centre Capacity Set to Quadruple to 6.5 GW by 2 ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:24:07,080 [INFO] app.dedupe: Duplicate story (same run): India’s data centre capacity likely to quadruple to 6.5 GW b ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:24:07,099 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:24:07,102 [INFO] app.dedupe: Duplicate story (same run): India’s Data Centre Capacity Set to Quadruple to 6.5 GW by 2 ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:24:07,102 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:24:07,120 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ What Makes STT Jaipur 1 Rajasthan's First Data Centre?
+2026-07-23 13:24:07,126 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ What Makes STT Jaipur 1 Rajasthan's First Data Centre?
+2026-07-23 13:24:07,132 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ What Makes STT Jaipur 1 Rajasthan's First Data Centre?
+2026-07-23 13:24:07,284 [INFO] app.dedupe: Duplicate story (same run): Tech giants ai spending fuels 1 65 trillion hidden debt ~~ How AI data centre spending is creating hidden debt for tech
+2026-07-23 13:24:07,364 [INFO] app.dedupe: Within-run dedup removed 133 duplicate articles
+2026-07-23 13:24:07,364 [INFO] app.main: Duplicates removed: 195 -> 62
+2026-07-23 13:24:07,364 [INFO] app.main: Above score threshold (20): 13/62
+2026-07-23 13:24:07,364 [INFO] app.main: Land/Project only: 3/13
+2026-07-23 13:24:07,364 [INFO] app.storage: Saved 3 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-23 13:24:07,364 [INFO] app.storage: Saved 136 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-23 13:24:07,380 [INFO] app.storage: Loaded 3 unsent articles from today
+2026-07-23 13:24:07,380 [INFO] app.main: Building individual article cards for 3/3 articles
+2026-07-23 13:24:07,381 [INFO] app.main: Article 0 [project] AdaniConneX: keywords=['[PROJECT] launch', '[PROJECT] launching']
+2026-07-23 13:24:07,382 [INFO] app.main: Article 1 [project] Reliance Communications: keywords=['[PROJECT] launch']
+2026-07-23 13:24:07,382 [INFO] app.main: Article 2 [land] Google Cloud India: keywords=['[LAND] land', 'power']
+2026-07-23 13:24:07,855 [INFO] app.image_gen: Using OG image for article 0: Adani considering launching airline to push into I
+2026-07-23 13:24:07,867 [WARNING] app.image_gen: OG overlay failed for article 2, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x0000022125D37830>
+2026-07-23 13:24:07,867 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_2_20260723132407.png
+2026-07-23 13:24:07,886 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_0_20260723132407.png
+2026-07-23 13:24:09,957 [INFO] app.image_gen: Using OG image for article 1: Reliance Retail launches AJIO Beauty to expand pre
+2026-07-23 13:24:09,990 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_1_20260723132409.png
+2026-07-23 13:24:09,991 [INFO] app.main: Sending 4 messages (3 articles + 1 digest)
+2026-07-23 13:24:24,292 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+2026-07-23 13:24:24,307 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"image"},{"index":1,"status":"sent","message_id":null,"type":"image"},{"index":2,"status":"sent","message_id":null,"type":"image"},{"index":3,"status":"sent","message_id":null,"type":"text"}],"chat_id":"120363410375552266@g.us","total":4,"sent":4,"failed":0}
+2026-07-23 13:24:24,307 [INFO] app.whatsapp_sender: Messages sent: 4 OK, 0 failed
+2026-07-23 13:24:24,307 [INFO] app.main: Sent 3/3 article messages successfully
+2026-07-23 13:24:24,312 [INFO] app.storage: Marked 3 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-23 13:24:24,313 [INFO] app.image_gen: Cleaned up 3 temp images
+2026-07-23 13:24:24,314 [INFO] __main__: Automation completed successfully
+2026-07-23 13:28:38,857 [INFO] __main__: ============================================================
+2026-07-23 13:28:38,857 [INFO] __main__: Starting Indian Data Centre News Automation
+2026-07-23 13:28:38,861 [INFO] app.main: Loaded 40 companies and 10 queries
+2026-07-23 13:28:38,861 [INFO] app.main: Fetching query: CtrlS Nxtra Yotta
+2026-07-23 13:28:39,255 [INFO] app.main:   Got 1 results
+2026-07-23 13:28:39,255 [INFO] app.main: Fetching query: Equinix NTT Global
+2026-07-23 13:28:39,603 [ERROR] app.serpapi_client: SerpApi error: Google News hasn't returned any results for this query.
+2026-07-23 13:28:39,604 [INFO] app.main:   Got 0 results
+2026-07-23 13:28:39,605 [INFO] app.main: Fetching query: AdaniConneX PDG CapitaLand
+2026-07-23 13:28:39,956 [INFO] app.main:   Got 1 results
+2026-07-23 13:28:39,956 [INFO] app.main: Fetching query: STT Sify Telecom
+2026-07-23 13:28:40,343 [INFO] app.main:   Got 25 results
+2026-07-23 13:28:40,345 [INFO] app.main: Fetching query: Hyperscalers India
+2026-07-23 13:28:40,476 [INFO] app.main:   Got 15 results
+2026-07-23 13:28:40,478 [INFO] app.main: Fetching query: Reliance Jio Bharti
+2026-07-23 13:28:40,841 [INFO] app.main:   Got 46 results
+2026-07-23 13:28:40,860 [INFO] app.main: Fetching query: Data Centre Land Acquisition
+2026-07-23 13:28:41,232 [INFO] app.main:   Got 32 results
+2026-07-23 13:28:41,244 [INFO] app.main: Fetching query: Data Centre New Projects
+2026-07-23 13:28:41,611 [INFO] app.main:   Got 39 results
+2026-07-23 13:28:41,616 [INFO] app.main: Fetching query: DC Power Renewable
+2026-07-23 13:28:41,735 [INFO] app.main:   Got 36 results
+2026-07-23 13:28:41,735 [INFO] app.main: Fetching query: Company Specific DC
+2026-07-23 13:28:42,098 [ERROR] app.serpapi_client: SerpApi error: Google News hasn't returned any results for this query.
+2026-07-23 13:28:42,100 [INFO] app.main:   Got 0 results
+2026-07-23 13:28:42,101 [INFO] app.main: 24h filter: 195 -> 194 articles within last 24h
+2026-07-23 13:28:42,293 [INFO] app.dedupe: Duplicate story (same run): India’s Data Centre Capacity Set to Quadruple to 6.5 GW by 2 ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:28:42,299 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:28:42,304 [INFO] app.dedupe: Duplicate story (same run): India’s Data Centre Capacity Set to Quadruple to 6.5 GW by 2 ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:28:42,310 [INFO] app.dedupe: Duplicate story (same run): India’s data centre capacity likely to quadruple to 6.5 GW b ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:28:42,315 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:28:42,321 [INFO] app.dedupe: Duplicate story (same run): India’s Data Centre Capacity Set to Quadruple to 6.5 GW by 2 ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:28:42,325 [INFO] app.dedupe: Duplicate story (same run): India's Data Centre Capacity to Reach 6.5 GW by 2030: Report ~~ India’s data centre capacity likely to quadruple to 6.5 GW b
+2026-07-23 13:28:42,336 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ What Makes STT Jaipur 1 Rajasthan's First Data Centre?
+2026-07-23 13:28:42,341 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ What Makes STT Jaipur 1 Rajasthan's First Data Centre?
+2026-07-23 13:28:42,347 [INFO] app.dedupe: Duplicate story (same run): STT GDC brings Rajasthan’s first high-performance data centr ~~ What Makes STT Jaipur 1 Rajasthan's First Data Centre?
+2026-07-23 13:28:42,498 [INFO] app.dedupe: Duplicate story (same run): Tech giants ai spending fuels 1 65 trillion hidden debt ~~ How AI data centre spending is creating hidden debt for tech
+2026-07-23 13:28:42,605 [INFO] app.dedupe: Within-run dedup removed 135 duplicate articles
+2026-07-23 13:28:42,605 [INFO] app.main: Duplicates removed: 194 -> 59
+2026-07-23 13:28:42,605 [INFO] app.main: No land/project articles — falling back to all 6 scored articles
+2026-07-23 13:28:42,605 [INFO] app.main: Above score threshold (20): 6/59
+2026-07-23 13:28:42,605 [INFO] app.main: Land/Project only: 6/6
+2026-07-23 13:28:42,605 [INFO] app.storage: Saved 6 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-23 13:28:42,605 [INFO] app.storage: Saved 142 articles to C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.json
+2026-07-23 13:28:42,615 [INFO] app.storage: Loaded 6 unsent articles from today
+2026-07-23 13:28:42,615 [INFO] app.main: Building individual article cards for 6/6 articles
+2026-07-23 13:28:42,615 [INFO] app.main: Article 0 [general] Pi Datacentres: keywords=['mw', 'capacity', 'data centre']
+2026-07-23 13:28:42,615 [INFO] app.main: Article 1 [general] Pi Datacentres: keywords=['hyperscale', 'power', 'data centre']
+2026-07-23 13:28:42,615 [INFO] app.main: Article 2 [general] Pi Datacentres: keywords=['hyperscale', 'data centre']
+2026-07-23 13:28:42,615 [INFO] app.main: Article 3 [general] Pi Datacentres: keywords=['data centre']
+2026-07-23 13:28:43,085 [WARNING] app.image_gen: OG overlay failed for article 2, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x0000017A8956F060>
+2026-07-23 13:28:43,100 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_2_20260723132843.png
+2026-07-23 13:28:43,100 [INFO] app.main: Article 4 [general] Sify Technologies: keywords=['data center']
+2026-07-23 13:28:43,497 [INFO] app.image_gen: Using OG image for article 1: Powering India’s Digital Backbone: Why Hyperscale 
+2026-07-23 13:28:43,524 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_1_20260723132843.png
+2026-07-23 13:28:43,524 [INFO] app.main: Article 5 [general] Pi Datacentres: keywords=['data centre']
+2026-07-23 13:28:43,636 [INFO] app.image_gen: Using OG image for article 3: How AI data centre spending is creating hidden deb
+2026-07-23 13:28:43,669 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_3_20260723132843.png
+2026-07-23 13:28:44,508 [WARNING] app.image_gen: OG overlay failed for article 0, fallback to generated card: cannot identify image file <_io.BytesIO object at 0x0000017A8956CC70>
+2026-07-23 13:28:44,511 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_0_20260723132844.png
+2026-07-23 13:28:45,614 [INFO] app.image_gen: Using OG image for article 4: AI Data Center to be Built in Industrial Complex… 
+2026-07-23 13:28:45,645 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_4_20260723132845.png
+2026-07-23 13:28:46,259 [INFO] app.image_gen: Using OG image for article 5: Financing data centres in Bangladesh
+2026-07-23 13:28:46,278 [INFO] app.image_gen: Image saved: C:\Users\Admin\Desktop\IndianNewsAutomation\temp_images\article_5_20260723132846.png
+2026-07-23 13:28:46,278 [INFO] app.main: Sending 7 messages (6 articles + 1 digest)
+2026-07-23 13:29:12,859 [INFO] app.whatsapp_sender: Node.js output: ◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+2026-07-23 13:29:12,861 [INFO] app.whatsapp_sender: Node.js output: RESULT:{"status":"sent","results":[{"index":0,"status":"sent","message_id":null,"type":"image"},{"index":1,"status":"sent","message_id":null,"type":"image"},{"index":2,"status":"sent","message_id":null,"type":"image"},{"index":3,"status":"sent","message_id":null,"type":"image"},{"index":4,"status":"sent","message_id":null,"type":"image"},{"index":5,"status":"sent","message_id":null,"type":"image"},{"index":6,"status":"sent","message_id":null,"type":"text"}],"chat_id":"120363410375552266@g.us","total":7,"sent":7,"failed":0}
+2026-07-23 13:29:12,861 [INFO] app.whatsapp_sender: Messages sent: 7 OK, 0 failed
+2026-07-23 13:29:12,861 [INFO] app.main: Sent 6/6 article messages successfully
+2026-07-23 13:29:12,861 [INFO] app.storage: Marked 6 articles as sent in C:\Users\Admin\Desktop\IndianNewsAutomation\data\news_log.csv
+2026-07-23 13:29:12,861 [INFO] app.image_gen: Cleaned up 6 temp images
+2026-07-23 13:29:12,865 [INFO] __main__: Automation completed successfully

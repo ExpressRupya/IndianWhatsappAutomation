@@ -36,8 +36,8 @@ def build_digest(articles: list[dict]) -> str:
     if not scored:
         return "No relevant data centre news found today."
 
-    land_articles = [a for a in top if a.get("category") == "land"]
-    other_articles = [a for a in top if a.get("category") != "land"]
+    land_articles = [a for a in scored if a.get("category") == "land"]
+    other_articles = [a for a in scored if a.get("category") != "land"]
 
     lines = []
     today = datetime.now().strftime('%d %B %Y')
